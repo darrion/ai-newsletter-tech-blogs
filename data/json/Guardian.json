@@ -1,0 +1,87 @@
+{
+  "company": "Guardian",
+  "title": "Guardian",
+  "xmlUrl": "https://www.theguardian.com/info/series/digital-blog/rss",
+  "htmlUrl": "https://www.theguardian.com/info/developer-blog",
+  "content": "\n\n\n\n\nLarge language models and generative AI: a recent hack day |  | The Guardian\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSkip to main contentSkip to navigationSkip to navigationPrint subscriptions Sign inSearch jobsSearchUS editionUS editionUK editionAustralia editionInternational editionEurope editionThe Guardian - Back to homeThe GuardianNewsOpinionSportCultureLifestyleShowMoreShow MoreNewsView all NewsUS newsWorld newsEnvironmentUS politicsUkraineSoccerBusinessTechScienceNewslettersWellnessOpinionView all OpinionThe Guardian viewColumnistsLettersOpinion videosCartoonsSportView all SportSoccerNFLTennisMLBMLSNBANHLF1GolfCultureView all CultureFilmBooksMusicArt & designTV & radioStageClassicalGamesLifestyleView all LifestyleWellnessFashionFoodRecipesLove & sexHome & gardenHealth & fitnessFamilyTravelMoneySearch input google-search SearchSupport usPrint subscriptionsUS editionUK editionAustralia editionInternational editionEurope editionSearch jobsDigital ArchiveGuardian Puzzles appGuardian LicensingAbout UsThe Guardian appVideoPodcastsPicturesInside the GuardianGuardian WeeklyCrosswordsWordiplyCorrectionsFacebookTwitterSearch jobsDigital ArchiveGuardian Puzzles appGuardian LicensingAbout Us AI hand reaches towards a human hand as a spark of understanding technology reaches across to humanity Photograph: John Williams RF/AlamyAI hand reaches towards a human hand as a spark of understanding technology reaches across to humanity Photograph: John Williams RF/AlamyEngineering blogLarge language models and generative AI: a recent hack dayDevelopers in the Product and Engineering department came together with colleagues from across the Guardian to explore the potential of LLMs and moreRasha ArdatiFri 22 Dec 2023 06.02 ESTLast modified on Fri 22 Dec 2023 06.07 ESTThe discussion of large language models (LLMs) and generative artificial intelligence was everywhere in 2023 \u2013 not least in the Guardian\u2019s Product and Engineering department. Hack days are a staple part of the software development culture, so it was no surprise that at this year\u2019s final hackathon, several developers and data scientists focused their attention in this area \u2013 covering potential applications in podcasting, search and image generation. And who wouldn\u2019t want a browser extension that assesses the mood of a news article and finds an appropriate music track to enhance your reading experience?In total, the teams, including colleagues from across the Guardian, produced and presented 24 hacks in the course of the two-day event \u2013 some of which took an entirely different turn. These included: a product that spits out cultural recommendations; a dedicated platform for showcasing Guardian documentaries; experiments with ChatGPT and Google Bard involving tools like Trello to improve efficiency; and a Guardian-themed generative AI screensaver.Here are three acts that won an award:crosswordsplus hack screenshot Photograph: Dana Dramowiczs/The GuardianBest technical hack: CrosswordsPlusPlay crosswords with your friends in real time with the Guardian\u2019s Puzzles and Crosswords app on iOS. Built using SharePlay, a native iOS framework, this hack enabled multiplayer functionality even if the user is not signed-in. Apple takes care of the data transfer and offers end-to-end encryption \u2013 you just simply start a session using FaceTime, iMessage or AirDrop.Best entertaining hack: 5/15s in 515sA hack which takes a weekly \u201c5/15\u201d report \u2013 through which teams update on their progress \u2013 and converts it into an audio podcast that is 515 seconds long. Perfect for any manager who might not otherwise have time to read everything! The hack works by using an OpenAI GPT-3.5 model to summarise each team\u2019s report before converting this into audio using a ext to speech model.5/15s hack presentation screenshot Illustration: Mahesh Makani/The GuardianMost Artificially Intelligent hack: Linguini Labelling MethodBuilding labelled training datasets is crucial for successful machine learning projects, especially in Natural Language Processing (NLP) \u2013 but this process is often laborious and time-consuming. Quite often you need multiple annotators labelling thousands of examples to build a performant model, and ideally you want them to annotate the same examples and to reach a good level of agreement.The idea for this hack was to leverage the ability of Large Language Models (LLMs) to recognise concepts in text and use them as additional annotators to speed up the process and make it more robust. The proposed pipeline integrates various LLMs alongside human annotators: when both entities agree on a data point, it seamlessly enters the training dataset; if discrepancies arise, a human review is triggered, focusing efforts solely on annotating \u201cdifficult\u201d examples, maximising efficiency.LLM hack presentation screenshot Photograph: AnnaV Vissens/The GuardianExplore more on these topicsEngineering blogReuse this contentMost viewedMost viewedNewsOpinionSportCultureLifestyleOriginal reporting and incisive analysis, direct from the Guardian every morningSign up for our emailAbout usHelpComplaints & correctionsSecureDropWork for us\u00a0Privacy policyCookie policyTerms & conditionsContact usAll topicsAll writersDigital newspaper archiveFacebookYouTubeInstagramLinkedInTwitterNewslettersAdvertise with usGuardian LabsSearch jobsBack to top\u00a9 2024 Guardian News & Media Limited or its affiliated companies. All rights reserved. (dcr)\n\n",
+  "latestPost": {
+    "title": "Large language models and generative AI: a recent hack day",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.theguardian.com/info/series/engineering-blog/rss",
+      "value": "Large language models and generative AI: a recent hack day"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.theguardian.com/info/2023/dec/22/large-language-models-and-generative-ai-a-recent-hack-day"
+      }
+    ],
+    "link": "https://www.theguardian.com/info/2023/dec/22/large-language-models-and-generative-ai-a-recent-hack-day",
+    "summary": "<p>Developers in the Product and Engineering department came together with colleagues from across the Guardian to explore the potential of LLMs and more</p><p>The discussion of large language models (LLMs) and generative artificial intelligence was everywhere in 2023 \u2013 not least in the Guardian\u2019s Product and Engineering department. Hack days are a staple part of the software development culture, so it was no surprise that at this year\u2019s final hackathon, several developers and data scientists focused their attention in this area \u2013 covering potential applications in podcasting, search and image generation. And who wouldn\u2019t want a browser extension that assesses the mood of a news article and finds an appropriate music track to enhance your reading experience?</p><p>In total, the teams, including colleagues from across the Guardian, produced and presented 24 hacks in the course of the two-day event \u2013 some of which took an entirely different turn. These included: a product that spits out cultural recommendations; a dedicated platform for showcasing <a href=\"https://www.theguardian.com/documentaries\">Guardian documentaries</a>; experiments with ChatGPT and Google Bard involving tools like Trello to improve efficiency; and a Guardian-themed generative AI screensaver.</p> <a href=\"https://www.theguardian.com/info/2023/dec/22/large-language-models-and-generative-ai-a-recent-hack-day\">Continue reading...</a>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.theguardian.com/info/series/engineering-blog/rss",
+      "value": "<p>Developers in the Product and Engineering department came together with colleagues from across the Guardian to explore the potential of LLMs and more</p><p>The discussion of large language models (LLMs) and generative artificial intelligence was everywhere in 2023 \u2013 not least in the Guardian\u2019s Product and Engineering department. Hack days are a staple part of the software development culture, so it was no surprise that at this year\u2019s final hackathon, several developers and data scientists focused their attention in this area \u2013 covering potential applications in podcasting, search and image generation. And who wouldn\u2019t want a browser extension that assesses the mood of a news article and finds an appropriate music track to enhance your reading experience?</p><p>In total, the teams, including colleagues from across the Guardian, produced and presented 24 hacks in the course of the two-day event \u2013 some of which took an entirely different turn. These included: a product that spits out cultural recommendations; a dedicated platform for showcasing <a href=\"https://www.theguardian.com/documentaries\">Guardian documentaries</a>; experiments with ChatGPT and Google Bard involving tools like Trello to improve efficiency; and a Guardian-themed generative AI screensaver.</p> <a href=\"https://www.theguardian.com/info/2023/dec/22/large-language-models-and-generative-ai-a-recent-hack-day\">Continue reading...</a>"
+    },
+    "published": "Fri, 22 Dec 2023 11:02:35 GMT",
+    "published_parsed": [
+      2023,
+      12,
+      22,
+      11,
+      2,
+      35,
+      4,
+      356,
+      0
+    ],
+    "id": "https://www.theguardian.com/info/2023/dec/22/large-language-models-and-generative-ai-a-recent-hack-day",
+    "guidislink": false,
+    "media_content": [
+      {
+        "width": "140",
+        "url": "https://i.guim.co.uk/img/media/606f5ac0f77c78cd168dd713f386f99b09c2c71f/0_165_5000_3002/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=f4395049666737fb7f19b22cfab0a7ca"
+      },
+      {
+        "width": "460",
+        "url": "https://i.guim.co.uk/img/media/606f5ac0f77c78cd168dd713f386f99b09c2c71f/0_165_5000_3002/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=cc56a4d1217f6b768d9da0a82bde8999"
+      }
+    ],
+    "media_credit": [
+      {
+        "scheme": "urn:ebu",
+        "content": "Photograph: John Williams RF/Alamy"
+      },
+      {
+        "scheme": "urn:ebu",
+        "content": "Photograph: John Williams RF/Alamy"
+      }
+    ],
+    "credit": "Photograph: John Williams RF/Alamy",
+    "authors": [
+      {
+        "name": "Rasha Ardati"
+      }
+    ],
+    "author": "Rasha Ardati",
+    "author_detail": {
+      "name": "Rasha Ardati"
+    },
+    "updated": "2023-12-22T11:02:35Z",
+    "updated_parsed": [
+      2023,
+      12,
+      22,
+      11,
+      2,
+      35,
+      4,
+      356,
+      0
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "company": "Firmafon",
+  "title": "Firmafon",
+  "xmlUrl": "https://dev.firmafon.dk/blog/feed.xml",
+  "htmlUrl": "https://dev.firmafon.dk/blog/",
+  "content": "\n\n\n\n\n\nNew Pub/sub API - Relatel Developers Blog\n\n\n\n\n\n\n\nRelatel for Developers\n\n\n\n\nHTTP API\niFrame API\nGraphQL (Beta)\n\n\n\nDeveloper Account\n\n\n\n\n\n\n\n\n\nNew Pub/sub API\nOct 27 2016\nToday we\u2019ve got a new thing for people who use our API: a pubsub variant. This variant gives your apps near real time\nupdates about what happens on a Relatel account.\nOur Pub/sub works with any Faye, and thereby any Bayeux, clients. You install a client and open a WebSocket connection\nto our servers. Then you subscribe to channels and whenever we publish on that channel, you get events!\nYou\u2019ve got these channels to subscribe to:\n\nPresence events for employees and employee groups on a company basis.\nGeneral call events on a company, when new calls come in etc.\n\nStart digging into our Pub/sub guide.\n\nTaking control of YAML loading \u00e2\u0080\u0094 Or what happened to my ActionController::Parameters YAML\n\n\n\nPlease enable JavaScript to view the comments powered by Disqus.\n\n\nAbout Relatel\n\n        Relatel is the easy-to-use cloud-based phone system, with all the pro features you need.\n      \n\n  About Kasper Timm Hansen\n\nRuby Programmer previously at Relatel, who co-edits This Week in Rails and is on the Rails core team.\nDon't miss a post! Subscribe to our RSS feed.\n\n\n\n\n\n\n\nRelatel\nJobs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "latestPost": {
+    "title": "New Pub/sub API",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://dev.relatel.dk/blog/feed.xml",
+      "value": "New Pub/sub API"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "href": "https://dev.relatel.dk/blog/new-pubsub-api/",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://dev.relatel.dk/blog/new-pubsub-api/",
+    "id": "https://dev.relatel.dk/blog/new-pubsub-api/",
+    "guidislink": false,
+    "published": "2016-10-27T08:30:00Z",
+    "published_parsed": [
+      2016,
+      10,
+      27,
+      8,
+      30,
+      0,
+      3,
+      301,
+      0
+    ],
+    "updated": "2023-06-27T13:13:51+00:00",
+    "updated_parsed": [
+      2023,
+      6,
+      27,
+      13,
+      13,
+      51,
+      1,
+      178,
+      0
+    ],
+    "authors": [
+      {
+        "name": "Kasper Timm Hansen"
+      }
+    ],
+    "author_detail": {
+      "name": "Kasper Timm Hansen"
+    },
+    "author": "Kasper Timm Hansen",
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "https://dev.relatel.dk/blog/feed.xml",
+        "value": "<p>Today we&rsquo;ve got a new thing for people who use our API: a pubsub variant. This variant gives your apps near real time\nupdates about what happens on a Relatel account.</p>\n\n<p>Our Pub/sub works with any Faye, and thereby any Bayeux, clients. You install a client and open a WebSocket connection\nto our servers. Then you <code>sub</code>scribe to channels and whenever we <code>pub</code>lish on that channel, you get events!</p>\n\n<p>You&rsquo;ve got these channels to subscribe to:</p>\n\n<ol>\n<li>Presence events for employees and employee groups on a company basis.</li>\n<li>General call events on a company, when new calls come in etc.</li>\n</ol>\n\n<p>Start digging into our <a href=\"https://dev.relatel.dk/api-v2/pubsub/\">Pub/sub guide</a>.</p>"
+      }
+    ],
+    "summary": "<p>Today we&rsquo;ve got a new thing for people who use our API: a pubsub variant. This variant gives your apps near real time\nupdates about what happens on a Relatel account.</p>\n\n<p>Our Pub/sub works with any Faye, and thereby any Bayeux, clients. You install a client and open a WebSocket connection\nto our servers. Then you <code>sub</code>scribe to channels and whenever we <code>pub</code>lish on that channel, you get events!</p>\n\n<p>You&rsquo;ve got these channels to subscribe to:</p>\n\n<ol>\n<li>Presence events for employees and employee groups on a company basis.</li>\n<li>General call events on a company, when new calls come in etc.</li>\n</ol>\n\n<p>Start digging into our <a href=\"https://dev.relatel.dk/api-v2/pubsub/\">Pub/sub guide</a>.</p>"
+  }
+}

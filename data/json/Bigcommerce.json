@@ -1,0 +1,80 @@
+{
+  "company": "Bigcommerce",
+  "title": "Bigcommerce",
+  "xmlUrl": "https://www.bigeng.io/rss/",
+  "htmlUrl": "http://www.bigeng.io/",
+  "content": "\n\n\nKyiv Hackathon Winners: API Test Automation Based Upon Playwright\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHome\nJoin Our Team\nBuild Solutions\nExplore BigDesign\n\n\n\n\n\nSign in\nSubscribe\n\n\n\n\n\n\n\n\n\n\nhackathon\n\n\nKyiv Hackathon Winners: API Test Automation Based Upon Playwright\nMeet Kostiantyn Serediuk, winner of the Hard Worker award.\n\n\n\n\n\n\n\n\n\n\nGrace Estle\n\nNov 3, 2023\n\u2022 3 min read\n\n\n\n\n\n\n\n\n\nYou've had a chance to meet our Hackathon winners from the US and Australia. Now, we're traveling to another continent to introduce you to the winners from our Kyiv office.Related Articles: Meet Our Hackathon WinnersToday, you'll meet Kostiantyn Serediuk, winner of the Hard Worker Award. Kostiantyn's project revolved around implementing API test automation based upon Playwright. Before we discuss this project with Kostiantyn, let's take a moment to learn a little more about him.\n\n\nMeet Kostiantyn\n\n\nSoftware Development Engineer in Test II on the\u00a0Localization Durable TeamBackground: I joined BigCommerce four years ago as a member of the Translation Team that has transformed into the Localization Team. We are responsible not only for translations, but also for the store localization settings, shopper and merchant-facing emails, geo service, and more.\u00a0Fun fact: I love hiking in the mountains, but I tried it for the first time only several years ago.Connect with Kostiantyn on LinkedIn.\n\n\nKostiantyn's Project\n\n\nPlease describe your project.The goal of the project was to implement API test automation based upon Playwright, which is an open-source, flexible and progressive framework, and to check how it could be applied to our scopes.What inspired you to choose this project?My main responsibility as a Quality Specialist is to check and ensure that everything is working expectedly within development and improvement of the platform. Because of this, there are a lot of testing tasks that are repeated from release to release, in particular, API functionality.Which pain points does your project solve?Some of the testing tasks mentioned above are solved manually on a regular basis. It is wonderful to have a system functionality that performs checks automatically. It will contribute to the solution of two typical pain points: high testing costs and developer downtime. Developers can just run auto test suite(s) by themselves. As a bonus, this will free up time to work on other equally important but more interesting tasks.What\u2019s your favorite part of this project? Why is it your favorite?My favorite part was when implementation ran successfully for the first time. I believe that everyone is happy when something created from scratch starts working. It is a basis for the next steps of development and scaling up the project.Which challenges did you face while you were developing your project?The main challenge for me was that I did not have enough experience with API tests based upon the Playwright framework before starting the project. That's why I had to spend time and effort working and studying at the same time.\u00a0How did you overcome these challenges?Fortunately, my experienced colleagues and teammates helped me. Using this chance, I would like to say, \"Many thanks\" to them once again.One more helpful thing was the clear documentation of the framework.Open Roles: Explore Your Next Engineering OpportunityWhat\u2019s the one thing you\u2019d change about this project?If I had a chance, I would spend more time carefully planning the project to make it more flexible and universal. This would allow the implemented idea to be used in other scopes of our domain.If an engineer wanted to create a project similar to yours, what advice would you give that person?I suggest collaborating with others already involved and to take a look at ready-made solutions on the platform. It's possible that some of them are connected to a new idea/project and are ready to use.What advice would you give to an engineer who is about to participate in a Hackathon?Please double check if you have the right experience and competencies. Think about future efforts.And remember, absence of knowledge is not a blocker \u2014 where there is a will, there is a way.\n\n\n\n\n\nGet updates in your inbox\n\nEnter your email\nSubscribe\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Empowering Women in Tech: Mentorship, Resilience, and Inspiring TechWomen Stories\n                \n\nFormer TechWomen alumni, Henrica Makulu and Ayesha Mumtaz Khan, share their latest adventures with Lead Data Engineer, Aristatle Subramaniam.\n\n\nOct 27, 2023\n5 min read\n\n\n\n\n\n\n\n\n\n\n\n\n\n                    My Experience at Confluent's Current 2023 Conference\n                \n\nAristatle Subramaniam, Lead Data Engineer, recounts his enriching experience as a speaker and attendee.\n\n\nOct 17, 2023\n4 min read\n\n\n\n\n\n\n\n\n\n\n\n\n\n                    Building BigCommerce Apps with AppExtensions\n                \n\nMatt Volk and Georgia Hough take you inside building BigCommerce apps.\n\n\nOct 3, 2023\n2 min read\n\n\n\n\n\n\n\n\nThink Big \u00a9 2024\n\n\nPowered by Ghost\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "latestPost": {
+    "title": "Kyiv Hackathon Winners: API Test Automation Based Upon Playwright",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.bigeng.io/rss/",
+      "value": "Kyiv Hackathon Winners: API Test Automation Based Upon Playwright"
+    },
+    "summary": "Meet Kostiantyn Serediuk, winner of the Hard Worker award.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.bigeng.io/rss/",
+      "value": "Meet Kostiantyn Serediuk, winner of the Hard Worker award."
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.bigeng.io/api-test-automation/"
+      }
+    ],
+    "link": "https://www.bigeng.io/api-test-automation/",
+    "id": "65380420b2e67b0001ce6cba",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "hackathon",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "api",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "authors": [
+      {
+        "name": "Grace Estle"
+      }
+    ],
+    "author": "Grace Estle",
+    "author_detail": {
+      "name": "Grace Estle"
+    },
+    "published": "Fri, 03 Nov 2023 13:37:14 GMT",
+    "published_parsed": [
+      2023,
+      11,
+      3,
+      13,
+      37,
+      14,
+      4,
+      307,
+      0
+    ],
+    "media_content": [
+      {
+        "url": "https://www.bigeng.io/content/images/2023/11/Kostiantyn-Header.jpg",
+        "medium": "image"
+      }
+    ],
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "https://www.bigeng.io/rss/",
+        "value": "<img alt=\"Kyiv Hackathon Winners: API Test Automation Based Upon Playwright\" src=\"https://www.bigeng.io/content/images/2023/11/Kostiantyn-Header.jpg\" /><p>You&apos;ve had a chance to <a href=\"https://www.bigeng.io/tag/hackathon/\" rel=\"noreferrer\">meet our Hackathon winners</a> from the US and Australia. Now, we&apos;re traveling to another continent to introduce you to the winners from our Kyiv office.</p><p><strong>Related Articles: <a href=\"https://www.bigeng.io/tag/hackathon/\"><strong>Meet Our Hackathon Winners</strong></a></strong></p><p>Today, you&apos;ll meet Kostiantyn Serediuk, winner of the Hard Worker Award. Kostiantyn&apos;s project revolved around implementing API test automation based upon <a href=\"https://playwright.dev/docs/api-testing?ref=bigeng.io\" rel=\"noreferrer\">Playwright</a>. </p><p>Before we discuss this project with Kostiantyn, let&apos;s take a moment to learn a little more about him.</p><div class=\"kg-card kg-header-card kg-v2 kg-width-full kg-content-wide \" style=\"background-color: #000000;\">\n            \n            <div class=\"kg-header-card-content\">\n                \n                <div class=\"kg-header-card-text kg-align-center\">\n                    <h2 class=\"kg-header-card-heading\" id=\"meet-kostiantyn\" style=\"color: #FFFFFF;\"><span style=\"white-space: pre-wrap;\">Meet Kostiantyn</span></h2>\n                    \n                    \n                </div>\n            </div>\n        </div><h3 id=\"software-development-engineer-in-test-ii-on-the-localization-durable-team\">Software Development Engineer in Test II on the&#xa0;Localization Durable Team</h3><figure class=\"kg-card kg-image-card\"><img alt=\"Kyiv Hackathon Winners: API Test Automation Based Upon Playwright\" class=\"kg-image\" height=\"557\" src=\"https://www.bigeng.io/content/images/2023/10/Kostiantyn.jpg\" width=\"1067\" /></figure><p><strong>Background</strong>: I joined BigCommerce four years ago as a member of the Translation Team that has transformed into the Localization Team. We are responsible not only for translations, but also for the store localization settings, shopper and merchant-facing emails, geo service, and more.&#xa0;</p><p><strong>Fun fact</strong>: I love hiking in the mountains, but I tried it for the first time only several years ago.</p><p><a href=\"https://www.linkedin.com/in/kostiantyn-serediuk-884137226?ref=bigeng.io\" rel=\"noreferrer\">Connect</a> with Kostiantyn on LinkedIn.</p><div class=\"kg-card kg-header-card kg-v2 kg-width-full kg-content-wide \" style=\"background-color: #000000;\">\n            \n            <div class=\"kg-header-card-content\">\n                \n                <div class=\"kg-header-card-text kg-align-center\">\n                    <h2 class=\"kg-header-card-heading\" id=\"kostiantyns-project\" style=\"color: #FFFFFF;\"><span style=\"white-space: pre-wrap;\">Kostiantyn&apos;s Project</span></h2>\n                    \n                    \n                </div>\n            </div>\n        </div><h3 id=\"please-describe-your-project\">Please describe your project.</h3><p>The goal of the project was to implement API test automation based upon Playwright, which is an open-source, flexible and progressive framework, and to check how it could be applied to our scopes.</p><h3 id=\"what-inspired-you-to-choose-this-project\">What inspired you to choose this project?</h3><figure class=\"kg-card kg-image-card\"><img alt=\"Kyiv Hackathon Winners: API Test Automation Based Upon Playwright\" class=\"kg-image\" height=\"557\" src=\"https://www.bigeng.io/content/images/2023/10/Quality.jpg\" width=\"1067\" /></figure><p>My main responsibility as a Quality Specialist is to check and ensure that everything is working expectedly within development and improvement of the platform. Because of this, there are a lot of testing tasks that are repeated from release to release, in particular, API functionality.</p><h3 id=\"which-pain-points-does-your-project-solve\">Which pain points does your project solve?</h3><p>Some of the testing tasks mentioned above are solved manually on a regular basis. It is wonderful to have a system functionality that performs checks automatically. It will contribute to the solution of two typical pain points: high testing costs and developer downtime. Developers can just run auto test suite(s) by themselves. As a bonus, this will free up time to work on other equally important but more interesting tasks.</p><h3 id=\"what%E2%80%99s-your-favorite-part-of-this-project-why-is-it-your-favorite\">What&#x2019;s your favorite part of this project? Why is it your favorite?</h3><p>My favorite part was when implementation ran successfully for the first time. I believe that everyone is happy when something created from scratch starts working. It is a basis for the next steps of development and scaling up the project.</p><h3 id=\"which-challenges-did-you-face-while-you-were-developing-your-project\">Which challenges did you face while you were developing your project?</h3><p>The main challenge for me was that I did not have enough experience with API tests based upon the Playwright framework before starting the project. That&apos;s why I had to spend time and effort working and studying at the same time.&#xa0;</p><h3 id=\"how-did-you-overcome-these-challenges\">How did you overcome these challenges?</h3><figure class=\"kg-card kg-image-card\"><img alt=\"Kyiv Hackathon Winners: API Test Automation Based Upon Playwright\" class=\"kg-image\" height=\"557\" src=\"https://www.bigeng.io/content/images/2023/10/Teamwork-1.jpg\" width=\"1067\" /></figure><p>Fortunately, my experienced colleagues and teammates helped me. Using this chance, I would like to say, &quot;Many thanks&quot; to them once again.</p><p>One more helpful thing was the <a href=\"https://playwright.dev/docs/api/class-playwright?ref=bigeng.io\" rel=\"noreferrer\">clear documentation</a> of the framework.</p><p><strong>Open Roles: <a href=\"https://careers.bigcommerce.com/teams/engineering/?utm_medium=organic-social&amp;utm_source=organic-social&amp;utm_campaign=oth_global_all_all_dvp_b2b_partner_ct_2023_q4_bigengblog\" rel=\"noreferrer\"><strong>Explore Your Next Engineering Opportunity</strong></a></strong></p><h3 id=\"what%E2%80%99s-the-one-thing-you%E2%80%99d-change-about-this-project\">What&#x2019;s the one thing you&#x2019;d change about this project?</h3><p>If I had a chance, I would spend more time carefully planning the project to make it more flexible and universal. This would allow the implemented idea to be used in other scopes of our domain.</p><h3 id=\"if-an-engineer-wanted-to-create-a-project-similar-to-yours-what-advice-would-you-give-that-person\">If an engineer wanted to create a project similar to yours, what advice would you give that person?</h3><p>I suggest collaborating with others already involved and to take a look at ready-made solutions on the platform. It&apos;s possible that some of them are connected to a new idea/project and are ready to use.</p><h3 id=\"what-advice-would-you-give-to-an-engineer-who-is-about-to-participate-in-a-hackathon\">What advice would you give to an engineer who is about to participate in a Hackathon?</h3><p>Please double check if you have the right experience and competencies. Think about future efforts.</p><p>And remember, absence of knowledge is not a blocker &#x2014; where there is a will, there is a way.</p>"
+      }
+    ]
+  }
+}

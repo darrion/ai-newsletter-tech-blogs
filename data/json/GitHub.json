@@ -1,0 +1,91 @@
+{
+  "company": "GitHub",
+  "title": "GitHub",
+  "xmlUrl": "https://githubengineering.com/atom.xml",
+  "htmlUrl": "https://githubengineering.com/",
+  "content": "\n\n\n\n\n\n\n\n\nGitHub Availability Report: December 2023 - The GitHub Blog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\tSkip to content\n\n\n\n\n\n\n\n\n/\nBlog\n\n\nEngineeringProductSecurityOpen SourceEnterpriseChangelogCommunityEducationCompanyPolicy \nTry GitHub Copilot\nContact sales\n\n\n\n\n\nSearch by Keyword\n\n\n\n\n\t\t\t\t\tSearch\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\nEngineeringEnterpriseGitHub Availability Report: December 2023In December, we experienced three incidents that resulted in degraded performance across GitHub services.  \n\n\n\n \n\n\n\n\n\n\n\n\nAuthor\n\n\n\nJakub Oleksy            \n\n\n          January 17, 2024        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn December, we experienced three incidents that resulted in degraded performance across GitHub services.  All three are related to a broad secret rotation initiative in late December.  While we have investigated and identified improvements from each of these individual incidents, we are also reviewing broader opportunities to reduce availability risk in our broader secrets management.\nDecember 27 02:30 UTC (lasting 90 minutes)\nWhile rotating HMAC secrets between GitHub\u2019s frontend service and an internal service, we triggered a bug in how we fetch keys from Azure Key Vault. API calls between the two services started failing when we disabled a key in Key Vault while rolling back a rotation in response to an alert.\nThis resulted in all codespace creations failing between 02:30 and 04:00 UTC on December 27 and approximately 15% of resumes to fail as well as other background functions. We temporarily re-enabled the key in Key Vault to mitigate the impact before deploying a change to continue the secret rotation. The original alert turned out to be a separate issue that was not customer-impacting and was fixed immediately after the incident.\nLearning from this, the team has improved the existing playbooks for HMAC key rotation and documentation of our Azure Key Vault implementation.\nDecember 28 05:52 UTC (lasting 65 minutes)\nBetween 5:52 UTC and 6:47 UTC on December 28, certain GitHub email notifications were not sent due to failed authentication between backend services that generate notifications and a subset of our SMTP servers.  This primarily impacted CI activity and Gist email notifications.\nThis was caused by the rotation of authentication credentials between frontend and internal services that resulted in the SMTP servers not being correctly updated with the new credentials. This triggered an alert for one of the two impacted notifications services within minutes of the secret rotation. On-call engineers discovered the incorrect authentication update on the SMTP servers and applied changes to update it, which mitigated the impact.\nRepair items have already been completed to update the relevant secrets rotation playbooks and documentation. While the monitor that did fire was sufficient in this case to engage on-call engineers and remediate the incident, we\u2019ve completed an additional repair item to provide earlier alerting across all services moving forward.\nDecember 29 00:34 UTC (lasting 68 minutes)\nUsers were unable to sign in or sign up for new accounts between 00:34 and 1:42 UTC on December 29. Existing sessions were not impacted.\nThis was caused by a credential rotation that was not mirrored in our frontend caches, causing the mismatch in behavior between signed in and signed out users. We resolved the incident by deploying the updated credentials to our cache service.\nRepair items are underway to improve our monitoring of signed out user experiences and to better manage updates to shared credentials in our systems moving forward.\n\nPlease follow our status page for real-time updates on status changes and post-incident recaps. To learn more about what we\u2019re working on, check out the GitHub Engineering Blog.\n\n\n\nTags: GitHub Availability Report \n\n\n\n\n\n The GitHub Insider Newsletter\nDiscover tips, technical guides, and best practices in our monthly newsletter for developers.\nSubscribe\n\n\nMore on GitHub Availability ReportGitHub Availability Report: November 2023In November, we experienced one incident that resulted in degraded performance across GitHub services. \n\n\nJakub Oleksy\n\nGitHub Availability Report: October 2023In October, we experienced two incidents that resulted in degraded performance across GitHub services.\n\n\nJakub Oleksy\n\nGitHub Availability Report: September 2023In September, we experienced two incidents that resulted in degraded performance across GitHub services. \n\n\nJakub Oleksy\n\n\n\n\n\n\n      Related posts    \n\n\n\n\n\n \n\nEngineering\nA developer\u2019s second brain: Reducing complexity through partnership with AIAs we look to empower developers with AI tools, we inadvertently integrate AI deeper into the way developers work. How do developers feel about that? And what are the most impactful ways to introduce more AI into workflows? We recently conducted 25 in-depth interviews with developers to understand exactly that.\n\n\n\nEirini Kalliamvakou\n\n \n\n\n\n\n\n\n \n\nEngineering\nHow we organize and get things done with SERVICEOWNERSTake CODEOWNERS and GitHub teams to the next level. Learn about how GitHub engineering solves the age old problem of who owns what.\n\n\n\nMax Beizer\n\n \n\n\n\n\n\n\n \n\nEnterprise\nFrom migration tools to updates to Enterprise Managed Users, what\u2019s new in GitHub EnterpriseRead a round-up of the exciting, new innovation coming from GitHub Enterprise.\n\n\n\nVan Ly & Melody Mileski & Rachel Siemens\n\n \n\n\n\n\n\n\n      Explore more from GitHub    \n\n\n\n\nEngineering\n\n      Posts straight from the GitHub engineering team.    \n\n\n          Learn more\n\n\n\n\n\n\n\nThe ReadME Project\n\n      Stories and voices from the developer community.    \n\n\n          Learn more\n\n\n\n\n\n\n\nGitHub Enterprise\n\n      Accelerate innovation with the platform developers love.    \n\n\n          Learn more\n\n\n\n\n\n\n\nWork at GitHub!\n\nCheck out our current job openings. \n\n\n          Learn more\n\n\n\n\n\n\n\n\n\n\n\n\n\n Subscribe to The GitHub Insider\nDiscover tips, technical guides, and best practices in our monthly newsletter for developers.\n\n\n\n\n\n\n\n\nSubscribe\n\n\n\n\n\n\n                  Yes please, I\u2019d like GitHub and affiliates to use my information for personalized communications, targeted advertising and campaign effectiveness. See the GitHub Privacy Statement for more details.              \n\nSubscribe\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProductFeaturesSecurityEnterpriseCustomer StoriesPricingResourcesPlatformDeveloper APIPartnersAtomElectronGitHub DesktopSupportDocsCommunity ForumTrainingStatusContactCompanyAboutBlogCareersPressShop\n\n\n\n\n\n\n\n\nX icon\n\n\nGitHub on X\n\n\n\n\n\nFacebook icon\n\n\nGitHub on Facebook\n\n\n\n\n\nYouTube icon\n\n\nGitHub on YouTube\n\n\n\n\n\nTwitch icon\n\n\nGitHub on Twitch\n\n\n\n\n\nTikTok icon\n\n\nGitHub on TikTok\n\n\n\n\n\nLinkedIn icon\n\n\nGitHub on LinkedIn\n\n\n\n\n\nGitHub icon\n\n\nGitHub\u2019s organization on GitHub\n\n\n\n\n\u00a9 2024 GitHub, Inc.\n\nTerms\n\n\nPrivacy\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "latestPost": {
+    "authors": [
+      {
+        "name": "Jakub Oleksy"
+      }
+    ],
+    "author_detail": {
+      "name": "Jakub Oleksy"
+    },
+    "author": "Jakub Oleksy",
+    "title": "GitHub Availability Report: December 2023",
+    "title_detail": {
+      "type": "text/html",
+      "language": "en-US",
+      "base": "https://github.blog/engineering.atom",
+      "value": "GitHub Availability Report: December 2023"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://github.blog/2024-01-17-github-availability-report-december-2023/"
+      }
+    ],
+    "link": "https://github.blog/2024-01-17-github-availability-report-december-2023/",
+    "id": "https://github.blog/?p=76213",
+    "guidislink": false,
+    "updated": "2024-01-17T21:49:41Z",
+    "updated_parsed": [
+      2024,
+      1,
+      17,
+      21,
+      49,
+      41,
+      2,
+      17,
+      0
+    ],
+    "published": "2024-01-17T21:49:41Z",
+    "published_parsed": [
+      2024,
+      1,
+      17,
+      21,
+      49,
+      41,
+      2,
+      17,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Engineering",
+        "scheme": "https://github.blog/category/engineering/",
+        "label": null
+      },
+      {
+        "term": "Enterprise",
+        "scheme": "https://github.blog/category/engineering/",
+        "label": null
+      },
+      {
+        "term": "GitHub Availability Report",
+        "scheme": "https://github.blog/category/engineering/",
+        "label": null
+      }
+    ],
+    "summary": "<p>In December, we experienced three incidents that resulted in degraded performance across GitHub services. </p>\n<p>The post <a href=\"https://github.blog/2024-01-17-github-availability-report-december-2023/\">GitHub Availability Report: December 2023</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": "en-US",
+      "base": "https://github.blog/engineering.atom",
+      "value": "<p>In December, we experienced three incidents that resulted in degraded performance across GitHub services. </p>\n<p>The post <a href=\"https://github.blog/2024-01-17-github-availability-report-december-2023/\">GitHub Availability Report: December 2023</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": "en-US",
+        "base": "https://github.blog/2024-01-17-github-availability-report-december-2023/",
+        "value": "<p>In December, we experienced three incidents that resulted in degraded performance across GitHub services.  All three are related to a broad <a href=\"https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches\">secret rotation initiative</a> in late December.  While we have investigated and identified improvements from each of these individual incidents, we are also reviewing broader opportunities to reduce availability risk in our broader secrets management.</p>\n<p><strong>December 27 02:30 UTC (lasting 90 minutes)</strong></p>\n<p>While rotating HMAC secrets between GitHub\u2019s frontend service and an internal service, we triggered a bug in how we fetch keys from Azure Key Vault. API calls between the two services started failing when we disabled a key in Key Vault while rolling back a rotation in response to an alert.</p>\n<p>This resulted in all codespace creations failing between 02:30 and 04:00 UTC on December 27 and approximately 15% of resumes to fail as well as other background functions. We temporarily re-enabled the key in Key Vault to mitigate the impact before deploying a change to continue the secret rotation. The original alert turned out to be a separate issue that was not customer-impacting and was fixed immediately after the incident.</p>\n<p>Learning from this, the team has improved the existing playbooks for HMAC key rotation and documentation of our Azure Key Vault implementation.</p>\n<p><strong>December 28 05:52 UTC (lasting 65 minutes)</strong></p>\n<p>Between 5:52 UTC and 6:47 UTC on December 28, certain GitHub email notifications were not sent due to failed authentication between backend services that generate notifications and a subset of our SMTP servers.  This primarily impacted CI activity and Gist email notifications.</p>\n<p>This was caused by the rotation of authentication credentials between frontend and internal services that resulted in the SMTP servers not being correctly updated with the new credentials. This triggered an alert for one of the two impacted notifications services within minutes of the secret rotation. On-call engineers discovered the incorrect authentication update on the SMTP servers and applied changes to update it, which mitigated the impact.</p>\n<p>Repair items have already been completed to update the relevant secrets rotation playbooks and documentation. While the monitor that did fire was sufficient in this case to engage on-call engineers and remediate the incident, we\u2019ve completed an additional repair item to provide earlier alerting across all services moving forward.</p>\n<p><strong>December 29 00:34 UTC (lasting 68 minutes)</strong></p>\n<p>Users were unable to sign in or sign up for new accounts between 00:34 and 1:42 UTC on December 29. Existing sessions were not impacted.</p>\n<p>This was caused by a credential rotation that was not mirrored in our frontend caches, causing the mismatch in behavior between signed in and signed out users. We resolved the incident by deploying the updated credentials to our cache service.</p>\n<p>Repair items are underway to improve our monitoring of signed out user experiences and to better manage updates to shared credentials in our systems moving forward.</p>\n<hr />\n<p>Please follow our <a href=\"https://www.githubstatus.com/\">status page</a> for real-time updates on status changes and post-incident recaps. To learn more about what we\u2019re working on, check out the <a href=\"https://github.blog/category/engineering/\">GitHub Engineering Blog</a>.</p>\n<p>The post <a href=\"https://github.blog/2024-01-17-github-availability-report-december-2023/\">GitHub Availability Report: December 2023</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>"
+      }
+    ]
+  }
+}

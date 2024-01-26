@@ -1,0 +1,6 @@
+
+The Guardian's engineering blog discusses a recent hack day where developers and data scientists explored the potential of large language models (LLMs) and generative artificial intelligence. The event focused on practical applications in podcasting, search, and image generation, with teams presenting 24 hacks, including a browser extension that assesses the mood of a news article and finds an appropriate music track to enhance reading experience.
+
+Three acts won awards: CrosswordsPlus, a hack that enables multiplayer crossword puzzles using SharePlay, a native iOS framework; 5/15s in 515s, a hack that summarizes weekly reports into an audio podcast using OpenAI GPT-3.5 model; and Linguini Labelling Method, which leverages Large Language Models (LLMs) to speed up the process of building labelled training datasets for machine learning projects.
+
+The article highlights the potential of LLMs and generative AI in improving software development and explores their applications in various industries.

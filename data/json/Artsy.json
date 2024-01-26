@@ -1,0 +1,62 @@
+{
+  "company": "Artsy",
+  "title": "Artsy",
+  "xmlUrl": "http://artsy.github.io/feed",
+  "htmlUrl": "http://artsy.github.io/",
+  "content": "\n\n\n\n\n\nThe Checklist for Deploying a Scary Change - Artsy Engineering\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArtsy Engineering Blog\nCareers\nAPI\n\n\nOur Open Source\n@artsyopensource\nartsy.net\n\n\n\n\nThe Checklist for Deploying a Scary Change\n\n\n          By  Matt Dole\n          \nSep 13, 2023\n\n\nLately, I\u2019ve been getting involved with some sketchy stuff. You know what I\u2019m\ntalking about\u2013data migrations.\nI\u2019ve been rolling out changes that have a significant risk of breaking our\nproduction environment for mission-critical services. It\u2019s been exciting work\n(keep your eyes out for more posts on the exact project, coming soon\u2122\ufe0f), but\nI\u2019ve definitely caused a couple incidents along the way.\nAfter accidentally taking down a key service for a couple hours, I decided I\nneeded to have a better pre-deploy process for these changes. I did some\nthinking and came up with a short checklist to run through before I press the\nshiny green button.\n\nHere\u2019s the checklist I came up with:\n\nWhat is your plan if something goes wrong?\n    \nRun through ramifications of rolling back. If there\u2019s a reason you\u2019re\n    worried about rolling back, then you\u2019re not ready to deploy the change\n    yet!\nFigure out exactly what command(s) you will need to run to roll back. At\n    Artsy, this is usually a\n    one-liner using Hokusai,\n    our command-line Docker/Kubernetes CLI\n\n\nHow will you tell if something is going wrong after you deploy?\n    \nError rate (DataDog)\nSpecific error reporting (Sentry)\nLatency (DataDog)\nLogs (Papertrail)\nFunctionality (does it still work? Are people using it successfully?\n    Important for things where errors may not be bubbled up correctly or\n    reported immediately)\nSidekiq (are there lots of jobs queued to retry that are failing?)\n\n\n\nWith this checklist in hand, I\u2019m deploying more confidently and causing fewer\nincidents along the way.\nDo you have something similar? Are there things you think this checklist should\ninclude? Let me know in the comments!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAuthor\n Matt Dole\n\n\n\nPost Meta\nSep 13, 2023\nTagged: Ruby on Rails, data migrations, deploy process\n\n\n\nArtsy OSS\n\nArtsy.net\nAPI\nFeatured OSS\nCareers\n\n\n\nBlog\n\nArchives\n\n\nCode on GitHub\nFix typos in this post\n\n\n\n\n\nPost Series on the Blog\n\nReact Native at Artsy\nJavaScriptures\nStages of Professional Growth\nArtsy Tech Stack\nOpen Source by Default\n\n\n\n\n\n\n\n\n\n",
+  "latestPost": {
+    "title": "The Checklist for Deploying a Scary Change",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://artsy.github.io/feed",
+      "value": "The Checklist for Deploying a Scary Change"
+    },
+    "summary": "<p>Lately, I\u2019ve been getting involved with some sketchy stuff. You know what I\u2019m\ntalking about\u2013data migrations.</p>\n\n<p>I\u2019ve been rolling out changes that have a significant risk of breaking our\nproduction environment for mission-critical services. It\u2019s been exciting work\n(keep your eyes out for more posts on the exact project, coming soon\u2122\ufe0f), but\nI\u2019ve definitely caused a couple incidents along the way.</p>\n\n<p>After accidentally taking down a key service for a couple hours, I decided I\nneeded to have a better pre-deploy process for these changes. I did some\nthinking and came up with a short checklist to run through before I press the\nshiny green button.</p>\n\n<!-- more -->\n\n<p>Here\u2019s the checklist I came up with:</p>\n\n<ul class=\"task-list\">\n  <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />What is your plan if something goes wrong?\n    <ul class=\"task-list\">\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Run through ramifications of rolling back. If there\u2019s a reason you\u2019re\n    worried about rolling back, then you\u2019re not ready to deploy the change\n    yet!</li>\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Figure out exactly what command(s) you will need to run to roll back. At\n    Artsy, this is usually a\n    <a href=\"https://github.com/artsy/hokusai/blob/main/docs/Command_Reference.md#how-to-do-a-rollback\">one-liner using Hokusai</a>,\n    our command-line Docker/Kubernetes CLI</li>\n    </ul>\n  </li>\n  <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />How will you tell if something is going wrong after you deploy?\n    <ul class=\"task-list\">\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Error rate (DataDog)</li>\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Specific error reporting (Sentry)</li>\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Latency (DataDog)</li>\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Logs (Papertrail)</li>\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Functionality (does it still work? Are people using it successfully?\n    Important for things where errors may not be bubbled up correctly or\n    reported immediately)</li>\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Sidekiq (are there lots of jobs queued to retry that are failing?)</li>\n    </ul>\n  </li>\n</ul>\n\n<p>With this checklist in hand, I\u2019m deploying more confidently and causing fewer\nincidents along the way.</p>\n\n<p>Do you have something similar? Are there things you think this checklist should\ninclude? Let me know in the comments!</p>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://artsy.github.io/feed",
+      "value": "<p>Lately, I\u2019ve been getting involved with some sketchy stuff. You know what I\u2019m\ntalking about\u2013data migrations.</p>\n\n<p>I\u2019ve been rolling out changes that have a significant risk of breaking our\nproduction environment for mission-critical services. It\u2019s been exciting work\n(keep your eyes out for more posts on the exact project, coming soon\u2122\ufe0f), but\nI\u2019ve definitely caused a couple incidents along the way.</p>\n\n<p>After accidentally taking down a key service for a couple hours, I decided I\nneeded to have a better pre-deploy process for these changes. I did some\nthinking and came up with a short checklist to run through before I press the\nshiny green button.</p>\n\n<!-- more -->\n\n<p>Here\u2019s the checklist I came up with:</p>\n\n<ul class=\"task-list\">\n  <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />What is your plan if something goes wrong?\n    <ul class=\"task-list\">\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Run through ramifications of rolling back. If there\u2019s a reason you\u2019re\n    worried about rolling back, then you\u2019re not ready to deploy the change\n    yet!</li>\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Figure out exactly what command(s) you will need to run to roll back. At\n    Artsy, this is usually a\n    <a href=\"https://github.com/artsy/hokusai/blob/main/docs/Command_Reference.md#how-to-do-a-rollback\">one-liner using Hokusai</a>,\n    our command-line Docker/Kubernetes CLI</li>\n    </ul>\n  </li>\n  <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />How will you tell if something is going wrong after you deploy?\n    <ul class=\"task-list\">\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Error rate (DataDog)</li>\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Specific error reporting (Sentry)</li>\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Latency (DataDog)</li>\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Logs (Papertrail)</li>\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Functionality (does it still work? Are people using it successfully?\n    Important for things where errors may not be bubbled up correctly or\n    reported immediately)</li>\n      <li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"disabled\" type=\"checkbox\" />Sidekiq (are there lots of jobs queued to retry that are failing?)</li>\n    </ul>\n  </li>\n</ul>\n\n<p>With this checklist in hand, I\u2019m deploying more confidently and causing fewer\nincidents along the way.</p>\n\n<p>Do you have something similar? Are there things you think this checklist should\ninclude? Let me know in the comments!</p>"
+    },
+    "published": "Wed, 13 Sep 2023 00:00:00 +0000",
+    "published_parsed": [
+      2023,
+      9,
+      13,
+      0,
+      0,
+      0,
+      2,
+      256,
+      0
+    ],
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://artsy.github.io/blog/2023/09/13/deploying-a-scary-change/"
+      }
+    ],
+    "link": "https://artsy.github.io/blog/2023/09/13/deploying-a-scary-change/",
+    "id": "https://artsy.github.io/blog/2023/09/13/deploying-a-scary-change/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Ruby on Rails",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "data migrations",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "deploy process",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  }
+}

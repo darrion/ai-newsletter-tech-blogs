@@ -1,0 +1,49 @@
+{
+  "company": "AdRoll",
+  "title": "AdRoll",
+  "xmlUrl": "http://tech.adroll.com/feed.xml",
+  "htmlUrl": "http://tech.adroll.com/blog/",
+  "content": "     Celebrating Innovation - NextRoll's Hack Week 2023 H2 Winners - NextRoll                                          NextRoll  Blog Technology Teams Culture Careers                  Interested in working with us? We are hiring! See open positions      Celebrating Innovation - NextRoll's Hack Week 2023 H2 Winners   Written by Jos\u00c3\u00a9 Miguel Hernandez, September 15, 2023   NextRoll\u00e2\u0080\u0099s Hack Week 2023 was a week filled with ingenuity, collaboration, and groundbreaking ideas. From AI-powered solutions to production optimization, our teams went above and beyond to showcase their talents. Without further ado, let\u00e2\u0080\u0099s dive into the winning projects! AI/ML Award: The Future is Now! SmartDoc Winners: Federico Della Rovere, Lorenzo Savini SmartDoc is more than an AI-powered document management system. By leveraging machine learning, it categorizes, sorts, and manages documents with unprecedented accuracy, significantly reducing manual labor and improving data retrieval processes. This innovation is a step forward in automating administrative tasks, allowing teams to focus on more strategic activities.  Product Award: Figma Plugin for Ad Production Optimization Winners: Jake Burroughs, Jose Hernandez, Joris Korbee, Aasif Shabbir, Eurico Nicacio This Figma Plugin transforms ad production by enabling the generation of HTML5 ads in formats beyond the standard sizes. Its AI-supported animated ad templates not only enhance creativity but also speed up the production process, offering our clients more variety and quicker turnaround times. This is a significant leap in ad customization and efficiency.  Technical Award: Puertagma Winners: Oscar Arbelaez, Peter Kuimelis, Cristian Rojas, Christopher Ramirez, Alvaro Tuso Puertagma is not just another API. It\u00e2\u0080\u0099s the culmination of our learnings from past projects, crafted into a robust and efficient tool. Written in Go, this API is set to become the backbone of our future integrations, promising enhanced performance and scalability. This project represents a significant stride in our technical capabilities, paving the way for more seamless and powerful integrations. Congratulations to all the winners and participants! Your hard work, innovative thinking, and focus on impactful solutions are what continue to drive NextRoll forward as a leader in the ad tech industry.     Twitter    Facebook    Hacker News    LinkedIn    Reddit            Let's get things rolling.    Ready to be part of something incredible? See what\u00e2\u0080\u0099s possible when we roll together.  Join the Team NextRoll on Github       NextRoll  Blog Careers GitHub NextRoll API             Copyright \u00a9 2023 NextRoll, Inc. All rights reserved.         ",
+  "latestPost": {
+    "title": "Celebrating Innovation - NextRoll's Hack Week 2023 H2 Winners",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://tech.nextroll.com/feed.xml",
+      "value": "Celebrating Innovation - NextRoll's Hack Week 2023 H2 Winners"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://tech.nextroll.com/blog/hackweek/2023/09/15/hack-week.html"
+      }
+    ],
+    "link": "https://tech.nextroll.com/blog/hackweek/2023/09/15/hack-week.html",
+    "published": "Fri, 15 Sep 2023 00:00:00 -0700",
+    "published_parsed": [
+      2023,
+      9,
+      15,
+      7,
+      0,
+      0,
+      4,
+      258,
+      0
+    ],
+    "authors": [
+      {}
+    ],
+    "author": "",
+    "id": "https://tech.nextroll.com/blog/hackweek/2023/09/15/hack-week",
+    "guidislink": false,
+    "summary": "<p>NextRoll\u2019s Hack Week 2023 was a week filled with ingenuity, collaboration, and groundbreaking ideas. From AI-powered solutions to production optimization, our teams went above and beyond to showcase their talents. Without further ado, let\u2019s dive into the winning projects!</p>\n\n<h1 id=\"aiml-award-the-future-is-now\">AI/ML Award: The Future is Now!</h1>\n\n<h3 id=\"smartdoc\">SmartDoc</h3>\n<p><strong>Winners: Federico Della Rovere, Lorenzo Savini</strong></p>\n\n<p>SmartDoc is more than an AI-powered document management system. By leveraging machine learning, it categorizes, sorts, and manages documents with unprecedented accuracy, significantly reducing manual labor and improving data retrieval processes. This innovation is a step forward in automating administrative tasks, allowing teams to focus on more strategic activities.</p>\n\n<p><img alt=\"SmartDoc\" src=\"https://tech.nextroll.com/images/post_images/smartdoc.png\" /></p>\n\n<h2 id=\"product-award-figma-plugin-for-ad-production-optimization\">Product Award: Figma Plugin for Ad Production Optimization</h2>\n<p><strong>Winners: Jake Burroughs, Jose Hernandez, Joris Korbee, Aasif Shabbir, Eurico Nicacio</strong></p>\n\n<p>This Figma Plugin transforms ad production by enabling the generation of HTML5 ads in formats beyond the standard sizes. Its AI-supported animated ad templates not only enhance creativity but also speed up the production process, offering our clients more variety and quicker turnaround times. This is a significant leap in ad customization and efficiency.</p>\n\n<p><img alt=\"HTML5 Ad Generator Figma Plugin\" src=\"https://tech.nextroll.com/images/post_images/figma_plugin.png\" /></p>\n\n<h2 id=\"technical-award-puertagma\">Technical Award: Puertagma</h2>\n<p><strong>Winners: Oscar Arbelaez, Peter Kuimelis, Cristian Rojas, Christopher Ramirez, Alvaro Tuso</strong></p>\n\n<p>Puertagma is not just another API. It\u2019s the culmination of our learnings from past projects, crafted into a robust and efficient tool. Written in Go, this API is set to become the backbone of our future integrations, promising enhanced performance and scalability. This project represents a significant stride in our technical capabilities, paving the way for more seamless and powerful integrations.</p>\n\n<p>Congratulations to all the winners and participants! Your hard work, innovative thinking, and focus on impactful solutions are what continue to drive NextRoll forward as a leader in the ad tech industry.</p>\n\n<p><img alt=\"Puertagma\" src=\"https://tech.nextroll.com/images/post_images/puertagma.png\" /></p>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://tech.nextroll.com/feed.xml",
+      "value": "<p>NextRoll\u2019s Hack Week 2023 was a week filled with ingenuity, collaboration, and groundbreaking ideas. From AI-powered solutions to production optimization, our teams went above and beyond to showcase their talents. Without further ado, let\u2019s dive into the winning projects!</p>\n\n<h1 id=\"aiml-award-the-future-is-now\">AI/ML Award: The Future is Now!</h1>\n\n<h3 id=\"smartdoc\">SmartDoc</h3>\n<p><strong>Winners: Federico Della Rovere, Lorenzo Savini</strong></p>\n\n<p>SmartDoc is more than an AI-powered document management system. By leveraging machine learning, it categorizes, sorts, and manages documents with unprecedented accuracy, significantly reducing manual labor and improving data retrieval processes. This innovation is a step forward in automating administrative tasks, allowing teams to focus on more strategic activities.</p>\n\n<p><img alt=\"SmartDoc\" src=\"https://tech.nextroll.com/images/post_images/smartdoc.png\" /></p>\n\n<h2 id=\"product-award-figma-plugin-for-ad-production-optimization\">Product Award: Figma Plugin for Ad Production Optimization</h2>\n<p><strong>Winners: Jake Burroughs, Jose Hernandez, Joris Korbee, Aasif Shabbir, Eurico Nicacio</strong></p>\n\n<p>This Figma Plugin transforms ad production by enabling the generation of HTML5 ads in formats beyond the standard sizes. Its AI-supported animated ad templates not only enhance creativity but also speed up the production process, offering our clients more variety and quicker turnaround times. This is a significant leap in ad customization and efficiency.</p>\n\n<p><img alt=\"HTML5 Ad Generator Figma Plugin\" src=\"https://tech.nextroll.com/images/post_images/figma_plugin.png\" /></p>\n\n<h2 id=\"technical-award-puertagma\">Technical Award: Puertagma</h2>\n<p><strong>Winners: Oscar Arbelaez, Peter Kuimelis, Cristian Rojas, Christopher Ramirez, Alvaro Tuso</strong></p>\n\n<p>Puertagma is not just another API. It\u2019s the culmination of our learnings from past projects, crafted into a robust and efficient tool. Written in Go, this API is set to become the backbone of our future integrations, promising enhanced performance and scalability. This project represents a significant stride in our technical capabilities, paving the way for more seamless and powerful integrations.</p>\n\n<p>Congratulations to all the winners and participants! Your hard work, innovative thinking, and focus on impactful solutions are what continue to drive NextRoll forward as a leader in the ad tech industry.</p>\n\n<p><img alt=\"Puertagma\" src=\"https://tech.nextroll.com/images/post_images/puertagma.png\" /></p>"
+    }
+  }
+}

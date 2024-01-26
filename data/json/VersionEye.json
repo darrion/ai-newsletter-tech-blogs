@@ -1,0 +1,106 @@
+{
+  "company": "VersionEye",
+  "title": "VersionEye",
+  "xmlUrl": "https://blog.versioneye.com/feed/",
+  "htmlUrl": "https://blog.versioneye.com/",
+  "content": "\n\n\n\n\n\n\n\n\nAdding Python Support \u2013 Open Source License Compliance & Security\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\nSkip to content\n\n\n\n\n\t\t\t\t\t\tWidgets\t\t\t\t\t\n\n\n\n\n Open Source License Compliance & Security\nfor software dependencies\n\n\n\n\n\n\n\n\nAdding Python Support\n\nPosted on April 20, 2021Categories Continuous Updating \n\n\nVersionEye 2.0 started with only 3 languages. Ruby, NodeJS and PHP. Now Python was added as well! \n\nVersionEye supports the package manger PIP. You can simply upload your requirements.txt file to get a BOM (Bill of Materials). By default the \u2018requirements.txt\u2019 file contains only the direct dependencies. I would recommend to use Pips freeze feature to lock down all transitive dependencies. That can be achieved with this command: \npython -m pip freeze > frozen-requirements.txt\nThat command will take all direct dependencies from the requirements.txt file, resolve all transitive dependencies and create a new file frozen-requirements.txt which contains ALL (direct & transitive) dependencies with fixed versions. That\u2019s much better then the pure requirements.txt file because the frozen version contains all dependencies which are shipped to production. That contains ALL dependencies which are necessary to run the application. \nHere is an example for a Python VersionEye scan: \n\nTry it out and let me know how you like it! Would love to hear your feedback. \nIf you don\u2019t have an account yet, signup with this promotion code \u201cVe2Python\u201c. That code is valid until 4th of June and gives you a 50% discount on the monthly subscription! \n\n\n \nShare this:TwitterFacebookRedditPinterestTumblrLinkedInLike Loading...\n\nRelated\n \n\n\nTagged AppSec, OpenSource, PIP, python \n\n\n \n\n\n\t\t\t\tPublished by versioneye \n\n\n\n\t\t\t\tView all posts by versioneye\t\t\t\n\n\n\n\n\nPost navigation\nVersionEye 2.0\n\n\n\nLeave a Reply Cancel reply\n\n\n\n\u0394 \n\n\n\n\n\n\n\n\nSearch for:\n\n\n\n\n\nRecent Posts\n\n\nAdding Python Support\n\n\nVersionEye 2.0\n\n\nLicense Compliance Management in\u00a0Practice\n\n\nThe start of a new\u00a0journey\n\n\nVersionEye Sunset Process\n\n\nCategories\n\nContinuous Updating\n\nNew Feature\n\nPackage Manager\n\nSemantic Versioning\n\nUncategorized\n\nUpdate\n\n\n \n\n\n\n\nOpen Source License Compliance & Security\n\n\nBlog at WordPress.com.\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\t\tPrivacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use. \nTo find out more, including how to control cookies, see here:\n\t\t\t\t\n\t\t\tCookie Policy\t\t\n\n\n \n\n\n\n Comment\t\t\t\t\t\t\n\n\n\n\nReblog\n\n\n\n\n\nSubscribe\n\n\n\nSubscribed\n\n\n\n\n\n\n\n\t\t\t\tOpen Source License Compliance & Security\t\t\t\n\n\n\nJoin 140 other subscribers\n\n\n\n\n\n\n\n \n\n\t\t\t\t\t\t\t\t\t\t\t\tSign me up\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tAlready have a WordPress.com account? Log in now. \n\n\n\n\n\n\n \n\n\n\n\n\n\t\t\t\tOpen Source License Compliance & Security\t\t\t\n\n\n\n Customize\n\n\n\n\n\nSubscribe\n\n\n\nSubscribed\n\n\nSign up\nLog in\nCopy shortlink\n\n\n\t\t\t\t\t\t\t\t\t\t\tReport this content\t\t\t\t\t\t\t\t\t\t\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tView post in Reader\t\t\t\t\t\t\t\t\t\t\n\n\nManage subscriptions\n\nCollapse this bar\n\n\n\n\n\n\n\n\n\n\u00a0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading Comments...\n\n\n\n\u00a0\n\n\nWrite a Comment...\n\n\n\n\nEmail (Required)\n\n\n\nName (Required)\n\n\n\nWebsite\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n%d \n\n\n \n\n\n\n\n\n",
+  "latestPost": {
+    "title": "Adding Python Support",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://blog.versioneye.com/feed/",
+      "value": "Adding Python Support"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://blog.versioneye.com/2021/04/20/adding-python-support/"
+      }
+    ],
+    "link": "https://blog.versioneye.com/2021/04/20/adding-python-support/",
+    "comments": "https://blog.versioneye.com/2021/04/20/adding-python-support/#respond",
+    "authors": [
+      {
+        "name": "versioneye"
+      }
+    ],
+    "author": "versioneye",
+    "author_detail": {
+      "name": "versioneye"
+    },
+    "published": "Tue, 20 Apr 2021 09:46:48 +0000",
+    "published_parsed": [
+      2021,
+      4,
+      20,
+      9,
+      46,
+      48,
+      1,
+      110,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Continuous Updating",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AppSec",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "OpenSource",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "PIP",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "python",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "http://blog.versioneye.com/?p=4488",
+    "guidislink": false,
+    "summary": "VersionEye 2.0 started with only 3 languages. Ruby, NodeJS and PHP. Now Python was added as well! VersionEye supports the package manger PIP. You can simply upload your requirements.txt file to get a BOM (Bill of Materials). By default the &#8216;requirements.txt&#8217; file contains only the direct dependencies. I would recommend to use Pips freeze feature &#8230; <a class=\"more-link\" href=\"https://blog.versioneye.com/2021/04/20/adding-python-support/\">Continue reading <span class=\"screen-reader-text\">Adding Python Support</span></a>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://blog.versioneye.com/feed/",
+      "value": "VersionEye 2.0 started with only 3 languages. Ruby, NodeJS and PHP. Now Python was added as well! VersionEye supports the package manger PIP. You can simply upload your requirements.txt file to get a BOM (Bill of Materials). By default the &#8216;requirements.txt&#8217; file contains only the direct dependencies. I would recommend to use Pips freeze feature &#8230; <a class=\"more-link\" href=\"https://blog.versioneye.com/2021/04/20/adding-python-support/\">Continue reading <span class=\"screen-reader-text\">Adding Python Support</span></a>"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "https://blog.versioneye.com/feed/",
+        "value": "<p><a href=\"https://www.versioneye.com/\" rel=\"noreferrer noopener\" target=\"_blank\">VersionEye 2.0</a> started with only 3 languages. Ruby, NodeJS and PHP. Now Python was added as well! </p>\n\n\n\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large\"><a href=\"https://versioneye.files.wordpress.com/2021/04/python.png\"><img alt=\"\" class=\"wp-image-4491\" height=\"100\" src=\"https://versioneye.files.wordpress.com/2021/04/python.png?w=100\" width=\"100\" /></a></figure></div>\n\n\n\n<p>VersionEye supports the package manger <a href=\"https://pypi.org/project/pip/\" rel=\"noreferrer noopener\" target=\"_blank\">PIP</a>. You can simply upload your requirements.txt file to get a BOM (Bill of Materials). By default the &#8216;requirements.txt&#8217; file contains only the direct dependencies. I would recommend to use Pips freeze feature to lock down all transitive dependencies. That can be achieved with this command: </p>\n\n\n\n<pre class=\"wp-block-code\"><code>python -m pip freeze &gt; frozen-requirements.txt</code></pre>\n\n\n\n<p>That command will take all direct dependencies from the <code>requirements.txt</code> file, resolve all transitive dependencies and create a new file <code>frozen-requirements.txt</code> which contains ALL (direct &amp; transitive) dependencies with fixed versions. That&#8217;s much better then the pure <code>requirements.txt</code> file because the frozen version contains all dependencies which are shipped to production. That contains ALL dependencies which are necessary to run the application. </p>\n\n\n\n<p>Here is an example for a Python VersionEye scan: </p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"https://versioneye.files.wordpress.com/2021/04/screenshot-2021-04-20-at-11.35.47.png\"><img alt=\"\" class=\"wp-image-4494\" height=\"684\" src=\"https://versioneye.files.wordpress.com/2021/04/screenshot-2021-04-20-at-11.35.47.png?w=1024\" width=\"1024\" /></a></figure>\n\n\n\n<p>Try it out and let me know how you like it! Would love to hear your feedback. <br /></p>\n\n\n\n<p>If you don&#8217;t have an account yet, signup with this promotion code &#8220;<a href=\"https://www.versioneye.com/en/signups/new?promo_code=Ve2Python\" rel=\"noreferrer noopener\" target=\"_blank\">Ve2Python</a>&#8220;. That code is valid until 4th of June and gives you a 50% discount on the monthly subscription! </p>"
+      }
+    ],
+    "wfw_commentrss": "https://blog.versioneye.com/2021/04/20/adding-python-support/feed/",
+    "slash_comments": "0",
+    "media_content": [
+      {
+        "url": "https://2.gravatar.com/avatar/2b00b4f53aaed85b3a213bfd1ca1441b36a8960c6f4656519edc99bb43bdbac0?s=96&d=identicon&r=G",
+        "medium": "image"
+      },
+      {
+        "url": "https://versioneye.files.wordpress.com/2021/04/python.png?w=100",
+        "medium": "image"
+      },
+      {
+        "url": "https://versioneye.files.wordpress.com/2021/04/screenshot-2021-04-20-at-11.35.47.png?w=1024",
+        "medium": "image"
+      }
+    ]
+  }
+}

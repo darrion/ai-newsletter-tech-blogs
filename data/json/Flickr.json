@@ -1,0 +1,84 @@
+{
+  "company": "Flickr",
+  "title": "Flickr",
+  "xmlUrl": "http://code.flickr.net/feed/",
+  "htmlUrl": "http://code.flickr.net/",
+  "content": "\n\n\n\n\n\n\n\n\n\n\nSafer Internet Day and Open Source Codes of Conduct | code.flickr.com\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSkip to primary content\n\n\ncode.flickr.com\n\n\n\n\n\n\n\nSearch\n\n\n\n\n\nMain menu\nFlickr\nFlickr Blog\n@flickr\n@flickrapi\nDeveloper Guidelines\nAPI\nJobs\n \n\n\n\n\n\nPost navigation\n\u2190 Previous\n\n\n\n\nSafer Internet Day and Open Source Codes of Conduct\n\nPosted on February 14, 2022  by  Sarah Graywood \n\n\n\nLast week the world celebrated Safer Internet Day, a day used to call upon stakeholders to join together to make the internet a safer and better place for all, and especially for children and young people. Here at Flickr, we believe in creating spaces on the internet that take into account the safety of all of our contributors, especially our youngest and most underrepresented. So, to celebrate that and to continue the work of making our spaces safer and more accessible to all, we have added a code of conduct to our most trafficked open source repositories on GitHub.\nWhat\u2019s/Why Open Source?\n\u201c100_0509\u201d by Nick Quaranto is licensed under CC BY-SA 2.0\n\nOpen source is a method of development that allows software to be available publicly so that contributors can modify, add, and remove code as they see fit in order to create a more robust codebase colored with the ideas and innovations of many developers rather than just a few. At Flickr we believe that innovation happens when we have a diverse and widespread set of voices coming together to suggest changes. Open source allows us to harness the power of these voices to create the very best software we can.\u00a0\nFlickr has 15 open source repositories, 4 of which are actively contributed to. Of those four, none had a formal code of conduct to govern contributions to the code base or interpersonal interactions between developers actively working on the code\u2026 until now!\nWhy a code of conduct?\nCodes of conduct are extremely common and important in the open source community. Groups like Linux, Homebrew, Bootstrap, and Kubernetes all have codes of conduct governing the use of and contributions to their open source projects. Because open source allows such a diverse set of voices to express themselves, conflicts can arise and unfortunately not all come with the best of intent.\u00a0\n\u201cBullying\u201d by Senado Federal is licensed under CC by 2.0\n\nCodes of conduct allow us to have a preconceived understanding of what interactions in our community are meant to look like and why we hold these expectations of members. Codes of conduct can range from what is expected of interpersonal interactions (e.g. Demonstrate kindness and empathy toward other developers in pull request reviews) to more generalized expectations (e.g. Focus on what is best for the community as a whole rather than individual desires or needs). Codes of conduct not only benefit the community in its entirety, but also allow us to focus on protecting the psychological safety of members of our community who are most at risk. We care about all of our members while also recognizing the need for specific and directed language to protect members of underrepresented groups. The best way to do this is to have a written code of conduct with specific, actionable steps used to govern the safety of the community.\u00a0\nWhy Contributor Covenant?\nIn order to protect underrepresented groups and to foster a strong and healthy open source community here at Flickr, we thought about whether it would be best to write our own code of conduct specifically tailored to what we value at Flickr or whether it would be better to find a code of conduct already in use that we could use to guide our own open source communities. We ended up finding a code of conduct already in use by quite a few well respected organizations that directly spoke to our most important operating principles.\nContributor Covenant is a code of conduct for participating in open source communities which explicitly outlines expectations in order to create a healthy open source culture. Contributor Covenant has been adopted by over a hundred thousand open source communities and projects since 2014 and is used by Linux, Babel, Bootstrap, Kubernetes, code.gov, Twilio, Homebrew-Cask, and Target to name a few. With such well-respected organizations turning to Contributor Covenant, it was something we thought we would be foolish not to consider.\u00a0\nAs we considered, we realized that Contributor Covenant had all of our values specified in a wonderful document that was only a little over a page long. Both accessible in its readability and shortness and robust enough to do the job of protecting underrepresented contributors on our open source repositories, we had found a perfect marriage of all of the things that we wanted in a code of conduct, while also allowing us to become part of a large scale community adopting a singular vision for a healthy, safe, and innovational open source community. \n\n\n\t\tThis entry was posted in open source by Sarah Graywood. Bookmark the permalink.\n\t\t\n\t\t\t\n\n\n\n\n\n\n\n\n\t\t\t\t\u00a9 2024 Flickr, Inc. All rights reserved. | \n\t\t\t\t\t\t\t\tPowered by WordPress VIP \n\n\n\n \n \n\n\n\n\n\n\n\n\n",
+  "latestPost": {
+    "title": "Safer Internet Day and Open Source Codes of Conduct",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://code.flickr.net/feed/",
+      "value": "Safer Internet Day and Open Source Codes of Conduct"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://code.flickr.net/2022/02/14/safer-internet-day-and-open-source-codes-of-conduct/"
+      }
+    ],
+    "link": "https://code.flickr.net/2022/02/14/safer-internet-day-and-open-source-codes-of-conduct/",
+    "authors": [
+      {
+        "name": "Sarah Graywood"
+      }
+    ],
+    "author": "Sarah Graywood",
+    "author_detail": {
+      "name": "Sarah Graywood"
+    },
+    "published": "Mon, 14 Feb 2022 17:23:51 +0000",
+    "published_parsed": [
+      2022,
+      2,
+      14,
+      17,
+      23,
+      51,
+      0,
+      45,
+      0
+    ],
+    "tags": [
+      {
+        "term": "open source",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://code.flickr.net/?p=3642",
+    "guidislink": false,
+    "summary": "To continue the work of making our spaces safer and more accessible to all, we have added a code of conduct to our most trafficked open source repositories on GitHub in celebration of Safer Internet Day! <a href=\"https://code.flickr.net/2022/02/14/safer-internet-day-and-open-source-codes-of-conduct/\">Continue reading <span class=\"meta-nav\">&#8594;</span></a>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://code.flickr.net/feed/",
+      "value": "To continue the work of making our spaces safer and more accessible to all, we have added a code of conduct to our most trafficked open source repositories on GitHub in celebration of Safer Internet Day! <a href=\"https://code.flickr.net/2022/02/14/safer-internet-day-and-open-source-codes-of-conduct/\">Continue reading <span class=\"meta-nav\">&#8594;</span></a>"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "https://code.flickr.net/feed/",
+        "value": "<p><span style=\"font-weight: 400;\"><img alt=\"\" class=\"alignnone size-medium wp-image-3640\" height=\"450\" src=\"https://code.flickr.net/wp-content/uploads/sites/3/2022/02/7-Standard-SID-logo.png?w=800\" width=\"800\" /></span></p>\n<p><span style=\"font-weight: 400;\">Last week the world celebrated </span><a href=\"https://www.saferinternetday.org/en-US/\"><span style=\"font-weight: 400;\">Safer Internet Day</span></a><span style=\"font-weight: 400;\">, a day used to call upon stakeholders to join together to make the internet a safer and better place for all, and especially for children and young people. Here at Flickr, we believe in creating spaces on the internet that take into account the safety of all of our contributors, especially our youngest and most underrepresented. So, to celebrate that and to continue the work of making our spaces safer and more accessible to all, we have added a code of conduct to our most trafficked open source repositories on GitHub.</span></p>\n<h1><b>What\u2019s/Why Open Source?</b></h1>\n<div class=\"wp-caption alignnone\" style=\"width: 810px;\"><a href=\"https://www.flickr.com/photos/qrush/2960047774\" title=\"100_0509\"><img alt=\"100_0509\" height=\"600\" src=\"https://live.staticflickr.com/3050/2960047774_6e39a980dc_c.jpg\" width=\"800\" /></a><p class=\"wp-caption-text\">&#8220;100_0509&#8221; by Nick Quaranto is licensed under CC BY-SA 2.0</p></div>\n<p><br />\n<span style=\"font-weight: 400;\">Open source is a method of development that allows software to be available publicly so that contributors can modify, add, and remove code as they see fit in order to create a more robust codebase colored with the ideas and innovations of many developers rather than just a few. At Flickr we believe that innovation happens when we have a diverse and widespread set of voices coming together to suggest changes. Open source allows us to harness the power of these voices to create the very best software we can.\u00a0</span></p>\n<p><span style=\"font-weight: 400;\">Flickr has 15 open source repositories, 4 of which are actively contributed to. Of those four, none had a formal code of conduct to govern contributions to the code base or interpersonal interactions between developers actively working on the code\u2026 until now!</span></p>\n<h1><b>Why a code of conduct?</b></h1>\n<p><span style=\"font-weight: 400;\">Codes of conduct are extremely common and important in the open source community. Groups like Linux, Homebrew, Bootstrap, and Kubernetes all have codes of conduct governing the use of and contributions to their open source projects. Because open source allows such a diverse set of voices to express themselves, conflicts can arise and unfortunately not all come with the best of intent.\u00a0</span></p>\n<div class=\"wp-caption alignnone\" style=\"width: 810px;\"><a href=\"https://www.flickr.com/photos/agenciasenado/42102914074/in/photolist-2kKUH2o-279urvC-r6iTn9-5Swue-8KFrVd-EJMhYR-4Q911C-EJMho2-58xh7o-q5seCB-akPoZH-EuQrDE-9FgmUa-E7NHng-a4sk8m-DHUWwc-Ex5pP6-cj3oZ-Ex4Zon-Ex5x4M-nkrYVf-Ex5bqx-E7PfV6-gSFzVa-EkhJ3-8qhRSN-cY3qF3-E7NUie-dAbKpC-EFi7sn-b2KwD-mbX3PG-E7P5yV-EFhNkR-Ex56xM-DHUPnx-Eeavz1-ECYv21-DHUqvk-EFhHjD-cGmtWQ-ECYM8E-E7NYoP-MssRm-DHULui-Ex5u4P-DHUME4-4uET46-6mBGvY-8TpQdY\" title=\"Bullying\"><img alt=\"Bullying\" height=\"533\" src=\"https://live.staticflickr.com/896/42102914074_5f389e6e14_c.jpg\" width=\"800\" /></a><p class=\"wp-caption-text\">&#8220;Bullying&#8221; by Senado Federal is licensed under CC by 2.0</p></div>\n<p></p>\n<p><span style=\"font-weight: 400;\">Codes of conduct allow us to have a preconceived understanding of what interactions in our community are meant to look like and why we hold these expectations of members. Codes of conduct can range from what is expected of interpersonal interactions (e.g. Demonstrate kindness and empathy toward other developers in pull request reviews) to more generalized expectations (e.g. Focus on what is best for the community as a whole rather than individual desires or needs). Codes of conduct not only benefit the community in its entirety, but also allow us to focus on protecting the psychological safety of members of our community who are most at risk. We care about all of our members while also recognizing the need for specific and directed language to protect members of underrepresented groups. The best way to do this is to have a written code of conduct with specific, actionable steps used to govern the safety of the community.\u00a0</span></p>\n<h1><b>Why Contributor Covenant?</b></h1>\n<p><span style=\"font-weight: 400;\">In order to protect underrepresented groups and to foster a strong and healthy open source community here at Flickr, we thought about whether it would be best to write our own code of conduct specifically tailored to what we value at Flickr or whether it would be better to find a code of conduct already in use that we could use to guide our own open source communities. We ended up finding a code of conduct already in use by quite a few well respected organizations that directly spoke to </span><a href=\"https://code.flickr.net/2021/11/22/flickr-engineering-team-vision-guiding-principles/\"><span style=\"font-weight: 400;\">our most important operating principles</span></a><span style=\"font-weight: 400;\">.</span></p>\n<p><a href=\"https://www.contributor-covenant.org/\"><span style=\"font-weight: 400;\">Contributor Covenant</span></a><span style=\"font-weight: 400;\"> is a code of conduct for participating in open source communities which explicitly outlines expectations in order to create a healthy open source culture. Contributor Covenant has been adopted by over a hundred thousand open source communities and projects since 2014 and is used by Linux, Babel, Bootstrap, Kubernetes, code.gov, Twilio, Homebrew-Cask, and Target to name a few. With such well-respected organizations turning to Contributor Covenant, it was something we thought we would be foolish not to consider.\u00a0</span></p>\n<p><span style=\"font-weight: 400;\">As we considered, we realized that Contributor Covenant had all of our values specified in </span><a href=\"https://www.contributor-covenant.org/version/2/1/code_of_conduct/\"><span style=\"font-weight: 400;\">a wonderful document that was only a little over a page long</span></a><span style=\"font-weight: 400;\">. Both accessible in its readability and shortness and robust enough to do the job of protecting underrepresented contributors on our open source repositories, we had found a perfect marriage of all of the things that we wanted in a code of conduct, while also allowing us to become part of a large scale community adopting a singular vision for a healthy, safe, and innovational open source community. </span></p>"
+      }
+    ],
+    "post-id": "3642",
+    "media_content": [
+      {
+        "url": "https://code.flickr.net/wp-content/uploads/sites/3/2022/02/7-Standard-SID-logo.png?w=800",
+        "medium": "image"
+      },
+      {
+        "url": "https://live.staticflickr.com/3050/2960047774_6e39a980dc_c.jpg",
+        "medium": "image"
+      },
+      {
+        "url": "https://live.staticflickr.com/896/42102914074_5f389e6e14_c.jpg",
+        "medium": "image"
+      }
+    ]
+  }
+}

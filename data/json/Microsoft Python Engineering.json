@@ -1,0 +1,82 @@
+{
+  "company": "Microsoft Python Engineering",
+  "title": "Microsoft Python Engineering",
+  "xmlUrl": "http://blogs.msdn.microsoft.com/pythonengineering/feed/",
+  "htmlUrl": "https://blogs.msdn.microsoft.com/pythonengineering/",
+  "content": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoin us for AI Chat App Hack from Jan. 29 - Feb.12 - Python\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSkip to main content\n\n\n\n\n\n\n\nMicrosoft\n\n\n\nPython\n\n\n\n\nPython\n\n\n\n\n                            Python\n                        \n\n\n\n\n Home \n\n\nDevBlogs\n\n\n\nDeveloper\n\n\nVisual Studio\n\n\nVisual Studio Code\n\n\nVisual Studio for Mac\n\n\nDevOps\n\n\nWindows Developer\n\n\nDeveloper support\n\n\nISE Developer\n\n\nEngineering@Microsoft\n\n\nAzure SDK\n\n\nCommand Line\n\n\nPerf and Diagnostics\n\n\nNotification Hubs\n\n\nMath in Office\n\n\nReact Native\n\n\n\n \n\nTechnology\n\n\nDirectX\n\n\nPIX\n\n\nSemantic Kernel\n\n\nSurfaceDuo\n\n\nStartups\n\n\nSustainable Engineering\n\n\nWindows AI Platform\n\n\n\n \n\nLanguages\n\n\nC++\n\n\nC#\n\n\nF#\n\n\nTypeScript\n\n\nPowerShell Community\n\n\nPowerShell Team\n\n\nPython\n\n\nQ#\n\n\nJavaScript\n\n\nJava\n\n\nJava Blog in Chinese\n\n\n\n \n\n.NET\n\n\nAll .NET posts\n\n\n.NET MAUI\n\n\nASP.NET Core\n\n\nBlazor\n\n\nEntity Framework\n\n\nAI\n\n\nMachine Learning\n\n\nNuGet\n\n\nServicing\n\n\nXamarin\n\n\n.NET Blog in Chinese\n\n\n\n \n\nPlatform Development\n\n\n#ifdef Windows\n\n\nAzure Depth Platform\n\n\nAzure Government\n\n\nAzure VM Runtime Team\n\n\nBing Dev Center\n\n\nMicrosoft Edge Dev\n\n\nMicrosoft Azure\n\n\nMicrosoft 365 Developer\n\n\nMicrosoft Entra Identity Developer Blog\n\n\nOld New Thing\n\n\nPower Platform\n\n\nWindows MIDI and Music dev\n\n\n\n \n\nData Development\n\n\n Azure Cosmos DB\n\n\nAzure Data Studio\n\n\nAzure SQL Database\n\n\nOData\n\n\nRevolutions R\n\n\nSQL Server Data Tools\n\n\n\n\n\n\nMore\n\n\n\n\n\n\n\n\n\n\n\n\nSearch\nSearch\n\n\n\n\n No results\n\n\n\n\nCancel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoin us for AI Chat App Hack from Jan. 29 \u2013 Feb.12  Pamela Fox \n\n            January 16th, 20240 3\n\nOver the past six months, we\u2019ve met hundreds of developers that are using Python to build AI chat apps for their own knowledge domains, using the RAG (Retrieval Augmented Generation) approach to send chunks of knowledge to an LLM model along with the user question.\n\nWe\u2019ve also heard from many developers that they\u2019d like to learn how to build their own RAG chat apps, but they don\u2019t know where to start. So we\u2019re hosting a virtual hackathon to help you learn how to build your own RAG chat app with Python!\n.\nFrom January 29th to February 12th, we\u2019ll host live streams showing you how to build on our most popular RAG chat sample repository, while also explaining the core concepts underlying all modern RAG chat apps. Live stream topics will include vector search, access control, GPT-4 with vision. We\u2019re hoping to get developers from all over the world involved, so we\u2019ll also have live streams in Spanish, Portuguese, and Chinese. There will be prizes for the best chat apps, and even a prize for our most helpful community member.\nTo learn more, visit the AI Chat App Hack page, and follow the steps there to register and meet the community. Hope to see you there!\nMore RAG resources for Python developers\nIf you\u2019re interested in learning more about RAG chat apps but can\u2019t join the hack, here are some resources to get you started:\n\nTutorial: Get started with the Python enterprise chat sample using RAG\nGitHub Universe: Quickly build and deploy OpenAI apps on Azure, infused with your own data\nAzure AI resources for Python developers\nUsing Llamaindex with Azure AI Search\nAI Discord community\n\n\nRegister for the AI Chat App Hack \n \n\n\n\n                    Pamela Fox                \n\n\n\n\nFollow \n\n\n\n\n\n\n\n\n\n\n\nPosted in Azure PythonTagged python\n\n\n\nRead next\n\n\n\nData Science Day Announcement and Call for Speaker Proposals\nPython Data Science Day is a full day of 25 min and 5 min community contributed content March 14th, 2024 streaming on the VS Code YouTube channel. Submission deadline is January 25th AOE (Anywhere on Earth).\nDawn Wages January 12, 2024\n\n\n0 comment\n\n\n\nPython in Visual Studio Code \u2013 December 2023 Release\nThe December 2023 release of the Python and Jupyter extensions for Visual Studio Code are now available. This month's updates include debug configurations add to the Run button menu, show type hierarchy with Pylance, deactivate support for auto-activated terminals, and additional REPL improvements. Keep reading to learn more!\nCourtney Webster December 7, 2023\n\n\n0 comment\n\n \n\n\n\n0 comments\n\nLeave a commentCancel replyLog in to join the discussion. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelevant Links\nPython Resources at Microsoft\nPython in Visual Studio\nPython in VS Code\nAzure Notebooks\nPython on Azure\nMicrosoft on PyPI\n\n\n\n\n\n\nTop Bloggers\nCourtney Webster Program ManagerDawn Wages Product ManagerJeffrey Mew Program ManagerChris Harris (PYTHON) Pamela Fox \n\n\n\n\n\nArchive\n January 2024\nDecember 2023\nNovember 2023\nOctober 2023\nSeptember 2023\nAugust 2023\nJuly 2023\nJune 2023\nMay 2023\nMarch 2023\nFebruary 2023\nJanuary 2023\nDecember 2022\nNovember 2022\nOctober 2022\nSeptember 2022\nAugust 2022\nJuly 2022\nJune 2022\nMay 2022\nMarch 2022\nFebruary 2022\nDecember 2021\nNovember 2021\nOctober 2021\nSeptember 2021\nAugust 2021\nJuly 2021\nJune 2021\nMay 2021\nApril 2021\nMarch 2021\nFebruary 2021\nJanuary 2021\nDecember 2020\nNovember 2020\nOctober 2020\nSeptember 2020\nAugust 2020\nJuly 2020\nJune 2020\nMay 2020\nApril 2020\nMarch 2020\nFebruary 2020\nJanuary 2020\nNovember 2019\nOctober 2019\nSeptember 2019\nAugust 2019\nJune 2019\nMay 2019\nApril 2019\nMarch 2019\nFebruary 2019\nJanuary 2019\nDecember 2018\nNovember 2018\nOctober 2018\nSeptember 2018\nAugust 2018\nJuly 2018\nJune 2018\nMay 2018\nApril 2018\nMarch 2018\nFebruary 2018\nDecember 2017\nNovember 2017\nSeptember 2017\nAugust 2017\nJune 2017\nMay 2017\nApril 2017\nMarch 2017\nFebruary 2017\nDecember 2016\nNovember 2016\nOctober 2016\nSeptember 2016\nAugust 2016\nJune 2016\nMay 2016\nApril 2016\nMarch 2016\nFebruary 2016\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\nStay informed\n\n\n\n\nBy subscribing you agree to our Terms of Use and Privacy Policy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLogin\n\nTheme\n\nLight\nDark\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Insert/edit link\n\n\t\t\tClose\t\t\n\n\nEnter the destination URL\n\nURL\n\n\n\nLink Text\n\n\n\n\n Open link in a new tab\n\n\nOr link to existing content\n\n\n\nSearch\n\n\n\n\n\n\n\n\n\n\n\n\nNo search term specified. Showing recent items.\n\n\t\t\t\t\t\t\tSearch or use up and down arrow keys to select an item.\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\nCancel\n\n\n\n\n\n\n\n \n\n\n\n\n\nCode Block\n\n\u00d7\n\n\n\n\n\nPaste your code snippet\n\n\n\n\nCancel\nOk\n\n\n\n\n\n\n\n\n\n\n\n            Feedback \n\n\n\n\n\n\n\n\n\n\n\n\nWhat's new\n\n\nSurface Laptop Studio 2\n\n\nSurface Laptop Go 3\n\n\nSurface Pro 9\n\n\nSurface Laptop 5\n\n\nSurface Studio 2+\n\n\nCopilot in Windows\n\n\nMicrosoft 365\n\n\nWindows 11 apps\n\n\n\n\nMicrosoft Store\n\n\nAccount profile\n\n\nDownload Center\n\n\nMicrosoft Store support\n\n\nReturns\n\n\nOrder tracking\n\n\nCertified Refurbished\n\n\nMicrosoft Store Promise\n\n\nFlexible Payments\n\n\n\n\nEducation\n\n\nMicrosoft in education\n\n\nDevices for education\n\n\nMicrosoft Teams for Education\n\n\nMicrosoft 365 Education\n\n\nHow to buy for your school\n\n\nEducator training and development\n\n\nDeals for students and parents\n\n\nAzure for students\n\n\n\n\n\n\nBusiness\n\n\nMicrosoft Cloud\n\n\nMicrosoft Security\n\n\nDynamics 365\n\n\nMicrosoft 365\n\n\nMicrosoft Power Platform\n\n\nMicrosoft Teams\n\n\nMicrosoft Industry\n\n\nSmall Business\n\n\n\n\nDeveloper & IT\n\n\nAzure\n\n\nDeveloper Center\n\n\nDocumentation\n\n\nMicrosoft Learn\n\n\nMicrosoft Tech Community\n\n\nAzure Marketplace\n\n\nAppSource\n\n\nVisual Studio\n\n\n\n\nCompany\n\n\nCareers\n\n\nAbout Microsoft\n\n\nCompany news\n\n\nPrivacy at Microsoft\n\n\nInvestors\n\n\nDiversity and inclusion\n\n\nAccessibility\n\n\nSustainability\n\n\n\n\n\n\n\n\nCalifornia Consumer Privacy Act (CCPA) Opt-Out Icon\n\n\n\n\n\nYour Privacy Choices\n\n\n\n\nCalifornia Consumer Privacy Act (CCPA) Opt-Out Icon\n\n\n\n\n\nYour Privacy Choices\n\n\n\n\n\nSitemap\n\n\nContact Microsoft\n\n\nPrivacy \n\n\nManage cookies\n\n\nTerms of use\n\n\nTrademarks\n\n\nSafety & eco\n\n\nRecycling\n\n\nAbout our ads\n\n\u00a9 Microsoft 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "latestPost": {
+    "title": "Join us for AI Chat App Hack from Jan. 29 \u2013 Feb.12",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://devblogs.microsoft.com/python/feed/",
+      "value": "Join us for AI Chat App Hack from Jan. 29 \u2013 Feb.12"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://devblogs.microsoft.com/python/ai-chat-app-hack/"
+      }
+    ],
+    "link": "https://devblogs.microsoft.com/python/ai-chat-app-hack/",
+    "comments": "https://devblogs.microsoft.com/python/ai-chat-app-hack/#respond",
+    "authors": [
+      {
+        "name": "Pamela Fox"
+      }
+    ],
+    "author": "Pamela Fox",
+    "author_detail": {
+      "name": "Pamela Fox"
+    },
+    "published": "Wed, 17 Jan 2024 00:21:28 +0000",
+    "published_parsed": [
+      2024,
+      1,
+      17,
+      0,
+      21,
+      28,
+      2,
+      17,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Azure",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Python",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "python",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://devblogs.microsoft.com/python/?p=9577",
+    "guidislink": false,
+    "summary": "<p>The Microsoft AI Chat App Hack is a two-week virtual hackathon where you can learn how to build a chat app with Python, using the RAG (Retrieval Augmented Generation) approach with OpenAI and Azure AI Search. You\u2019ll also get to meet other Python developers and learn from Microsoft engineers on live streams.</p>\n<p>The post <a href=\"https://devblogs.microsoft.com/python/ai-chat-app-hack/\">Join us for AI Chat App Hack from Jan. 29 &#8211; Feb.12</a> appeared first on <a href=\"https://devblogs.microsoft.com/python\">Python</a>.</p>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://devblogs.microsoft.com/python/feed/",
+      "value": "<p>The Microsoft AI Chat App Hack is a two-week virtual hackathon where you can learn how to build a chat app with Python, using the RAG (Retrieval Augmented Generation) approach with OpenAI and Azure AI Search. You\u2019ll also get to meet other Python developers and learn from Microsoft engineers on live streams.</p>\n<p>The post <a href=\"https://devblogs.microsoft.com/python/ai-chat-app-hack/\">Join us for AI Chat App Hack from Jan. 29 &#8211; Feb.12</a> appeared first on <a href=\"https://devblogs.microsoft.com/python\">Python</a>.</p>"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "https://devblogs.microsoft.com/python/feed/",
+        "value": "<p>Over the past six months, we&#8217;ve met hundreds of developers that are using Python to build AI chat apps for their own knowledge domains, using the <a href=\"https://learn.microsoft.com/azure/search/retrieval-augmented-generation-overview\">RAG (Retrieval Augmented Generation) approach</a> to send chunks of knowledge to an LLM model along with the user question.</p>\n<p><img alt=\"RAG flow diagram\" src=\"https://devblogs.microsoft.com/python/wp-content/uploads/sites/12/2024/01/AI_RAG.png\" /></p>\n<p>We&#8217;ve also heard from many developers that they&#8217;d like to learn how to build their own RAG chat apps, but they don&#8217;t know where to start. So we&#8217;re hosting a <strong>virtual hackathon</strong> to help you learn how to build your own RAG chat app with Python!</p>\n<p><img alt=\"AI Chat App Hack banner\" src=\"https://devblogs.microsoft.com/python/wp-content/uploads/sites/12/2024/01/AIChatAppHackBanner.png\" />.</p>\n<p>From January 29th to February 12th, we&#8217;ll host live streams showing you how to build on our <a href=\"https://github.com/Azure-Samples/azure-search-openai-demo/\">most popular RAG chat sample repository</a>, while also explaining the core concepts underlying all modern RAG chat apps. Live stream topics will include vector search, access control, GPT-4 with vision. We&#8217;re hoping to get developers from all over the world involved, so we&#8217;ll also have live streams in Spanish, Portuguese, and Chinese. There will be prizes for the best chat apps, and even a prize for our most helpful community member.</p>\n<p>To learn more, visit the <a href=\"https://github.com/microsoft/AI-Chat-App-Hack\">AI Chat App Hack</a> page, and follow the steps there to register and meet the community. Hope to see you there!</p>\n<h4 id=\"more-rag-resources-for-python-developers\">More RAG resources for Python developers</h4>\n<p>If you&#8217;re interested in learning more about RAG chat apps but can&#8217;t join the hack, here are some resources to get you started:</p>\n<ul>\n<li><a href=\"https://learn.microsoft.com/azure/developer/python/get-started-app-chat-template\">Tutorial: Get started with the Python enterprise chat sample using RAG</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=j8i-OM5kwiY\">GitHub Universe: Quickly build and deploy OpenAI apps on Azure, infused with your own data</a></li>\n<li><a href=\"https://learn.microsoft.com/azure/developer/intro/azure-ai-for-developers?pivots=python\">Azure AI resources for Python developers</a></li>\n<li><a href=\"https://docs.llamaindex.ai/stable/examples/vector_stores/CognitiveSearchIndexDemo.html\">Using Llamaindex with Azure AI Search</a></li>\n<li><a href=\"https://discord.gg/ai\">AI Discord community</a></li>\n</ul>\n<p>The post <a href=\"https://devblogs.microsoft.com/python/ai-chat-app-hack/\">Join us for AI Chat App Hack from Jan. 29 &#8211; Feb.12</a> appeared first on <a href=\"https://devblogs.microsoft.com/python\">Python</a>.</p>"
+      }
+    ],
+    "wfw_commentrss": "https://devblogs.microsoft.com/python/ai-chat-app-hack/feed/",
+    "slash_comments": "0"
+  }
+}

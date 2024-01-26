@@ -1,0 +1,124 @@
+{
+  "company": "Salesforce",
+  "title": "Salesforce",
+  "xmlUrl": "https://developer.salesforce.com/blogs/feed",
+  "htmlUrl": "https://developer.salesforce.com/blogs/engineering/",
+  "content": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccelerate Your MuleSoft Journey with AI | Salesforce Developers Blog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn the rapidly developing world of AI, MuleSoft is evolving its integration, API management, and AI capabilities. Although existing code generation models have greatly improved efficiency in many industries, they are not ideal for generating code in languages specific to the MuleSoft ecosystem, like DataWeave, RAML, and OAS.\nIn this blog post, we will explore MuleSoft\u2019s synergy with AI. We\u2019ll also highlight the benefits and limitations of existing models like CodeX and CodeGen, and how an internal, MuleSoft-focused AI model can address these challenges.\nThe challenge of code generation\nAI-driven, open-source code generation models like CodeX and CodeGen have proven their effectiveness with popular programming languages, such as Java and Python. However, they\u2019re ineffective when dealing with languages like Go, Julia, or domain-specific languages (DSLs) that are used within the MuleSoft ecosystem. DataWeave, RAML, OAS, and other MuleSoft-specific languages require a different approach, which general-purpose AI models may struggle to provide. Also, there are several areas where MuleSoft Developers may need help.\u00a0\nLet\u2019s identify some of the most common issues that developers have when getting started and integrating with MuleSoft, and then see how AI can assist.\u00a0\nCommon developer pain points\u00a0\nGetting started\u00a0\nMany developers find it challenging to start with MuleSoft due to its specialized nature. They are often unaware of API design languages, like RAML and OAS, and it can be difficult to build a perfect API following best practices and standards. The Mule palette consists of several connectors and components, and it can be overwhelming for a new developer to decide which component/connector should be used and when to use it.\u00a0\nDataWeave\u00a0\nSome Dataweave transformations can be complex, involving nested payloads and intricate mappings.\nTo map efficiently, developers should know various DataWeave functions and get hands-on in the DataWeave playground.\nDebugging and testing\u00a0\nIf an integration ecosystem is vast, involving several end systems and APIs, then debugging Mule applications can be time-consuming. Although we have a Test recorder to automate test cases, it is a complex task to validate the unit test cases with MUnits and aim for maximum test coverage.\nGetting help\u00a0\nDevelopers and architects often need help choosing the right integration pattern and connectors, as well as optimizing the solution.\nDocumentation\u00a0\nWriting documentation for API specification and Mule projects can be time-consuming. It\u2019s also essential to maintain and update this documentation to align with changes in APIs and Mule applications.\nSolving the challenges with MuleSoft\u2019s own LLM\nThird-party AI models, like GPT 3.5 and GPT 4, allow you to have human-like conversations when interacting with a chatbot. You get answers to your questions, and the chatbot also performs tasks on your behalf, like writing an essay or email, and so on.\nThese models are trained for thousands of downstream tasks, but they are not tailored for the MuleSoft ecosystem. These third-party models rely on static datasets that can become outdated, leading to incorrect data generation. That\u2019s where MuleSoft\u2019s AI innovation stands out.\nWith MuleSoft\u2019s training dataset, we can continuously retrain such models with the latest MuleSoft data, allowing us to stay up to date with evolving MuleSoft versions. Hence, we can remove obsolete data and focus on the latest data.\nWe prioritize depth over breadth, and we are constantly updating our training dataset to avoid obsolete data generation. For example: Mule 3 training data, which is old and obsolete, will be removed, and we will keep Mule 4 training data to avoid bad data generation. In addition, this training dataset abides by trust and security compliance, thereby adhering to Salesforce\u2019s values.\u00a0\nLet\u2019s now review what\u2019s in the pipeline with AI and MuleSoft to accelerate integration development.\nOther MuleSoft + AI capabilities\n Einstein for Anypoint Code Builder: Pilot Oct \u201923 \nFor MuleSoft\u2019s newest cloud- and desktop-based Studio, Anypoint Code Builder, we\u2019re introducing Einstein for Anypoint Code Builder: Generative Flows. This will help you convert natural language into flow and code snippets, thereby reducing development time.\n Intelligent Document Processing (IDP): Pilot Q4 \u201923 \nIDP will help you with seamless automation to extract and interpret data from PDFs and documentation accurately.\u00a0\n API Management for AI: (Release TBD) \nWith API Management for AI, you can create custom policies for your API applications that use LLMs. You can also create custom policies quickly with generative AI for specific use cases.\nConclusion\nIn the realm of MuleSoft and AI, combining the power of MuleSoft\u2019s ecosystem knowledge with a dedicated, internal AI model is the recipe for success. By prioritizing depth over breadth, and staying up to date with the latest MuleSoft developments, we can provide you with an exceptional tool for code generation, debugging, testing, and support.\u00a0\nThis solution accelerates your MuleSoft journey with AI and unlocks new possibilities for seamless integration and application development.\nResources\n\nMuleSoft + AI blog posts\nTrail: Be an AI-Minded Admin\u00a0\nWebinar: Connect and automate AI + Data + CRM across any system\u00a0\n\nAbout the author\nAkshata Sawant is a Senior Developer Advocate at Salesforce. She is an author, blogger, and speaker, and the co-author of the title, MuleSoft for Salesforce Developers. Akshata is an active member of the MuleSoft Community and a former MuleSoft Ambassador. She loves reading, dancing, traveling, and photography, and is a big-time foodie. Follow her on X (formerly Twitter) and LinkedIn.\n\n\n\n\n\n\n\n\n\n                        Get the latest Salesforce Developer blog posts and podcast episodes via Slack or RSS.\n                    \n\n\n                            Add to Slack\n                        \n\n                            Subscribe to RSS\n                        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "latestPost": {
+    "title": "Accelerate Your MuleSoft Journey with AI",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://developer.salesforce.com/blogs/feed",
+      "value": "Accelerate Your MuleSoft Journey with AI"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://developer.salesforce.com/blogs/2024/01/accelerate-your-mulesoft-journey-with-ai.html"
+      }
+    ],
+    "link": "https://developer.salesforce.com/blogs/2024/01/accelerate-your-mulesoft-journey-with-ai.html",
+    "comments": "https://developer.salesforce.com/blogs/2024/01/accelerate-your-mulesoft-journey-with-ai.html#respond",
+    "published": "Thu, 18 Jan 2024 16:00:57 +0000",
+    "published_parsed": [
+      2024,
+      1,
+      18,
+      16,
+      0,
+      57,
+      3,
+      18,
+      0
+    ],
+    "authors": [
+      {
+        "name": "Akshata Sawant"
+      }
+    ],
+    "author": "Akshata Sawant",
+    "author_detail": {
+      "name": "Akshata Sawant"
+    },
+    "tags": [
+      {
+        "term": "App Development",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "ai",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anypoint Code Builder",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "code builder",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "DataWeave",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Einstein",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "MuleSoft",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://developer.salesforce.com/blogs/?p=200793",
+    "guidislink": false,
+    "summary": "<p>In the rapidly developing world of AI, MuleSoft is evolving its integration, API management, and AI capabilities.</p>\n<p>The post <a href=\"https://developer.salesforce.com/blogs/2024/01/accelerate-your-mulesoft-journey-with-ai.html\">Accelerate Your MuleSoft Journey with AI</a> appeared first on <a href=\"https://developer.salesforce.com/blogs\">Salesforce Developers Blog</a>.</p>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://developer.salesforce.com/blogs/feed",
+      "value": "<p>In the rapidly developing world of AI, MuleSoft is evolving its integration, API management, and AI capabilities.</p>\n<p>The post <a href=\"https://developer.salesforce.com/blogs/2024/01/accelerate-your-mulesoft-journey-with-ai.html\">Accelerate Your MuleSoft Journey with AI</a> appeared first on <a href=\"https://developer.salesforce.com/blogs\">Salesforce Developers Blog</a>.</p>"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "https://developer.salesforce.com/blogs/feed",
+        "value": "<p><span style=\"font-weight: 400;\">In the rapidly developing world of AI, MuleSoft is evolving its integration, API management, and AI capabilities. Although existing code generation models have greatly improved efficiency in many industries, they are not ideal for generating code in languages specific to the MuleSoft ecosystem, like DataWeave, RAML, and OAS.</span></p>\n<p><span style=\"font-weight: 400;\">In this blog post, we will explore MuleSoft\u2019s synergy with AI. We\u2019ll also highlight the benefits and limitations of existing models like CodeX and CodeGen, and how an internal, MuleSoft-focused AI model can address these challenges.</span></p>\n<h2><span style=\"font-weight: 400;\">The challenge of code generation</span></h2>\n<p><span style=\"font-weight: 400;\">AI-driven, open-source code generation models like CodeX and CodeGen have proven their effectiveness with popular programming languages, such as Java and Python. However, they\u2019re ineffective when dealing with languages like Go, Julia, or domain-specific languages (DSLs) that are used within the MuleSoft ecosystem. DataWeave, RAML, OAS, and other MuleSoft-specific languages require a different approach, which general-purpose AI models may struggle to provide. Also, there are several areas where MuleSoft Developers may need help.\u00a0</span></p>\n<p><span style=\"font-weight: 400;\">Let\u2019s identify some of the most common issues that developers have when getting started and integrating with MuleSoft, and then see how AI can assist.\u00a0</span></p>\n<h2><span style=\"font-weight: 400;\">Common developer pain points\u00a0</span></h2>\n<p><b>Getting started</b><span style=\"font-weight: 400;\">\u00a0</span></p>\n<p><span style=\"font-weight: 400;\">Many developers find it challenging to start with MuleSoft due to its specialized nature. They are often unaware of API design languages, like RAML and OAS, and it can be difficult to build a perfect API following </span><a href=\"https://docs.mulesoft.com/mule-runtime/latest/build-app-practices\"><span style=\"font-weight: 400;\">best practices and standards</span></a><span style=\"font-weight: 400;\">. The Mule palette consists of several </span><a href=\"https://docs.mulesoft.com/mule-runtime/latest/mule-components\"><span style=\"font-weight: 400;\">connectors and components</span></a><span style=\"font-weight: 400;\">, and it can be overwhelming for a new developer to decide which component/connector should be used and when to use it.\u00a0</span></p>\n<p><b>DataWeave</b><span style=\"font-weight: 400;\">\u00a0</span></p>\n<p><span style=\"font-weight: 400;\">Some Dataweave transformations can be complex, involving nested payloads and intricate mappings.</span></p>\n<p><span style=\"font-weight: 400;\">To map efficiently, developers should know various DataWeave functions and get hands-on in the </span><a href=\"https://dataweave.mulesoft.com/learn/dataweave\"><span style=\"font-weight: 400;\">Data</span></a><span style=\"font-weight: 400;\">W</span><a href=\"https://dataweave.mulesoft.com/learn/dataweave\"><span style=\"font-weight: 400;\">eave playground</span></a><span style=\"font-weight: 400;\">.</span></p>\n<p><b>Debugging and testing</b><span style=\"font-weight: 400;\">\u00a0</span></p>\n<p><span style=\"font-weight: 400;\">If an integration ecosystem is vast, involving several end systems and APIs, then debugging Mule applications can be time-consuming. Although we have a </span><a href=\"https://docs.mulesoft.com/munit/latest/test-recorder\"><span style=\"font-weight: 400;\">Test recorder</span></a><span style=\"font-weight: 400;\"> to automate test cases, it is a complex task to validate the unit test cases with </span><a href=\"https://docs.mulesoft.com/munit/latest/munit-scaffold-test-task\"><span style=\"font-weight: 400;\">MUnits</span></a><span style=\"font-weight: 400;\"> and aim for maximum test coverage.</span></p>\n<p><b>Getting help</b><span style=\"font-weight: 400;\">\u00a0</span></p>\n<p><span style=\"font-weight: 400;\">Developers and architects often need help choosing the right integration pattern and connectors, as well as optimizing the solution.</span></p>\n<p><b>Documentation</b><span style=\"font-weight: 400;\">\u00a0</span></p>\n<p><span style=\"font-weight: 400;\">Writing documentation for API specification and Mule projects can be time-consuming. It\u2019s also essential to maintain and update this documentation to align with changes in APIs and Mule applications.</span></p>\n<h2><span style=\"font-weight: 400;\">Solving the challenges with MuleSoft\u2019s own LLM</span></h2>\n<p><span style=\"font-weight: 400;\">Third-party AI models, like GPT 3.5 and GPT 4, allow you to have human-like conversations when interacting with a chatbot. You get answers to your questions, and the chatbot also performs tasks on your behalf, like writing an essay or email, and so on.</span></p>\n<p><span style=\"font-weight: 400;\"></span><span style=\"font-weight: 400;\">These models are trained for thousands of downstream tasks, but they are not tailored for the MuleSoft ecosystem. These third-party models rely on static datasets that can become outdated, leading to incorrect data generation. That\u2019s where MuleSoft\u2019s AI innovation stands out.</span></p>\n<p><span style=\"font-weight: 400;\">With MuleSoft\u2019s training dataset, we can continuously retrain such models with the latest MuleSoft data, allowing us to stay up to date with evolving MuleSoft versions. Hence, we can remove obsolete data and focus on the latest data.</span></p>\n<p><span style=\"font-weight: 400;\">We prioritize depth over breadth, and we are constantly updating our training dataset to avoid obsolete data generation. For example: Mule 3 training data, which is old and obsolete, will be removed, and we will keep Mule 4 training data to avoid bad data generation. In addition, this training dataset abides by trust and security compliance, thereby adhering to Salesforce\u2019s values.\u00a0</span></p>\n<p><span style=\"font-weight: 400;\">Let\u2019s now review what\u2019s in the pipeline with AI and MuleSoft to accelerate integration development.</span></p>\n<h2><span style=\"font-weight: 400;\">Other MuleSoft + AI capabilities</span><b></b></h2>\n<p><b>Einstein for Anypoint Code Builder: Pilot Oct \u201923</b></p>\n<p><span style=\"font-weight: 400;\">For MuleSoft\u2019s newest cloud- and desktop-based Studio, Anypoint Code Builder, we\u2019re introducing Einstein for Anypoint Code Builder: Generative Flows. This will help you convert natural language into flow and code snippets, thereby reducing development time.</span><b></b></p>\n<p><b>Intelligent Document Processing (IDP): Pilot Q4 \u201923</b></p>\n<p><span style=\"font-weight: 400;\">IDP will help you with seamless automation to extract and interpret data from PDFs and documentation accurately.</span><span style=\"font-weight: 400;\">\u00a0</span></p>\n<p><b>API Management for AI: (Release TBD)</b></p>\n<p><span style=\"font-weight: 400;\">With API Management for AI, you can create custom policies for your API applications that use LLMs. You can also create custom policies quickly with generative AI for specific use cases.</span></p>\n<h2><span style=\"font-weight: 400;\">Conclusion</span></h2>\n<p><span style=\"font-weight: 400;\">In the realm of MuleSoft and AI, combining the power of MuleSoft&#8217;s ecosystem knowledge with a dedicated, internal AI model is the recipe for success. By prioritizing depth over breadth, and staying up to date with the latest MuleSoft developments, we can provide you with an exceptional tool for code generation, debugging, testing, and support.\u00a0</span></p>\n<p><span style=\"font-weight: 400;\">This solution accelerates your MuleSoft journey with AI and unlocks new possibilities for seamless integration and application development.</span></p>\n<h2><span style=\"font-weight: 400;\">Resources</span></h2>\n<ul>\n<li style=\"font-weight: 400;\"><a href=\"https://blogs.mulesoft.com/tag/ai/\"><span style=\"font-weight: 400;\">MuleSoft + AI blog posts</span></a></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Trail: </span><a href=\"https://trailhead.salesforce.com/users/strailhead/trailmixes/be-an-ai-minded-admin\"><span style=\"font-weight: 400;\">Be an AI-Minded Admin\u00a0</span></a></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Webinar: </span><a href=\"https://www.mulesoft.com/sem/anypoint\"><span style=\"font-weight: 400;\">Connect and automate AI + Data + CRM across any system\u00a0</span></a></li>\n</ul>\n<h2><span style=\"font-weight: 400;\">About the author</span></h2>\n<p><b>Akshata Sawant </b><span style=\"font-weight: 400;\">is a Senior Developer Advocate at Salesforce. She is an author, blogger, and speaker, and the co-author of the title, </span><a href=\"https://a.co/d/5iRcRtw\"><span style=\"font-weight: 400;\">MuleSoft for Salesforce Developers</span></a><span style=\"font-weight: 400;\">. Akshata is an active member of the MuleSoft Community and a former MuleSoft Ambassador. She loves reading, dancing, traveling, and photography, and is a big-time foodie. Follow her on </span><a href=\"https://twitter.com/sawantakshata02\"><span style=\"font-weight: 400;\">X</span></a><span style=\"font-weight: 400;\"> (formerly Twitter) and </span><a href=\"https://www.linkedin.com/in/akshatasawant02/\"><span style=\"font-weight: 400;\">LinkedIn</span></a><span style=\"font-weight: 400;\">.</span></p>\n<p>The post <a href=\"https://developer.salesforce.com/blogs/2024/01/accelerate-your-mulesoft-journey-with-ai.html\">Accelerate Your MuleSoft Journey with AI</a> appeared first on <a href=\"https://developer.salesforce.com/blogs\">Salesforce Developers Blog</a>.</p>"
+      }
+    ],
+    "wfw_commentrss": "https://developer.salesforce.com/blogs/2024/01/accelerate-your-mulesoft-journey-with-ai.html/feed",
+    "slash_comments": "0",
+    "media_thumbnail": [
+      {
+        "url": "https://d259t2jj6zp7qm.cloudfront.net/images/20240117171849/image-115.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "url": "https://d259t2jj6zp7qm.cloudfront.net/images/20240117171849/image-115.png",
+        "medium": "image"
+      }
+    ]
+  }
+}

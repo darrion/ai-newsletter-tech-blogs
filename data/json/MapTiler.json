@@ -1,0 +1,54 @@
+{
+  "company": "MapTiler",
+  "title": "MapTiler",
+  "xmlUrl": "https://www.maptiler.com/blog/feed/posts.xml",
+  "htmlUrl": "https://www.maptiler.com/blog/",
+  "content": "GeoCamp ES 2023 | MapTilerpostsarchivelabelsGeoCamp ES 2023Published December 4th, 2023Geocamp ES is a non-profit, free-to-attend, and self-financed national event. Organized by the international collective\u00c2\u00a0Geoinquietos, it brings together communities made up of informal groups that meet to talk and learn about earth sciences, open geodata services, free software, and GIS applications, mainly around the\u00c2\u00a0OSGeo community (Geospatial Spanish-speaking communities). This year, the conference celebrates its 8th edition and 10 years since the first one in 2013.The GeoCamp is an\u00c2\u00a0Open Space/Unconference: all participants take an active role in the execution of the event. This organizational format increases one-on-one interaction between attendees (rather than the traditional conference model of one-to-many communication).The entire event is divided into several themes discussed in so-called Open Spaces. Here is a quick summary of the discussed topics, sorted thematically how they were discussed in each Open Space:Open Space 1: OSM (OpenStreetMap), Women Street names (Las calles de las Mujeres), participatory GeoportalsThe initial discussion centered around the project\u00c2\u00a0Las calles de las mujeres, with\u00c2\u00a0GeochicasOSM providing an overview of the project's current status, along with the technical and organizational challenges it faces.Their project\u00c2\u00a0Las calles de las mujeres is an example of effective communication and building relationships with external collaborators. The project combines\u00c2\u00a0OpenStreetMap and\u00c2\u00a0Wikipedia data to create a map that visually highlights the historical underrepresentation of women in society.During the discussion, a similar project,\u00c2\u00a0mappingdiversity.eu, was mentioned. It shares a common objective but takes a more contemporary approach by utilizing Wikidata for categorizing women's profiles.Open Space 2: JS and Web GLCurrently, map libraries suffer from limitations in doing certain things (or at least doing them in an easy and intuitive way). These libraries need to evolve if they don\u00e2\u0080\u0099t want to be replaced. Will the new star be\u00c2\u00a0GLeo?The demand for client-side raster manipulation is rising, with several existing solutions such as\u00c2\u00a0MapTiler Weather, GLeo, Mapbox, or Felt.For newbies in web map development, it is difficult to select the right JavaScript mapping library: there is\u00c2\u00a0MapTiler SDK, MapLibre, Leaflet, OpenLayers, and more.GET STARTED WITH MAPTILER SDK JSOpen Space 3: Artificial Intelligence (AI) and mapsThe state of AI in geotechnology can be described in general as \u00e2\u0080\u009cexperimental\u00e2\u0080\u009d. Better training of \u00e2\u0080\u009cthe beast\u00e2\u0080\u009d is necessary to improve the results\u00e2\u0080\u0099 accuracy. There is still a long way to go to generate complex, quality maps with AI.However, interesting projects are already underway: for example, extracting geographic data from a narrative and creating a corresponding map.At the moment, artificial intelligence is extensively used for data processing, particularly in tasks such as shape and color recognition through pre-training. We can expect the development of specialized AI models designed for specific industries or domains in the future.Lunch and island tripDuring the event, we enjoyed spectacular food in huge quantities and in a luxury space. We even had a cortador de jam\u00c3\u00b3n (a ham cutting specialist) and a pulpeiro (a specialist octopus chef).The visit to the island was very well conducted by a professional guide who must be thanked for his explanations and patience. We visited the entire island and the local museum, where we learned about the island\u00e2\u0080\u0099s history.Plenary talk by Carmen TorrecillasOnce again,\u00c2\u00a0Carmen, an outsider, breaks our minds and shows us how to make incredible maps and visualizations. It is perfect for a plenary session at the\u00c2\u00a0Girona Free SIG Conference or any other event.Civio is doing a great job of transparency and surveillance of public powers. So don't hesitate and help them keep changing the rules.\u00c2\u00a0Join Civio!Open Space 5: CommunitiesThere was a shared concern as there would be nobody to take our place. We are failing to engage with the younger generations. Where do they move? Don't we know how to motivate them? If anyone has any clues, please let me know.We also analyzed our shortcomings: there was no geo event since the pandemic (until this Geocamp), or it has not been very fruitful, we are not in contact with the universities, etc.The experience in Barcelona with Geoinquiets and Geomob is that there are neither young people nor women. The attendee profile has evolved over time, now including more 'geomatics' outsiders who consume geospatial data and perform geospatial operations. However, the majority of them do not repeat attendance.The QGIS Spain Association also demands a generational change that is necessary for the community and the projects to continue. Maintaining communities, associations, foundations, and organizations that generally support the development of free tools is essential for their existence.The channels we use for sharing information about events are not the channels consumed by the people we are targeting. But what are the platforms where we can talk to them?Open Space 6: OGC and Blockchain StandardsThe discussion revolved around the significance of setting OGC standards to ensure uniform development in maps and cartographic tools. It was also discussed that the long discussions before reaching consensus causes delays in implementation.\u00c2\u00a0The standard voting process has been corrected to prevent any private company from being able to manipulate it to obtain a majority of votes and make unilateral decisions.Snacks and breaksThe best things at conferences often happen outside of the main talks (pre-event, during breaks, and post-event).Breaks are the best time for strengthening existing relationships and making new friends. People talk about various topics like manipulating a pixel on the GPU, monitoring cetaceans, cooperatives, Joomla (yes, it's still alive), but also non-GIS things like mountaineering, etc.Having enough space and time between session to eat, drink, chat, and laugh is what makes this event really engaging.Conclusion: amazing event and what comes nextThe Open Space format worked very well! Having people divided into even smaller groups might be even better for bigger participation, however, it worked pretty well even in groups of 20 people.\u00c2\u00a0We really benefitted from pre-planning a series of topics to be discussed in the \u00e2\u0080\u0098open spaces\u00e2\u0080\u0099. Sending out forms to the attendees before the conference meant that we spent more time discussing them.\u00c2\u00a0Well, that's Geocamp ES: create community, learn new things, and take home a hangover of knowledge and ideas. It was very gratifying to meet old friends and new people who did not know what Geocamp was and who found themselves with a truly amazing experience. They have been able to share knowledge in a participatory and relaxed environment, which really helps connect experienced people with beginners.Once again, thanks to the organization. It's going to be hard to beat.Where and when is the next one? There are already some proposals (Pamplona, A Coru\u00c3\u00b1a, ...), but we need to wait until next year to enjoy a meeting as special as this one.Sharepresentationsopen-sourceosgeoShareWladimir SzczerbanSenior Developer Advocate  Published on December 4th, 2023 ",
+  "latestPost": {
+    "title": "GeoCamp ES 2023",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.maptiler.com/news/feed/posts.xml",
+      "value": "GeoCamp ES 2023"
+    },
+    "summary": "GeoCamp ES is a non-profit, free-to-attend, and self-financed national conference of the international collective Geoinquietos. To talk and learn about earth sciences, open geodata services, free software, and GIS applications, especially around the OSGeo community.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.maptiler.com/news/feed/posts.xml",
+      "value": "GeoCamp ES is a non-profit, free-to-attend, and self-financed national conference of the international collective Geoinquietos. To talk and learn about earth sciences, open geodata services, free software, and GIS applications, especially around the OSGeo community."
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.maptiler.com/news/2023/12/geocamp-es-2023"
+      }
+    ],
+    "link": "https://www.maptiler.com/news/2023/12/geocamp-es-2023",
+    "id": "https://www.maptiler.com/news/2023/12/geocamp-es-2023",
+    "guidislink": false,
+    "authors": [
+      {
+        "name": "MapTiler (Wladimir Szczerban)"
+      }
+    ],
+    "author": "MapTiler (Wladimir Szczerban)",
+    "author_detail": {
+      "name": "MapTiler (Wladimir Szczerban)"
+    },
+    "published": "Mon, 04 Dec 2023 00:00:00 GMT",
+    "published_parsed": [
+      2023,
+      12,
+      4,
+      0,
+      0,
+      0,
+      0,
+      338,
+      0
+    ]
+  }
+}

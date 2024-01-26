@@ -1,0 +1,6 @@
+
+This is a technical blog post from Wealthfront, a financial services company, discussing the development of a new transfer flow for their mobile app. The post highlights the challenges faced by the engineering team in adapting to evolving needs and providing a flexible solution that could handle various transfer details, such as stock transfers, wire transfers, and withdrawals.
+
+The post provides a detailed overview of the design and implementation of the new transfer flow, emphasizing the importance of robust mechanisms for gating new functionalities and ensuring consistency across different front-end platforms. The authors also highlight the lessons learned from the project, including the need for intentionality in maintaining logical implementation consistency and the value of using explicit app version checks to gate functionality.
+
+The post concludes by emphasizing the importance of flexibility and adaptability in software development, particularly in the financial services industry, and encourages readers to join the Wealthfront engineering team to unlock their full potential. Overall, the post provides a detailed technical discussion of the development of a new transfer flow for a mobile app, highlighting the challenges faced and the solutions implemented.

@@ -1,0 +1,10 @@
+
+Redstack is a full-stack cluster delivery service developed by Target Brands, Inc. that allows users to spin up sandbox environments for big data clusters in a matter of hours. The service automates the entire process of building and configuring Hadoop, Elasticsearch, and Druid clusters, making it easier for teams to work with big data technologies.
+
+The journey towards Redstack began with the need for a sandbox environment for big data technologies within Target's data engineering team. The team faced challenges such as provisioning and configuring virtual machines, installing and configuring software, and ensuring consistency across environments. To address these challenges, the team developed a set of Chef recipes that could automatically configure and provision big data clusters.
+
+The next step was to create a product out of this internal tool, which became known as Redstack. The service was designed to be user-friendly and easy to use, with a simple web interface that allows users to request a cluster and track its progress. The service uses a Python application to automate the build process, and it has been successful in providing clusters for over 500 unique requests and at least 30 teams.
+
+Redstack has evolved over time to include multiple types of big data clusters, such as Elasticsearch and Druid, in addition to Hadoop. The service continues to evolve with new releases and versions of the software, and additional ease-of-use features for user management and cluster administration.
+
+In conclusion, Redstack is a full-stack cluster delivery service that simplifies the process of building and configuring big data clusters, allowing teams to work more efficiently with these technologies. The service has been successful within Target's data engineering team and has the potential to benefit other organizations in the industry.

@@ -1,0 +1,45 @@
+{
+  "company": "Kinvolk",
+  "title": "Kinvolk",
+  "xmlUrl": "https://kinvolk.io/blog/index.xml",
+  "htmlUrl": "https://kinvolk.io/blog/",
+  "content": "\n\n\n\n\n\n\nExtending Flatcar: Say 'Goodbye' to torcx and 'Hello' to systemd-sysext | Kinvolk\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSkip to content\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n                  Projects\n                  \n\n\n\n\n\nFlatcar Container Linux \u00c2\u00bb\n\n\n\n\nInspektor Gadget \u00c2\u00bb\n\n\n\n\nNebraska \u00c2\u00bb\n\n\n\n\nHeadlamp \u00c2\u00bb\n\n\n\n\n\n\nEvents\n\n\n\nOpen Source \n\n\n\n\n                  Company\n                  \n\n\n\n\n\nAbout\n\n\n\n\nLabs\n\n\n\n\n\n\n Contact us\n\n\n\n\n\n\n\n\n\n\n\nExtending Flatcar: Say 'Goodbye' to torcx and 'Hello' to systemd-sysext\n\n  By\n  \n  \n  \n  \n    \n    \n      \n        Thilo Fromm\n      \n    \n    \n    \n  \n  \n    \u00c2\u00b7 December 18, 2023\n\n\n\n\n\n\n\nFlatcar is a minimal, immutable, image-based operating system for fully automated, zero-touch container infrastructure. It ships the bare minimum required for running containers at scale - and usually, the answer to questions like \u201chow do I install tool XYZ on Flatcar?\u201d is: \u201crun it in a container\u201d. Sometimes though, \u201ctool XYZ\u201d needs to operate close to the OS itself, and it\u2019s not feasible (or even outright impossible) to run it in a container.\n              Continue reading \u00c2\u00bb\n\n\n  WRITTEN BY\n  \n  \n  \n  \n    \n    \n      \n        Thilo Fromm\n      \n    \n    \n    \n  \n  \n    \u00c2\u00b7 December 18, 2023\n\nTags:\n              \n                #flatcar\n#torcx\n#sysext\n#OS extension\n\n\n\n\n\n\n\nRelated Articles\n\n\n\n\n\n\n\n\n                    Jul 25, 2023\n                \n\nSummer 2023 - My internship experience\n\n\n\n\n\n\n\n\n\n\n                    Sep 13, 2022\n                \n\nFrOSCon 2022 - Summary of an Open-Source week-end with some Flatcar team members\n\n\n\n\n\n\n\n\n\n\n                    May 10, 2022\n                \n\nFlatcar Container Linux Long-Term Support (LTS) channel and advanced features now available to community\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                \n                \n                  Products\n                \n              \n\n\nFlatcar Container Linux \u00c2\u00bb\n\n\nInspektor Gadget \u00c2\u00bb\n\n\nNebraska \u00c2\u00bb\n\n\nHeadlamp \u00c2\u00bb\n\n\n\n\n\nDocumentation\n\n\n\nFlatcar Container Linux\n\n\nInspektor Gadget\n\n\nNebraska\n\n\nHeadlamp\n\n\n\n\n\nEvents\n\n\n\nAll Systems Go!\n\n\nCloud Native Rejekts\n\n\nCNCF Meetup Berlin\n\n\n\n\n\n                \n                \n                  Company\n                \n              \n\n\nAbout\n\n\nCareers\n\n\nOpen Source\n\n\nSecurity\n\n\nlegal\n\n\nImprint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCopyright 2024 Kinvolk GmbH. All Rights Reserved.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "latestPost": {
+    "title": "Extending Flatcar: Say 'Goodbye' to torcx and 'Hello' to systemd-sysext",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://kinvolk.io/blog/index.xml",
+      "value": "Extending Flatcar: Say 'Goodbye' to torcx and 'Hello' to systemd-sysext"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://kinvolk.io/blog/2023/12/extending-flatcar-say-goodbye-to-torcx-and-hello-to-systemd-sysext/"
+      }
+    ],
+    "link": "https://kinvolk.io/blog/2023/12/extending-flatcar-say-goodbye-to-torcx-and-hello-to-systemd-sysext/",
+    "published": "Mon, 18 Dec 2023 10:22:13 +0200",
+    "published_parsed": [
+      2023,
+      12,
+      18,
+      8,
+      22,
+      13,
+      0,
+      352,
+      0
+    ],
+    "id": "https://kinvolk.io/blog/2023/12/extending-flatcar-say-goodbye-to-torcx-and-hello-to-systemd-sysext/",
+    "guidislink": false,
+    "summary": "Flatcar is a minimal, immutable, image-based operating system for fully automated, zero-touch container infrastructure. It ships the bare minimum required for running containers at scale - and usually, the answer to questions like &ldquo;how do I install tool XYZ on Flatcar?&rdquo; is: &ldquo;run it in a container&rdquo;. Sometimes though, &ldquo;tool XYZ&rdquo; needs to operate close to the OS itself, and it&rsquo;s not feasible (or even outright impossible) to run it in a container. (<a href=\"https://kinvolk.io/blog/2023/12/extending-flatcar-say-goodbye-to-torcx-and-hello-to-systemd-sysext/\">Continue reading \u00bb</a>)",
+    "summary_detail": {
+      "type": "application/xhtml+xml",
+      "language": null,
+      "base": "https://kinvolk.io/blog/index.xml",
+      "value": "Flatcar is a minimal, immutable, image-based operating system for fully automated, zero-touch container infrastructure. It ships the bare minimum required for running containers at scale - and usually, the answer to questions like &ldquo;how do I install tool XYZ on Flatcar?&rdquo; is: &ldquo;run it in a container&rdquo;. Sometimes though, &ldquo;tool XYZ&rdquo; needs to operate close to the OS itself, and it&rsquo;s not feasible (or even outright impossible) to run it in a container. (<a href=\"https://kinvolk.io/blog/2023/12/extending-flatcar-say-goodbye-to-torcx-and-hello-to-systemd-sysext/\">Continue reading \u00bb</a>)"
+    }
+  }
+}

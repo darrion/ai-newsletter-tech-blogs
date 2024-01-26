@@ -1,0 +1,73 @@
+{
+  "company": "Upday",
+  "title": "Upday",
+  "xmlUrl": "https://upday.github.io/feed.xml",
+  "htmlUrl": "https://upday.github.io/",
+  "content": "\n\n\n\n\nWe've moved \u2014 upday tech blog - now at medium\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\nJobs\nImprint\nAbout\nCategories\n\n\n\n\n\n\n\n        By Peter Krau\u00df \u2014\n        September 20, 2017\n\nWe've moved\n\n  \n  \n    1 minute read\n  \n\n\n\nWe\u2019ve moved to medium!!!!\nBasically the headline says it - we decided to move our blog over to medium.com.\nFollow us there!!!\n\n\nTweet\n\n\n\n\n\n\nWritten by Peter Krau\u00df\nPeter joined upday at the very beginning. He is mobile dev lead - what basically means, that he is taking care about all the stuff most devs don't wanna think about.\u00a0\n\n\n\n\n\n\n\n    \u00a9 2018\n\n    \nBlog \u00b7\n      Imprint\nAbout\nCategories\n\n\n\n\n\n\n\n\nIncorporated theme by Inc\n\n\n\n\n\n\n\n\n",
+  "latestPost": {
+    "title": "We've moved",
+    "title_detail": {
+      "type": "text/html",
+      "language": "en",
+      "base": "https://upday.github.io/feed.xml",
+      "value": "We've moved"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://upday.github.io/blog/we_are_moved/"
+      }
+    ],
+    "link": "https://upday.github.io/blog/we_are_moved/",
+    "id": "https://upday.github.io/blog/we_are_moved",
+    "guidislink": false,
+    "published": "2017-09-20T08:00:00+00:00",
+    "published_parsed": [
+      2017,
+      9,
+      20,
+      8,
+      0,
+      0,
+      2,
+      263,
+      0
+    ],
+    "updated": "2017-09-20T08:00:00+00:00",
+    "updated_parsed": [
+      2017,
+      9,
+      20,
+      8,
+      0,
+      0,
+      2,
+      263,
+      0
+    ],
+    "authors": [
+      {
+        "name": "Peter Krau\u00df",
+        "href": "https://upday.github.io",
+        "email": "peter.krauss@upday.com"
+      }
+    ],
+    "author_detail": {
+      "name": "Peter Krau\u00df",
+      "href": "https://upday.github.io",
+      "email": "peter.krauss@upday.com"
+    },
+    "href": "https://upday.github.io",
+    "author": "Peter Krau\u00df (peter.krauss@upday.com)",
+    "content": [
+      {
+        "type": "text/html",
+        "language": "en",
+        "base": "https://upday.github.io/feed.xml",
+        "value": "<h3 id=\"weve-moved-to-medium\">We\u2019ve moved to medium!!!!</h3>\n\n<p>Basically the headline says it - we decided to move our blog over to <a href=\"https://medium.com/upday-devs\">medium.com</a>.\nFollow us there!!!</p>\n\n    <p><a href=\"https://upday.github.io/blog/we_are_moved/\">We've moved</a> was originally published by upday dev at <a href=\"https://upday.github.io\">upday tech blog - now at medium</a> on September 20, 2017.</p>"
+      }
+    ],
+    "summary": "<h3 id=\"weve-moved-to-medium\">We\u2019ve moved to medium!!!!</h3>\n\n<p>Basically the headline says it - we decided to move our blog over to <a href=\"https://medium.com/upday-devs\">medium.com</a>.\nFollow us there!!!</p>\n\n    <p><a href=\"https://upday.github.io/blog/we_are_moved/\">We've moved</a> was originally published by upday dev at <a href=\"https://upday.github.io\">upday tech blog - now at medium</a> on September 20, 2017.</p>"
+  }
+}

@@ -1,0 +1,5 @@
+  The text appears to be a job posting for an applied AI research scientist position at Meta. The job description outlines the responsibilities and qualifications for the role, which include developing and implementing new algorithms and techniques in computer vision and machine learning, working with cross-functional teams to integrate research into Meta's products, and contributing to open-source projects in the field of AI research.
+
+The job posting also highlights Meta's commitment to open source technology and provides links to various open-source projects related to AI, data infrastructure, development tools, front-end, languages, platforms, security, virtual reality, and more. Additionally, it mentions the company's engineering team and provides information about available positions and how to learn more about the team's work.
+
+Overall, the text is informative and provides details about a job opportunity in the field of AI research at Meta.

@@ -1,0 +1,66 @@
+{
+  "company": "MemSQL",
+  "title": "MemSQL",
+  "xmlUrl": "http://blog.memsql.com/feed/",
+  "htmlUrl": "http://blog.memsql.com/content/engineering/",
+  "content": "Vector Data Type Support in SingleStore\n\n",
+  "latestPost": {
+    "title": "Vector Data Type Support in SingleStore",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.singlestore.com/blog/feed.xml",
+      "value": "Vector Data Type Support in SingleStore"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.singlestore.com/blog/singlestore-vector-data-type-support"
+      },
+      {
+        "length": "0",
+        "type": "image/png",
+        "href": "https://images.contentstack.io/v3/assets/bltac01ee6daa3a1e14/blt523289d3ff49d12c/65aab0b3cfd284fa37f1ce00/img_blog_BP-EH-VO-Vector-Data-Type-Support-in-SingleStore_new-primary.png",
+        "rel": "enclosure"
+      }
+    ],
+    "link": "https://www.singlestore.com/blog/singlestore-vector-data-type-support",
+    "id": "https://www.singlestore.com/blog/singlestore-vector-data-type-support",
+    "guidislink": false,
+    "published": "Fri, 19 Jan 2024 17:25:21 GMT",
+    "published_parsed": [
+      2024,
+      1,
+      19,
+      17,
+      25,
+      21,
+      4,
+      19,
+      0
+    ],
+    "summary": "Dive into a new vector type with SingleStore 8.5, designed to make building generative AI and RAG-based applications simpler than ever before.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.singlestore.com/blog/feed.xml",
+      "value": "Dive into a new vector type with SingleStore 8.5, designed to make building generative AI and RAG-based applications simpler than ever before."
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "https://www.singlestore.com/blog/feed.xml",
+        "value": "Dive into a new vector type with SingleStore 8.5, designed to make building generative AI and RAG-based applications simpler than ever before.There's been a tremendous surge in interest in vector databases and vector similarity search since ChatGPT was introduced in the fall of 2022. SingleStore is working to make our database the ideal data pla..."
+      }
+    ],
+    "tags": [
+      {
+        "term": "Product",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  }
+}

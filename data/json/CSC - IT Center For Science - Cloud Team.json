@@ -1,0 +1,100 @@
+{
+  "company": "CSC - IT Center For Science - Cloud Team",
+  "title": "CSC - IT Center For Science - Cloud Team",
+  "xmlUrl": "https://cloud.blog.csc.fi/feeds/posts/default",
+  "htmlUrl": "https://cloud.blog.csc.fi/",
+  "content": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCloud blog from CSCfi: Docker Hub pull rate limits hit Rahti\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "latestPost": {
+    "id": "tag:blogger.com,1999:blog-7868115878795534619.post-2057642436871017198",
+    "guidislink": true,
+    "link": "https://cloud.blog.csc.fi/2021/03/docker-hub-pull-rate-limits-hit-rahti.html",
+    "published": "2021-03-04T00:59:00.000-08:00",
+    "published_parsed": [
+      2021,
+      3,
+      4,
+      8,
+      59,
+      0,
+      3,
+      63,
+      0
+    ],
+    "updated": "2021-03-04T00:59:41.816-08:00",
+    "updated_parsed": [
+      2021,
+      3,
+      4,
+      8,
+      59,
+      41,
+      3,
+      63,
+      0
+    ],
+    "title": "Docker Hub pull rate limits hit Rahti",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://cloud.blog.csc.fi/feeds/posts/default",
+      "value": "Docker Hub pull rate limits hit Rahti"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "https://cloud.blog.csc.fi/feeds/posts/default",
+        "value": "November 2020 was an eventful month for Rahti. Our backend storage had incident that affected our production clusters image repository for many weeks. That event is well described in <a href=\"https://cloud.blog.csc.fi/2020/12/allas-november-2020-incident-details.html\">Allas downtime November 2020 - technical deep-dive</a>.<br /><br />Just before our storage incident, 2nd of November, Docker applied<i> \"rate limiting for Docker container pulls for some users\"</i>. When we tried to prepare for this in advance, it was very hard to figure out what the exact effect would be for Rahti. It took longer to resolve than we anticipated.<br /><h2 style=\"text-align: left;\">Limits began</h2>We were relieved that the first day after pull rates were enforced was peaceful. Rahti was still up and running as it should. Users didn't complain about failing deployment in large amounts. Admins survived another upstream change.<br /><br />Eventually we received few tickets on failing builds. Our first approach was to instruct people to change their images away from Docker Hub to alternative repositories which do not have rate limiting enabled. Some users were able to migrate their images but this was not feasible solution for everyone. Still, it was a good opportunity to remind users to check what images they use.<br /><br />The error looks like this:<br /><br /><span style=\"font-family: courier;\">Pulling image \"docker.io/centos/python-38-centos7@sha256:da83741689a8d7fe1548fefe7e001c45bcc56a08bc03fd3b29a5636163ca0353\" ...<br />pulling image error : toomanyrequests: You have reached your pull rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit</span><br /><h2 style=\"text-align: left;\">Cumulative issues cause exponential grief</h2>We gave our users instructions how to move their dependencies from public Docker Hub to Rahti image registry, <a href=\"https://docs.csc.fi/cloud/rahti/tutorials/docker_hub_manual_caching/\">How to manually cache images in Rahti's registry</a>. This was harder in practice, as we did have issues with our own registry due to our storage incident. There were days when users suffered from both Docker Hub and Rahti internal registry availability. Those days were hard for our Rahti admins, who struggled to meet customer expectations of highly available services.<br /><br />After our storage incident was resolved, using images from internal registry was again feasible and reliable alternative to public Docker registry.<br /><h2 style=\"text-align: left;\">Project-specific credentials</h2>Another approach we tried was to use project-specific credentials. We wrote a guide on it; <a href=\"https://docs.csc.fi/cloud/rahti/tutorials/docker_hub_login/\">How to add docker hub credentials to a project</a>.<br /><br />This method got mixed results. Some users were able to pull images and others complained they still got `toomanyrequests` errors. We never got the instructions fully working for all users (is this even possible in complex systems?). There are still some unknown image magic in OpenShift builds we haven't found yet. In any case, we now have instructions how to apply custom image credentials if users want to pull images from private repositories.<br /><h2 style=\"text-align: left;\">Should we buy Docker subscription?</h2>The root of this pull rate limiting issue is Docker used to provide free services for many many years and their usage has probably increased a lot over the years. We understand they must had pressure to change their free model and guide their users towards paid subscriptions.<br /><br />We did contact Docker sales to pursue better understanding of our choices. Thanks to their helpful salesperson, we got alternatives. We could either buy `Team` or `Large` subscription.<br /><br />Large subscription price was so high we would have to ask budget for it, so we decided to do some testing with Team subscription.<br /><h2 style=\"text-align: left;\">OpenShift cluster configuration</h2>Cluster-wide credentials/tokens can be applied during installation by setting variable `openshift_additional_registry_credentials`. We used this same approach to apply changes to our existing development clusters and verified they worked.<br /><h2 style=\"text-align: left;\">Rolling out changes</h2>Shared default credentials were tested in our development environment for a while until we were confident enough that they were stable and reliable. In February 2021 they were rolled out to production environments and you Rahti users can finally pull container images from Docker Hub without limits.<br /><h2 style=\"text-align: left;\">Afterthoughts</h2>These Docker Hub issues were hard to solve. Now that the core components of container cluster is stable again, we can look forward to develop our platform further.<br /><br />I believe the changes Docker made to their service policies mark some kind of change in container maturity. They sent a signal that it's no longer okay to use public images without limits. This may not change the behavior of small actors but having a limit forces larger operators to think their image usage. All users who use container images in \"production\" should review what containers they use.<br /><br />We hope Rahti users will be able to leverage our platform to enable their vision and solve their selected problems. For that we need the ability to pull images without daily limits. Rahti could also be the first container platform for students who use our services. We feel it's our duty to make that introduction to containers as smooth as possible. We hope you appreciate our efforts. Now go and use Rahti and create something amazing.<br /><br />"
+      }
+    ],
+    "summary": "November 2020 was an eventful month for Rahti. Our backend storage had incident that affected our production clusters image repository for many weeks. That event is well described in <a href=\"https://cloud.blog.csc.fi/2020/12/allas-november-2020-incident-details.html\">Allas downtime November 2020 - technical deep-dive</a>.<br /><br />Just before our storage incident, 2nd of November, Docker applied<i> \"rate limiting for Docker container pulls for some users\"</i>. When we tried to prepare for this in advance, it was very hard to figure out what the exact effect would be for Rahti. It took longer to resolve than we anticipated.<br /><h2 style=\"text-align: left;\">Limits began</h2>We were relieved that the first day after pull rates were enforced was peaceful. Rahti was still up and running as it should. Users didn't complain about failing deployment in large amounts. Admins survived another upstream change.<br /><br />Eventually we received few tickets on failing builds. Our first approach was to instruct people to change their images away from Docker Hub to alternative repositories which do not have rate limiting enabled. Some users were able to migrate their images but this was not feasible solution for everyone. Still, it was a good opportunity to remind users to check what images they use.<br /><br />The error looks like this:<br /><br /><span style=\"font-family: courier;\">Pulling image \"docker.io/centos/python-38-centos7@sha256:da83741689a8d7fe1548fefe7e001c45bcc56a08bc03fd3b29a5636163ca0353\" ...<br />pulling image error : toomanyrequests: You have reached your pull rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit</span><br /><h2 style=\"text-align: left;\">Cumulative issues cause exponential grief</h2>We gave our users instructions how to move their dependencies from public Docker Hub to Rahti image registry, <a href=\"https://docs.csc.fi/cloud/rahti/tutorials/docker_hub_manual_caching/\">How to manually cache images in Rahti's registry</a>. This was harder in practice, as we did have issues with our own registry due to our storage incident. There were days when users suffered from both Docker Hub and Rahti internal registry availability. Those days were hard for our Rahti admins, who struggled to meet customer expectations of highly available services.<br /><br />After our storage incident was resolved, using images from internal registry was again feasible and reliable alternative to public Docker registry.<br /><h2 style=\"text-align: left;\">Project-specific credentials</h2>Another approach we tried was to use project-specific credentials. We wrote a guide on it; <a href=\"https://docs.csc.fi/cloud/rahti/tutorials/docker_hub_login/\">How to add docker hub credentials to a project</a>.<br /><br />This method got mixed results. Some users were able to pull images and others complained they still got `toomanyrequests` errors. We never got the instructions fully working for all users (is this even possible in complex systems?). There are still some unknown image magic in OpenShift builds we haven't found yet. In any case, we now have instructions how to apply custom image credentials if users want to pull images from private repositories.<br /><h2 style=\"text-align: left;\">Should we buy Docker subscription?</h2>The root of this pull rate limiting issue is Docker used to provide free services for many many years and their usage has probably increased a lot over the years. We understand they must had pressure to change their free model and guide their users towards paid subscriptions.<br /><br />We did contact Docker sales to pursue better understanding of our choices. Thanks to their helpful salesperson, we got alternatives. We could either buy `Team` or `Large` subscription.<br /><br />Large subscription price was so high we would have to ask budget for it, so we decided to do some testing with Team subscription.<br /><h2 style=\"text-align: left;\">OpenShift cluster configuration</h2>Cluster-wide credentials/tokens can be applied during installation by setting variable `openshift_additional_registry_credentials`. We used this same approach to apply changes to our existing development clusters and verified they worked.<br /><h2 style=\"text-align: left;\">Rolling out changes</h2>Shared default credentials were tested in our development environment for a while until we were confident enough that they were stable and reliable. In February 2021 they were rolled out to production environments and you Rahti users can finally pull container images from Docker Hub without limits.<br /><h2 style=\"text-align: left;\">Afterthoughts</h2>These Docker Hub issues were hard to solve. Now that the core components of container cluster is stable again, we can look forward to develop our platform further.<br /><br />I believe the changes Docker made to their service policies mark some kind of change in container maturity. They sent a signal that it's no longer okay to use public images without limits. This may not change the behavior of small actors but having a limit forces larger operators to think their image usage. All users who use container images in \"production\" should review what containers they use.<br /><br />We hope Rahti users will be able to leverage our platform to enable their vision and solve their selected problems. For that we need the ability to pull images without daily limits. Rahti could also be the first container platform for students who use our services. We feel it's our duty to make that introduction to containers as smooth as possible. We hope you appreciate our efforts. Now go and use Rahti and create something amazing.<br /><br />",
+    "links": [
+      {
+        "rel": "replies",
+        "type": "application/atom+xml",
+        "href": "https://cloud.blog.csc.fi/feeds/2057642436871017198/comments/default",
+        "title": "Post Comments"
+      },
+      {
+        "rel": "replies",
+        "type": "text/html",
+        "href": "https://cloud.blog.csc.fi/2021/03/docker-hub-pull-rate-limits-hit-rahti.html#comment-form",
+        "title": "0 Comments"
+      },
+      {
+        "rel": "edit",
+        "type": "application/atom+xml",
+        "href": "https://www.blogger.com/feeds/7868115878795534619/posts/default/2057642436871017198"
+      },
+      {
+        "rel": "self",
+        "type": "application/atom+xml",
+        "href": "https://www.blogger.com/feeds/7868115878795534619/posts/default/2057642436871017198"
+      },
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://cloud.blog.csc.fi/2021/03/docker-hub-pull-rate-limits-hit-rahti.html",
+        "title": "Docker Hub pull rate limits hit Rahti"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Unknown",
+        "email": "noreply@blogger.com"
+      }
+    ],
+    "author_detail": {
+      "name": "Unknown",
+      "email": "noreply@blogger.com"
+    },
+    "author": "Unknown (noreply@blogger.com)",
+    "gd_image": {
+      "rel": "http://schemas.google.com/g/2005#thumbnail",
+      "width": "16",
+      "height": "16",
+      "src": "https://img1.blogblog.com/img/b16-rounded.gif"
+    },
+    "thr_total": "0"
+  }
+}

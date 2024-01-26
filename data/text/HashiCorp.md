@@ -1,0 +1,9 @@
+As a developer, I know how important it is to keep my code secure and up-to-date. That's why I'm excited to hear about HashiCorp Vault Radar, a new tool that helps organizations proactively detect unmanaged or leaked secrets.
+
+With Vault Radar, we can now scan for secrets in various code repositories and data sources, so we can take appropriate actions to remediate exposed secrets before they become a problem. This is especially important for DevOps and Security teams who want to ensure that their applications and systems are secure and protected against potential threats.
+
+One of the things I'm most excited about is the ability to integrate Vault Radar with HashiCorp Vault, our secrets management solution. This integration enables us to scan supported data sources for the presence of leaked secrets currently in Vault that are actively being used. By cross-referencing the secrets in Vault Enterprise and Vault Community, Vault Radar will give the secrets it discovers an enhanced risk rating to prioritize which ones may need immediate attention.
+
+Another feature I'm looking forward to is the support for role-based access controls (RBAC) and attribute-based access controls (ABAC). These features allow us to grant access by roles or by specific characteristics, such as departments or business units, security levels, geography, responsibilities, and more. This helps us create a repeatable process of assigning permissions, audit privileges, and make necessary changes, while reducing the potential for human error when assigning permissions.
+
+Overall, I think Vault Radar is a fantastic addition to HashiCorp's suite of security tools. It demonstrates our commitment to helping organizations protect their applications and systems from potential threats. As a developer, I appreciate the peace of mind that comes with knowing my code is secure and up-to-date.

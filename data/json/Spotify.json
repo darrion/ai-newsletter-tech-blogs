@@ -1,0 +1,71 @@
+{
+  "company": "Spotify",
+  "title": "Spotify",
+  "xmlUrl": "https://labs.spotify.com/feed/",
+  "htmlUrl": "https://labs.spotify.com/",
+  "content": "\n\n\n\nQ&A with the Maintainers of the Spotify FOSS Fund - Spotify Engineering : Spotify Engineering\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\nPodcasts\nOpen Source\nAbout\nJobs\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n            Q&A with the Maintainers of the Spotify FOSS Fund        \n\n\n\nJanuary 4, 2024\n\r\n                    Published by Dave Zolotusky, Principal Engineer                \n\n\n\n\n\n\n \n\n\n\nTL;DR Let\u2019s cap the year by putting a spotlight on some of the valuable work people outside of Spotify are doing. Late last year, we announced the recipients of the 2023 Spotify FOSS Fund. And just as we did in 2022, we wanted to learn more about what kind of impact direct monetary contributions might have on keeping these independent projects going. So we asked the maintainers of Jdbi, AssertJ, and Testcontainers to share their thoughts.\nHere\u2019s what they had to say about their projects, what kind of impact the funds might have on them, and other ways we can all help build a more sustainable open source community. (Note: some responses have been edited for length and clarity.)\nHenning Schmiedehausen, Jdbi\nAlong with helping to maintain Jdbi, Henning (@hgschmie) is chief architect at AppFolio, living and working in Los Altos, California.\n\u201cFOSS funds may often be the only way to keep people working on the projects, especially if the project is not (or no longer) part of their day jobs.\u201d\nWhat is the vision for the project?\u00a0\nJdbi is a utility library and, as such, we want to support our users to get their work done with minimal fuss and friction. We aim to support their needs. Jdbi is a passion project for us that was created out of our own frustration with the limited API that it builds upon.\nHow will these funds go toward supporting the future of the project?\nAs a distributed team with committers and contributors spread out, we will most likely use the money to support in-person meetings and pay for things like CI credits or software licenses if the need arises. We are a small team and all of us are gainfully employed, so there is no need to use the money to support any of the developers directly.\nWhat kind of impact do you think FOSS funds have on the open source ecosystem in general?\nThis is a surprisingly tricky question. Generally, I think that FOSS funds are a good thing for the open source ecosystem, especially for projects that are no longer part of the \u201cthis is new and interesting\u201d hype cycle. For a new project, money can be an accelerant but is often not needed. However for projects that are not as much in the spotlight or further along in their lifecycle (and Jdbi is clearly one of those, having been around since 2005 and written in a programming language that is the very definition of \u201cmature\u201d), the world is different.\u00a0\nA lot of the \u201cold\u201d (five or more years old) open source software is maintained purely by unpaid volunteers. These projects often have only a few continuous contributors that have remained from a larger group that started a project or brought it to maturity. These projects are often considered \u201cdone\u201d and in maintenance mode but widely used and considered \u201cgold standard\u201d in some ecosystems. For those projects, FOSS funds may often be the only way to keep people working on the projects, especially if the project is not (or no longer) part of their day jobs.\u00a0\n\u00a0Is any amount welcome?\u00a0\nYes, any amount is welcome. Not everyone can write a large check, which is why the \u201cbuy me a coffee\u201d contributions that allow people to acknowledge the value of a project with small contributions are great.\nWhat are other ways you think the community and/or companies can better support open source?\nAny great project needs three ingredients: time, resources, and code. Any community member that contributes code, reports a bug, writes documentation, or just reviews the list of open bugs for things that they can work on provides a meaningful contribution to a project.\u00a0\nCompanies that use open source projects can contribute in the way the FOSS fund does: provide resources to projects that will benefit from it. It also decouples the goals of an organization for a project from its funding (in the past, \u201ccorporate takeover\u201d of open source projects have often led to suboptimal outcomes, challenges in the community, and general unhappiness of a project).\u00a0\nTime and code are often the most valuable contributions. Allowing employees to contribute to open source projects and acknowledging this as part of their work creates strong community ties that make projects more viable and vibrant.\nJoel Costigliola, AssertJ\u00a0\nJoel (@joel-costigliola) is creator of the AssertJ project, living and working in Auckland.\n\u201cOur biggest challenge at the moment is the lack of time to spend on the project\u2026 We could use the money to get some compensated time out of our respective jobs to focus on AssertJ.\u201d\nWhat is the vision for the project?\u00a0\nThe main goal of AssertJ is to provide a rich assertion library that is easy to use, but also to listen and take feedback from our community of users and to make the experience of contributors a pleasant one.\nHow will these funds go toward supporting the future of the project?\nThat is a big question we did not really have the time to think about because we are not used to getting any funding. Our biggest challenge at the moment is the lack of time to spend on the project. Stefano Cordio and I are pretty busy these days. We could use the money to get some compensated time out of our respective jobs to focus on AssertJ or organize a hackathon or something like that.\nWhat kind of impact do you think FOSS funds have on the open source ecosystem in general?\nWe think it is great for projects that require resources they have to pay for (servers, website hosting, etc.) or to provide free training.\nIn addition to the money, does exposure from the fund provide value, as well?\u00a0\nExposure helps for sure (who doesn\u2019t want to be recognized?). But for AssertJ, that was never the goal, the goal was to be helpful.\nWhat are other ways you think the community and/or companies can better support open source?\nContribute to it! Documentation improvements, bug fixes, or maybe provide a bit of expertise in areas projects often need \u2014 for example, helping to create a good project website (it might come as a shock, but we suck at CSS stuff, so having access to a web designer would be great).\nSergei Egorov, Testcontainers\u00a0\nSergei (@bsideup) is co-founder of AtomicJar and Testcontainers, living and working in NYC. Testcontainers was also a recipient of last year\u2019s Spotify FOSS Fund.\n\u201c[N]othing helps growing an OSS community more than respected organizations talking about their favorite technologies.\u201d\nAny big changes to the project vision in the last ~15 months?\nTestcontainers is rapidly growing beyond just Java. This month alone [October 2023], we had two additions to the family: Testcontainers for Elixir and Testcontainers for C. This is exciting, as we believe that Testcontainers goes beyond just the concrete implementation and unites like-minded developers who enjoy having 100% control of testing! And, while Testcontainers OSS libraries give everything you need to get going, our free Testcontainers Desktop application helps getting going even faster and makes starting with Testcontainers even easier for these new members of the Testcontainers community.\nHow will this year\u2019s funds be used? Does the amount received compared to last year change anything?\nWe wanted to organize a Testcontainers OSS Summit where maintainers of different Testcontainers implementations could get together and discuss a joint roadmap, as nothing helps move the needle forward more than a bit of in person time. There were some internal concerns about the budget of such an event and how many non-core members we could invite to it, and your kind contribution will make it much more inclusive and productive!\nAny changes in your views to FOSS funds and their impact \u2014 whether it\u2019s financial impact or the impact of publicity/endorsements?\nI don\u2019t think any OSS project starts with a goal of earning money (or at least they shouldn\u2019t :)), but getting recognition and endorsement is the highest impact a project can get! Because nothing helps growing an OSS community more than respected organizations talking about their favorite technologies and endorsing them. Spotify has a long history of endorsing Testcontainers and we, as a community, are forever grateful, because it helped us grow faster and attract more contributors. And, if more companies follow your lead, it can be a new era of OSS sustainability that is not professional services, SaaS on top of OSS, or forced relicensing. I don\u2019t think there is a direct connection between creating exceptional open source projects and building businesses, but the lack of sustainability forces this thinking. Imagine if Tesla or Einstein were forced to get an MBA before they could work on their inventions? Would we still be as advanced as an industry?\nAny new thoughts or examples on the best way the community and/or companies can better support open source?\nI wish we could standardize some sort of advisory groups in OSS, where big users of open source projects would dedicate a developer (or a group) to represent them, their usage (maybe under an NDA so that they will feel safe sharing some code snippets), and their challenges \u2014\u00a0and work with maintainers on a bi-directional feedback, essentially shaping the roadmap and leading to amazing new feedback-led features. An hour a month can make a huge difference!\n\r\n\r\n        Tags: engineering leadership\n\n\nShare this:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nShare\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecommended\n\n\n\n \n\nAnnouncing the Recipients of the 2023 Spotify FOSS Fund\n\n\n\n\n\n\n \n\nSay Hello to the Recipients of the 2022 Spotify FOSS Fund\n\n\n\n\n\n\n \n\nAnnouncing the Spotify FOSS Fund\n\n\n\n\n\nSign up for updates\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n@SpotifyEng on Twitter\n Tweets by SpotifyEng \n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSign up for engineering updates\nBy clicking sign up you\u2019ll receive occasional emails from Spotify. You always have the choice to\n                    adjust your interest settings or unsubscribe.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpotify Jobs\n\n\nSpotify.com\n\n\nNewsroom\n\n\n\n\nSpotify R&D\r\n                            Research\n\n\nSpotify R&D Design\n\n\n\n\nLegal\nPrivacy\n\n\n\nCookies\n\nAbout Ads\n\n\u00a9 2024 Spotify AB\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "latestPost": {
+    "title": "Q&A with the Maintainers of the Spotify FOSS Fund",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://engineering.atspotify.com/feed/",
+      "value": "Q&A with the Maintainers of the Spotify FOSS Fund"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://engineering.atspotify.com/2024/01/qa-with-the-maintainers-of-the-spotify-foss-fund/"
+      }
+    ],
+    "link": "https://engineering.atspotify.com/2024/01/qa-with-the-maintainers-of-the-spotify-foss-fund/",
+    "authors": [
+      {
+        "name": "alexandrawei"
+      }
+    ],
+    "author": "alexandrawei",
+    "author_detail": {
+      "name": "alexandrawei"
+    },
+    "published": "Thu, 04 Jan 2024 15:16:52 +0000",
+    "published_parsed": [
+      2024,
+      1,
+      4,
+      15,
+      16,
+      52,
+      3,
+      4,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Open Source",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "People",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "engineering leadership",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://engineering.atspotify.com/?p=6812",
+    "guidislink": false,
+    "summary": "<p>TL;DR Let\u2019s cap the year by putting a spotlight on some of the valuable work people outside of Spotify are [...]</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2024/01/qa-with-the-maintainers-of-the-spotify-foss-fund/\">Q&amp;A with the Maintainers of the Spotify FOSS Fund</a> appeared first on <a href=\"https://engineering.atspotify.com\">Spotify Engineering</a>.</p>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://engineering.atspotify.com/feed/",
+      "value": "<p>TL;DR Let\u2019s cap the year by putting a spotlight on some of the valuable work people outside of Spotify are [...]</p>\n<p>The post <a href=\"https://engineering.atspotify.com/2024/01/qa-with-the-maintainers-of-the-spotify-foss-fund/\">Q&amp;A with the Maintainers of the Spotify FOSS Fund</a> appeared first on <a href=\"https://engineering.atspotify.com\">Spotify Engineering</a>.</p>"
+    }
+  }
+}

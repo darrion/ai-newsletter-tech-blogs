@@ -1,0 +1,94 @@
+{
+  "company": "RapidAPI",
+  "title": "RapidAPI",
+  "xmlUrl": "https://blog.rapidapi.com/feed/",
+  "htmlUrl": "http://blog.rapidapi.com/",
+  "content": " Enhanced Functionality and Improved User Experience with the Rapid API Enterprise Hub November 2023 Release - Rapid Blog                           Skip to primary navigation Skip to main content Skip to primary sidebar Skip to footerRapid BlogEnterpriseAPI HubAdd Your APIAboutDocsAPI GlossaryBlogWhat is an API?REST API TutorialsMost Popular APIsSign UpLog InBlog \u00bb APIs \u00bb Enhanced Functionality and Improved User Experience with the Rapid API Enterprise Hub November 2023 ReleaseEnhanced Functionality and Improved User Experience with the Rapid API Enterprise Hub November 2023 ReleaseBy James De Luca // December 4, 2023Rapid API is committed to providing its users with the best possible experience, and the November 2023 release of the Enterprise Hub is a testament to this commitment. This release introduces new and improved features to enhance functionality, streamline user workflows, and provide deeper insights into API usage and performance. For more information, go to the November 2023 Release Notes.Enhanced Dashboard for Improved Overview and GovernanceOur Product Team has revamped the Admin Panel\u2019s Dashboard to provide a more comprehensive and actionable overview of the APIs and users within your Hub. This enhanced Dashboard includes:Governance Section with Improved User and API Management:\u00a0The Governance section now features a dedicated Users widget with a direct link to the Users tab for easy user management. Additionally, a new Subscribers widget provides an overview of team and user subscriptions to all Hub APIs, making tracking subscription trends more straightforward.API Providers Widget for Enhanced API Visibility:\u00a0The new API Providers widget displays the total number of teams and users that have added at least one API to the Hub, offering valuable insights into API adoption and popularity.Admins Widget for Streamlined Environment Management:\u00a0The Admins widget keeps track of the number of Environment Admins in your Hub, ensuring that environment management responsibilities are clearly defined and efficiently handled.Billing Section for Monetization Management:\u00a0Our Product Team has introduced a new Billing section for users who monetize APIs through Stripe. This section provides key metrics such as gross volume, net volume, and successful payments, enabling you to track revenue generated from API usage.Enhanced Insights into API Usage and PerformanceThe November 2023 release also introduces significant enhancements to the APIs section, providing deeper insights into API usage and performance:Clickable Widgets for API Exploration:\u00a0The Total API Traffic, Total Errors, Highest Traffic APIs, Most Popular APIs, Highest Error APIs, and Most Active Consumers widgets are now clickable, allowing you to delve into the details of each metric.Improved Filtering Capabilities: Our Product Team has enhanced filtering options in the Analytics and Usage tab to enable you to focus on specific API consumers, API versions, HTTP methods, HTTP response codes, and geographic locations.Enhanced Analytics and Usage Tab:\u00a0Our Product Team has revamped the tab to provide a more granular view of API usage. You can filter the API usage graph based on the above criteria and view a row of tiles summarizing key API usage metrics.Detailed Logs for Individual HTTP Requests:\u00a0For in-depth analysis of individual API calls, detailed logs are now available at the bottom of the Analytics and Usage tab. These logs provide information such as time, API consumer, HTTP endpoint, API version, HTTP method, HTTP response code, location, and latency.Improved User Experience for Approvals and ExtensionsThe November 2023 release also includes enhancements that streamline user workflows and improve the overall user experience:Approvals Center with Open Approvals Indicator:\u00a0The Approvals Center now clearly indicates the number of open approvals relevant to you, ensuring you get all critical approvals related to environment administration, organization administration, API ownership, or app management.Consistent Extensions User Experience:\u00a0Our Product Team has updated the Admin Panel\u2019s Extensions user experience to align with the uniform design patterns used in other tabs, making it more intuitive and user-friendly.The November 2023 release of the Rapid API Enterprise Hub marks a significant step forward in functionality, usability, and overall user experience. The new and improved features introduced in this release empower users to manage their APIs better, gain deeper insights into API usage, and streamline their workflows, making Rapid API an even more powerful and valuable tool for API management.We encourage you to explore the new features and enhancements in the Rapid API Enterprise Hub November 2023 release and experience the improved functionality and user experience firsthand.We hope you enjoy these new and improved features in the Enterprise Hub. As always, if you have any issues or bugs, you can report them to us on our support page here. Thank you for your continued support and feedback! Rate this post\u00ab The Power of Supporting Multiple API Gateways in an API Marketplace PlatformFiled Under: API Management, APIs, Enterprise Tagged With: api governance, api management, dashboard, RapidAPIJames De LucaJames De Luca is a Director of Enterprise Sales Engineering and an esteemed subject matter expert in APIs with over 20 years of experience. He has provided cutting-edge API solutions to numerous Fortune 500 companies, empowering them to thrive in the digital landscape. As a thought leader, he shares his insights through articles, conferences, and webinars, shaping the future of API strategies and inspiring professionals worldwide.Search this websiteReader InteractionsLeave a Reply Your email address will not be published. Required fields are marked *CommentName * Email *   \u0394Primary SidebarBuild anything with APIs, faster. Discover, evaluate, and integrate with any API. RapidAPI is the world\u2019s largest API Hub with over 4 Million\ndevelopers and 35,000 APIs. Browse APIs \u00bbFooterAPI GuidesAPI CoursesAPI GlossaryAPI TestingAPI ManagementMost Popular APIsFree APIs ListHow to use an APILearn REST APIBuild API\u2019sAboutBuild APIsCareersContact UsWrite for UsAPI DirectoryPress RoomPrivacy PolicyTerms of Use\u00a9\u00a02024 RapidAPI. All rights reserved.Building an Enterprise API Program Learn More                                ",
+  "latestPost": {
+    "title": "Enhanced Functionality and Improved User Experience with the Rapid API Enterprise Hub November 2023 Release",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://rapidapi.com/blog/feed/",
+      "value": "Enhanced Functionality and Improved User Experience with the Rapid API Enterprise Hub November 2023 Release"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://rapidapi.com/blog/enhanced-functionality-and-improved-user-experience-with-the-rapid-api-enterprise-hub-november-2023-release/"
+      }
+    ],
+    "link": "https://rapidapi.com/blog/enhanced-functionality-and-improved-user-experience-with-the-rapid-api-enterprise-hub-november-2023-release/",
+    "comments": "https://rapidapi.com/blog/enhanced-functionality-and-improved-user-experience-with-the-rapid-api-enterprise-hub-november-2023-release/#respond",
+    "authors": [
+      {
+        "name": "James De Luca"
+      }
+    ],
+    "author": "James De Luca",
+    "author_detail": {
+      "name": "James De Luca"
+    },
+    "published": "Fri, 01 Dec 2023 20:25:58 +0000",
+    "published_parsed": [
+      2023,
+      12,
+      1,
+      20,
+      25,
+      58,
+      4,
+      335,
+      0
+    ],
+    "tags": [
+      {
+        "term": "API Management",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "APIs",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Enterprise",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "api governance",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "api management",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "dashboard",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "RapidAPI",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://rapidapi.com/blog/?p=8680",
+    "guidislink": false,
+    "summary": "<p><img alt=\"Enhanced Functionality and Improved User Experience with the Rapid API Enterprise Hub November 2023 Release\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"687\" src=\"https://rapidapi.com/blog/wp-content/uploads/2023/12/Screenshot-2023-12-01-at-3.09.19\u202fPM.png\" width=\"1236\" /></p>\n<p>Rapid API is committed to providing its users with the best possible experience, and the November 2023 release of the Enterprise Hub is a testament to this commitment. This release introduces new and improved features to enhance functionality, streamline user workflows, and provide deeper insights into API usage and performance. For more information, go to [&#8230;]</p>\n<p>The post <a href=\"https://rapidapi.com/blog/enhanced-functionality-and-improved-user-experience-with-the-rapid-api-enterprise-hub-november-2023-release/\" rel=\"nofollow\">Enhanced Functionality and Improved User Experience with the Rapid API Enterprise Hub November 2023 Release</a> appeared first on <a href=\"https://rapidapi.com/blog\" rel=\"nofollow\">Rapid Blog</a>.</p>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://rapidapi.com/blog/feed/",
+      "value": "<p><img alt=\"Enhanced Functionality and Improved User Experience with the Rapid API Enterprise Hub November 2023 Release\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"687\" src=\"https://rapidapi.com/blog/wp-content/uploads/2023/12/Screenshot-2023-12-01-at-3.09.19\u202fPM.png\" width=\"1236\" /></p>\n<p>Rapid API is committed to providing its users with the best possible experience, and the November 2023 release of the Enterprise Hub is a testament to this commitment. This release introduces new and improved features to enhance functionality, streamline user workflows, and provide deeper insights into API usage and performance. For more information, go to [&#8230;]</p>\n<p>The post <a href=\"https://rapidapi.com/blog/enhanced-functionality-and-improved-user-experience-with-the-rapid-api-enterprise-hub-november-2023-release/\" rel=\"nofollow\">Enhanced Functionality and Improved User Experience with the Rapid API Enterprise Hub November 2023 Release</a> appeared first on <a href=\"https://rapidapi.com/blog\" rel=\"nofollow\">Rapid Blog</a>.</p>"
+    },
+    "wfw_commentrss": "https://rapidapi.com/blog/enhanced-functionality-and-improved-user-experience-with-the-rapid-api-enterprise-hub-november-2023-release/feed/",
+    "slash_comments": "0"
+  }
+}

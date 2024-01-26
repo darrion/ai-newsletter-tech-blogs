@@ -1,0 +1,145 @@
+{
+  "company": "Nvidia",
+  "title": "Nvidia",
+  "xmlUrl": "https://blogs.nvidia.com/feed/",
+  "htmlUrl": "https://blogs.nvidia.com/",
+  "content": "\n\n\n\n\n\n\n\n\n\n\n\n\nStartup Mines Clean Energy\u2019s Prospects With Digital Twins | NVIDIA Blog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nSkip to content\n\n\n\n\n\n\n                                                Artificial Intelligence Computing Leadership from NVIDIA                                                \n\n\n\n\n\n\n\n\n\n\n\nSearch for:\n\n\n\n\n\n \n\n\n\n\nToggle Search\n\n\n\n\n \n\n\n\n\n\n \n\n\n\n\n\n\nSearch for:\n\n\n\n\n \n\n\n\n\n\n \n\n\n \n \n\n \n \n\n \n \n\n \n \n\n\n \n \n\n \n \n\n \n \n\n \n \n\n\n \n \n\n\n\n\n\n\n\nPrivacy Policy\n\n\nManage My Privacy\n\n\nLegal\n\n\nAccessibility\n\n\nProduct Security\n\n\nContact\n\n\n\n\t\t\tCopyright \u00a9 2024 NVIDIA Corporation \t\t\n\n\n\n\n\n\n\n\n\nHome\nAI\nData Center\nDriving\nGaming\nPro Graphics\nRobotics\nHealthcare\nStartups\nAI Podcast\nNVIDIA Life\n \n\n \n\n\n\n\n\n\n\n\nBuried Treasure: Startup Mines Clean Energy\u2019s Prospects With Digital Twins\n\n\n\t\t\t\tGreen Gravity uses NVIDIA Omniverse to carve out its vision of storing renewable energy.\t\t\t\n\n\nJanuary 18, 2024 by Rick Merritt \n\n\n\n\n\n\n\t\t\t\t    Your browser doesn't support HTML5 video. Here is a link to the video instead.\n\t\t\t\t\n\n\n\n\n\n\n\n\t\t\t\t\tShare\t\t\t\n\n\n \n \n \n \nEmail0 \n\n\n  Mark Swinnerton aims to fight climate change by transforming abandoned mines into storage tanks of renewable energy.\nThe CEO of startup Green Gravity is prototyping his ambitious vision in a warehouse 60 miles south of Sydney, Australia, and simulating it in NVIDIA Omniverse, a platform for building 3D workflows and applications.\nThe concept requires some heavy lifting. Solar and wind energy will pull steel blocks weighing as much as 30 cars each up shafts taller than a New York skyscraper, storing potential energy that can turn turbines whenever needed.\nA Distributed Energy Network\nSwinnerton believes it\u2019s the optimal way to save renewable energy because nearly a million abandoned mine shafts are scattered around the globe, many of them already connected to the grid. And his mechanical system is cheaper and greener than alternatives like massive lithium batteries better suited for electric vehicles.\n\n\n\n\nMark Swinnerton\nOfficials in Australia, India and the U.S. are interested in the concept, and a state-owned mine operator in Romania is conducting a joint study with Green Gravity.\n\u201cWe have a tremendous opportunity for repurposing a million mines,\u201d said Swinnerton, who switched gears after a 20-year career at BHP Group, one of the world\u2019s largest mining companies, determined to combat climate change.\nA Digital-First Design\nA longtime acquaintance saw an opportunity to accelerate Swinnerton\u2019s efforts with a digital twin.\n\u201cI was fascinated by the Green Gravity idea and suggested taking a digital-first approach, using data as a differentiator,\u201d said Daniel Keys, an IT expert and executive at xAmplify, a provider of accelerated computing services.\nAI-powered simulations could speed the design and deployment of the novel concept, said Keys, who met Swinnerton 25 years earlier at one of their first jobs, flipping burgers at a fast-food stand.\nToday, they\u2019ve got a digital prototype cooking on xAmplify\u2019s Scaile computer, based on NVIDIA DGX systems. It\u2019s already accelerating Green Gravity\u2019s proof of concept.\n\u201cThanks to what we inferred with a digital twin, we\u2019ve been able to save 40% of the costs of our physical prototype by shifting from three weights to two and moving them 10 instead of 15 meters vertically,\u201d said Swinnerton.\nUse Cases Enabled by Omniverse\nIt\u2019s the first of many use cases Green Gravity is developing in Omniverse.\nOnce the prototype is done, the simulation will help scale the design to mines as deep as 7,000 feet, or about six Empire State Buildings stacked on top of each other. Ultimately, the team will build in Omniverse a dashboard to control and monitor sensor-studded facilities without the safety hazards of sending a person into the mine.\n\n\n\n\nGreen Gravity\u2019s physical prototype and test lab.\n\u201cWe expect to cut tens of millions of dollars off the estimated $100 million for the first site because we can use simulations to lower our risks with banks and insurers,\u201d said Swinnerton. \u201cThat\u2019s a real tantalizing opportunity.\u201d\nVirtual Visualization Tools\nOperators will track facilities remotely using visualization systems equipped with NVIDIA A40 GPUs and can stream their visuals to tablets thanks to the TabletAR extension in the Omniverse Spatial Framework.\nxAmplify\u2019s workflow uses a number of software components such as NVIDIA Modulus, a framework for physics-informed machine learning models.\n\u201cWe also use Omniverse as a core integration fabric that lets us connect a half-dozen third-party tools operators and developers need, like Siemens PLM for sensor management and Autodesk for design,\u201d Keys said.\n\nOmniverse eases the job of integrating third-party applications into one 3D workflow because it\u2019s based on the OpenUSD standard.\nAlong the way, AI sifts reams of data about the thousands of available mines to select optimal sites, predicting their potential for energy storage. Machine learning will also help optimize designs for each site.\nTaken together, it\u2019s a digital pathway Swinnerton believes will lead to commercial operations for Green Gravity within the next couple years.\nIt\u2019s the latest customer for xAmplify\u2019s Canberra data center serving Australian government agencies, national defense contractors and an expanding set of enterprise users with a full stack of NVIDIA accelerated software.\nLearn more about how AI is transforming renewables, including wind farm optimization, solar energy generation and fusion energy.\n\n\n\nCategories: Deep LearningTags: Artificial Intelligence | Climate | Cloud Services | Customer Stories | Digital Twin | Energy | Machine Learning | New GPU Uses | NVIDIA DGX | NVIDIA Modulus | Omniverse | Simulation and Design \n\n\n \n\n\n\n\nAll nvidia news \n\n\n\n\n\n\n\nDino-Mite: Capcom\u2019s \u2018Exoprimal\u2019 Joins GeForce NOW \n\n\n\n\n\n\n\n\n\n\n\n\n\nFrom Embers to Algorithms: How DigitalPath\u2019s AI is Revolutionizing Wildfire Detection \n\n\n\n\n\n\n\n\n\n\n\n\n\nM\u0101ori Speech AI Model Helps Preserve and Promote New Zealand Indigenous Language \n\n\n\n\n\n\n\n\n\n\n\n\n\nStarstruck: 3D Artist Brellias Brings Curiosity to Light This Week \u2018In the NVIDIA Studio\u2019 \n\n\n\n\n\n\n\n\n\n\n\n\n\nNVIDIA CEO: \u2018This Year, Every Industry Will Become a Technology Industry\u2019 \n\n\n\n\n\n \n\n\n\n\nPost navigation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCorporate Information\nAbout NVIDIA\nCorporate Overview\nTechnologies\nNVIDIA Research\nInvestors\nSocial Responsibility\nNVIDIA Foundation\n \n\nGet Involved\nForums\nCareers\nDeveloper Home\nJoin the Developer Program\nNVIDIA Partner Network\nNVIDIA Inception\nResources for Venture Capitalists\nNVIDIA Inception GPU Ventures\nTechnical Training\nTraining for IT Professionals\nProfessional Services for Data Science\n \n\nNews & Events\nNewsroom\nNVIDIA Blog\nNVIDIA Technical Blog\nWebinars\nStay Informed\nEvents Calendar\nNVIDIA GTC\nNVIDIA On-Demand\n \n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\tExplore our regional blogs and other social networks\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrivacy Policy\n\n\nManage My Privacy\n\n\nLegal\n\n\nAccessibility\n\n\nProduct Security\n\n\nContact\n\n\n\n\t\t\tCopyright \u00a9 2024 NVIDIA Corporation \t\t\n\n\n\n\n\t\t\t\tUSA - United States\t\t\t\t\n\n\n\n\n\n\n\n\n\n\t\t\t\tNVIDIA websites use cookies to deliver and improve the website experience. See our cookie policy for further details on how we use cookies and how to change your cookie settings.\t\t\t\nACCEPT\n\n\n\n\n\n\n\n\n \n\n\n \n\u00a0Share This\u00a0Facebook\u00a0LinkedIn\u00a0Email \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "latestPost": {
+    "title": "Buried Treasure: Startup Mines Clean Energy\u2019s Prospects With Digital Twins",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://blogs.nvidia.com/feed/",
+      "value": "Buried Treasure: Startup Mines Clean Energy\u2019s Prospects With Digital Twins"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://blogs.nvidia.com/blog/energy-storage-omniverse/"
+      }
+    ],
+    "link": "https://blogs.nvidia.com/blog/energy-storage-omniverse/",
+    "authors": [
+      {
+        "name": "Rick Merritt"
+      }
+    ],
+    "author": "Rick Merritt",
+    "author_detail": {
+      "name": "Rick Merritt"
+    },
+    "published": "Thu, 18 Jan 2024 16:00:37 +0000",
+    "published_parsed": [
+      2024,
+      1,
+      18,
+      16,
+      0,
+      37,
+      3,
+      18,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Deep Learning",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Cloud Services",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Customer Stories",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Digital Twin",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Energy",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Learning",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "New GPU Uses",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "NVIDIA DGX",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "NVIDIA Modulus",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Omniverse",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Simulation and Design",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://blogs.nvidia.com/?p=69354",
+    "guidislink": false,
+    "summary": "Mark Swinnerton aims to fight climate change by transforming abandoned mines into storage tanks of renewable energy. The CEO of startup Green Gravity is prototyping his ambitious vision in a warehouse 60 miles south of Sydney, Australia, and simulating it in NVIDIA Omniverse, a platform for building 3D workflows and applications. The concept requires some <a class=\"read-more\" href=\"https://blogs.nvidia.com/blog/energy-storage-omniverse/\">Read article &#62;</a>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://blogs.nvidia.com/feed/",
+      "value": "Startup Green Gravity's concept for renewable energy storage"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "https://blogs.nvidia.com/feed/",
+        "value": "<div id=\"bsf_rt_marker\"><p>Mark Swinnerton aims to fight climate change by transforming abandoned mines into storage tanks of renewable energy.</p>\n<p>The CEO of startup Green Gravity is prototyping his ambitious vision in a warehouse 60 miles south of Sydney, Australia, and simulating it in <a href=\"https://www.nvidia.com/en-us/omniverse/\">NVIDIA Omniverse</a>, a platform for building 3D workflows and applications.</p>\n<p>The concept requires some heavy lifting. Solar and wind energy will pull steel blocks weighing as much as 30 cars each up shafts taller than a New York skyscraper, storing potential energy that can turn turbines whenever needed.</p>\n<h2><b>A Distributed Energy Network</b></h2>\n<p>Swinnerton believes it\u2019s the optimal way to save renewable energy because nearly a million abandoned mine shafts are scattered around the globe, many of them already connected to the grid. And his mechanical system is cheaper and greener than alternatives like massive lithium batteries better suited for electric vehicles.</p>\n<figure class=\"wp-caption alignright\" id=\"attachment_69364\" style=\"width: 150px;\"><a href=\"https://blogs.nvidia.com/wp-content/uploads/2024/01/Mark-Swinnerton-Green-Gravity-CEO.jpg\"><img alt=\"Mark Swinnerton, CEO Green Gravity\" class=\"wp-image-69364 size-thumbnail\" height=\"150\" src=\"https://blogs.nvidia.com/wp-content/uploads/2024/01/Mark-Swinnerton-Green-Gravity-CEO-150x150.jpg\" width=\"150\" /></a><figcaption class=\"wp-caption-text\" id=\"caption-attachment-69364\">Mark Swinnerton</figcaption></figure>\n<p>Officials in Australia, India and the U.S. are interested in the concept, and a state-owned mine operator in Romania is conducting a joint study with Green Gravity.</p>\n<p>\u201cWe have a tremendous opportunity for repurposing a million mines,\u201d said Swinnerton, who switched gears after a 20-year career at BHP Group, one of the world\u2019s largest mining companies, determined to combat climate change.</p>\n<h2><b>A Digital-First Design</b></h2>\n<p>A longtime acquaintance saw an opportunity to accelerate Swinnerton\u2019s efforts with a <a href=\"https://www.nvidia.com/en-us/omniverse/solutions/digital-twins/\">digital twin</a>.</p>\n<p>\u201cI was fascinated by the Green Gravity idea and suggested taking a digital-first approach, using data as a differentiator,\u201d said Daniel Keys, an IT expert and executive at <a href=\"https://xamplify.com.au/\">xAmplify</a>, a provider of accelerated computing services.</p>\n<p>AI-powered simulations could speed the design and deployment of the novel concept, said Keys, who met Swinnerton 25 years earlier at one of their first jobs, flipping burgers at a fast-food stand.</p>\n<p>Today, they\u2019ve got a digital prototype cooking on xAmplify\u2019s Scaile computer, based on <a href=\"https://www.nvidia.com/en-us/data-center/dgx-platform/\">NVIDIA DGX systems</a>. It\u2019s already accelerating Green Gravity\u2019s proof of concept.</p>\n<p>\u201cThanks to what we inferred with a digital twin, we\u2019ve been able to save 40% of the costs of our physical prototype by shifting from three weights to two and moving them 10 instead of 15 meters vertically,\u201d said Swinnerton.</p>\n<h2><b>Use Cases Enabled by Omniverse</b></h2>\n<p>It\u2019s the first of many use cases Green Gravity is developing in Omniverse.</p>\n<p>Once the prototype is done, the simulation will help scale the design to mines as deep as 7,000 feet, or about six Empire State Buildings stacked on top of each other. Ultimately, the team will build in Omniverse a dashboard to control and monitor sensor-studded facilities without the safety hazards of sending a person into the mine.</p>\n<figure class=\"wp-caption aligncenter\" id=\"attachment_69367\" style=\"width: 672px;\"><a href=\"https://blogs.nvidia.com/wp-content/uploads/2024/01/Green-Gravity-test-lab.jpg\"><img alt=\"Green Gravity\u2019s physical prototype and test lab.\" class=\"size-large wp-image-69367\" height=\"367\" src=\"https://blogs.nvidia.com/wp-content/uploads/2024/01/Green-Gravity-test-lab-672x367.jpg\" width=\"672\" /></a><figcaption class=\"wp-caption-text\" id=\"caption-attachment-69367\">Green Gravity\u2019s physical prototype and test lab.</figcaption></figure>\n<p>\u201cWe expect to cut tens of millions of dollars off the estimated $100 million for the first site because we can use simulations to lower our risks with banks and insurers,\u201d said Swinnerton. \u201cThat\u2019s a real tantalizing opportunity.\u201d</p>\n<h2><b>Virtual Visualization Tools</b></h2>\n<p>Operators will track facilities remotely using visualization systems equipped with <a href=\"https://www.nvidia.com/en-us/data-center/a40/\">NVIDIA A40 GPUs</a> and can stream their visuals to tablets thanks to the TabletAR extension in the Omniverse Spatial Framework.</p>\n<p>xAmplify\u2019s workflow uses a number of software components such as <a href=\"https://developer.nvidia.com/modulus\">NVIDIA Modulus</a>, a framework for physics-informed machine learning models.</p>\n<p>\u201cWe also use Omniverse as a core integration fabric that lets us connect a half-dozen third-party tools operators and developers need, like Siemens PLM for sensor management and Autodesk for design,\u201d Keys said.</p>\n<p></p>\n<p>Omniverse eases the job of integrating third-party applications into one 3D workflow because it\u2019s based on the <a href=\"https://blogs.nvidia.com/blog/openusd-alliance-3d-standard/\">OpenUSD standard</a>.</p>\n<p>Along the way, AI sifts reams of data about the thousands of available mines to select optimal sites, predicting their potential for energy storage. Machine learning will also help optimize designs for each site.</p>\n<p>Taken together, it\u2019s a digital pathway Swinnerton believes will lead to commercial operations for Green Gravity within the next couple years.</p>\n<p>It\u2019s the latest customer for xAmplify\u2019s Canberra data center serving Australian government agencies, national defense contractors and an expanding set of enterprise users with a full stack of NVIDIA accelerated software.</p>\n<p>Learn more about how AI is transforming renewables, including <a href=\"https://blogs.nvidia.com/blog/siemens-gamesa-wind-farms-digital-twins/\">wind farm optimization</a>, <a href=\"https://blogs.nvidia.com/blog/ai-startup-navigates-3d-aerial-images-for-inspections/\">solar energy generation</a> and <a href=\"https://blogs.nvidia.com/blog/ai-hpc-nuclear-fusion/\">fusion energy</a>.</p>\n<p></p>\n</div>"
+      }
+    ],
+    "media_content": [
+      {
+        "url": "https://blogs.nvidia.com/wp-content/uploads/2024/01/green-gravity-still-1280x680-1.jpg",
+        "type": "image/jpeg",
+        "width": "1280",
+        "height": "680"
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://blogs.nvidia.com/wp-content/uploads/2024/01/green-gravity-still-1280x680-1-842x450.jpg",
+        "width": "842",
+        "height": "450"
+      }
+    ],
+    "href": ""
+  }
+}

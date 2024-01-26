@@ -1,0 +1,96 @@
+{
+  "company": "Evil Martians",
+  "title": "Evil Martians",
+  "xmlUrl": "https://evilmartians.com/chronicles.atom",
+  "htmlUrl": "https://evilmartians.com/chronicles/",
+  "content": "5 cool (and surprising) ways to configure Lefthook for automation joy\u2014Martian Chronicles, Evil Martians\u2019 team blogBuild with usServicesClientsProductsOpen SourceBlogEventsPodcastBuild with usServicesClientsProductsOpen SourceBlogEventsPodcast21-Feb23Meet us at DeveloperWeek in Oakland, California, United States!Build with us5 cool (and surprising) ways to configure Lefthook for automation joyJanuary 18, 2024TopicsToolsFull Cycle Software DevelopmentBackend DevelopmentPerformance Audit and OptimizationGoRubyJavaScriptGitShare this post onTwitterFacebookLinkedInValentin KiselevBackend EngineerTravis TurnerTech EditorTranslationsIf you\u2019re interested in translating or adapting this post, please contact\u00a0us first.Lefthook has been under active development for more than 4 years. While at first it was just a wrapper for calling custom scripts on Git hooks, as time has gone on, Lefthook has evolved into a tool that provides a clean and flexible way to automate your development routine, both in obvious and quite surprising ways. Want to know more? In this post, you\u2019ll see examples of Lefthook configurations used in the real projects.\nLinting, formatting, and fixing typos\nRunning linters and formatters over files that have been touched is the most common way to use Lefthook.\nLefthook: knock your team\u2019s code back into shapeLefthook: knock your team\u2019s code back into shapeJuly 30, 2019Read also \nFor example, I have a Go CLI project where I store documentation in Markdown format right in the repo. Whenever I fix bugs or implement features, I need to both test and lint the code, and perform a spellcheck in order to not confuse the reader. Further, all of the links within the documentation must point to existing pages. And regardless of the tools I choose, I want them to run every time I commit something. Let\u2019s take a look at a Lefthook configuration that covers all of the above quickly, and in just 20 lines of YAML.\n# lefthook.yml\n\npre-commit:\n  parallel: true\n  commands:\n    lint:\n      glob: \"*.go\"\n      run: golangci-lint run --fix\n      stage_fixed: true\n    fix-typos:\n      run: typos --write-changes {staged_files}\n      stage_fixed: true\n    test:\n      glob: \"*.go\"\n      run: go test -cpu 24 -race -count=1 -timeout=30s ./...\n    links:\n      glob: \"*.md\"\n      run: lychee {staged_files}\nEvery time you commit something, the linter, typo checker, and link checker will be run in parallel. Note that stage_fixed: true automatically performs git add for the changed files in a pre-commit hook. It\u2019s also important to mention that Lefthook respects only staged changes, so unstaged changes will remain untouched after performing git commit.\nMonorepo\nHere\u2019s another example: there are two folders in my repo: client and server. client is an SPA written in TypeScript, and server is a Ruby on Rails application. I want to perform linting for both, and run client tests before I push changes, because this can be done sufficiently fast and I also don\u2019t want to waste time on careless CI errors.\nTo that end, I can make Lefthook run specific commands in subfolders using the root option:\n# lefthook.yml\n\npre-commit:\n  parallel: true\n  commands:\n    server-lint:\n      root: \"server/\"\n      glob: \"*.rb\"\n      run: bundle exec rubocop -A --force-exclusion {staged_files}\n      stage_fixed: true\n    client-lint:\n      root: \"client/\"\n      glob: \"*.{ts,tsx}\"\n      run: yarn format {staged_files}\n      stage_fixed: true\n\npre-push:\n  commands:\n    client-tests:\n      root: \"client/\"\n      glob: \"*.{ts,tsx}\"\n      run: yarn test\nThe root and glob options work as filters, so if you commit something in the server part, client-lint will be just skipped, and vice-versa.\nDo make sure that your Gemfile is in the server/ folder and package.json is in the client/.\nInteractive hooks\nThere\u2019s no need to waste extra time thinking about commit message format or enforce proper style within your team because there are well-known tools for doing that: Commitzen and commitlint. And we can save even more time with Lefthook; here\u2019s how to use it to configure those:\n(See the full example)\n# lefthook.yml\n\n# Build commit messages interactively.\nprepare-commit-msg:\n  commands:\n    commitzen:\n      interactive: true\n      run: yarn run cz\n      env:\n        LEFTHOOK: 0\n\n# Validate commit messages; can be used with or without cz.\ncommit-msg:\n  commands:\n    \"lint commit message\":\n      run: yarn run commitlint --edit {1}\nThe interactive: true option binds the command\u2019s STDIN with your TTY and allows you to interact with the cz command with every git commit. (When using this configuration, the developer must always commit from the terminal, which might be inconvenient.) Nevertheless, you can use commitlint to validate that the commit message is valid.\nprepare-commit-msg can also be suggested as an optional hook for a lefthook-local.yml configuration.\nImplementing a CI-like pipeline\nIt can be a good idea to automatically run new migrations and install dependencies when pulling new commits from Git, and it makes sense to do this in a post-merge hook.\nBut there are two things to consider:\n\nI have to install the backend dependencies before running the migrations\nI want to install client dependencies in parallel with other steps\n\n\nTo implement this, let\u2019s use the helper hook:\n# lefthook.yml\n\npost-merge:\n  parallel: true\n  files: \"git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD\"\n  only:\n    - ref: 'main'\n  skip:\n    - rebase\n  commands:\n    migrations:\n      run: lefthook run migrations\n      env:\n        LEFTHOOK_QUIET: execution_info,meta,skips,summary\n    client-dependencies:\n      glob: \"{yarn.lock,package.json}\"\n      run: yarn install\n\nmigrations:\n  piped: true\n  files: \"git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD\"\n  commands:\n    bundle:\n      priority: 1\n      glob: \"Gemfile*\"\n      run: bundle install\n    migrate:\n      priority: 2\n      glob: \"db/migrations/*\"\n      run: bundle exec rails db:migrate\nGlobs allow us to skip unneeded steps, while the migrations helper allows us to pipe 2 commands; they\u2019ll run one after another, and migrate won\u2019t start if bundle fails. The common files gets the new files and applies them to every command for implicit filtering.\nShared configs\nWhat if you\u2019re tired of configuring the same boilerplate lefthook.yml in every repo? I have hundreds of Ruby projects, numerous JavaScript projects, and a few Go microservices, and I want to control all the hooks in one place, while committing the change only once.\nAnd sure enough, Lefthook has the remote option for that!\nTo start, I have 3 configurations for each project type that I\u2019ll store in one repo. Let\u2019s name it github.com/organization/lefthook-configs, and tere will be 3 files in it:\n\u251c\u2500\u2500 lefthook-golang.yml\n\u251c\u2500\u2500 lefthook-js.yml\n\u2514\u2500\u2500 lefthook-ruby.yml\nEach config file has the pre-commit hook for linting, formatting, tests, and so on:\n# lefthook-golang.yml\n\npre-commit:\n  commands:\n    lint:\n      glob: \"*.go\"\n      run: golangci-lint run --fix\n      stage_fixed: true\nNow, in every Go repo you need to add the following config:\n# lefthook.yml\n\nremote:\n  git: https://github.com/organization/lefthook-configs\n  config: lefthook-golang.yml\nAnd that\u2019s it! When you change something in the lefthook-configs repo, you need to make sure other developers will run lefthook install locally. The latest changes will be fetched to their hooks. While this requires strongly recommending everyone in your team chat run lefthook install, in the end, this is much easier than commiting one change to ten repos!\n\nAt Evil\u00a0Martians, we transform growth-stage startups into unicorns, build developer tools, and create open source products. If you\u2019re ready to engage warp drive, give\u00a0us a\u00a0shout!Join our email newsletterGet all the new posts delivered directly to your inbox. Unsubscribe anytime.Your emailSubscribeOr subscribe to a feedIn the same orbitLefthookLefthookGit hooks manager for Node.js, Ruby, or any other type of projects.Open SourceSoftware DevelopmentAudit & OptimizationGitGoNode.jsExplore more postsReusable development containers with Docker Compose and DipReusable development containers with Docker Compose and DipNovember 17, 2020ToolsBackendDockerRubyRailsSpeeding up Go Modules for Docker and CISpeeding up Go Modules for Docker and CIAugust 5, 2019ToolsBackendGoCIDockergit push --force and how to deal with itgit push --force and how to deal with itSeptember 12, 2017ToolsSoftware DevelopmentBackendGitHerokuMRSK: hot deployment tool to watch\u2014or a total game changer?MRSK: hot deployment tool to watch\u2014or a total game changer?April 25, 2023OpsToolsSRESoftware DevelopmentMRSKKubernetesAWSHow can we help you?Hire\u00a0usFeedbackOtherFeel free to share your feedbackYour nameYour emailSchedule a call insteadSubmitMartians at a\u00a0glance17years in businessWe transform growth-stage startups into unicorns, build developer tools, and create open source products.If you prefer email, write to us at surrender@evilmartians.comUnited States+1 888 400 548577 Sands St.Brooklyn, New\u00a0York11201Portugal+351 308 808 570Rua Alexandre Oneill, 38,Porto4400-008Japan+81 6 6225 12429F Edobori Center Building, 2-1-1 Edobori, Nishi\u2011ku,Osaka550-0002Join our email newsletterGet all the new posts delivered directly to your inbox. Unsubscribe anytime.Your emailSubscribeOr subscribe to a feedtwitterlinkedingithubyoutubeinstagramfacebookdribbblemastodonCareers\u65e5\u672c\u8a9e\u7248Designed and developed by Evil\u00a0MartiansBy using this site, you agree with our Privacy\u00a0policyCookie & privacy preferencesNotice at collection\n\n\n\n",
+  "latestPost": {
+    "title": "5 cool (and surprising) ways to configure Lefthook for automation joy",
+    "title_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://evilmartians.com/chronicles.atom",
+      "value": "5 cool (and surprising) ways to configure Lefthook for automation joy"
+    },
+    "id": "https://evilmartians.com/chronicles/5-cool-and-surprising-ways-to-configure-lefthook-for-automation-joy",
+    "guidislink": true,
+    "link": "https://evilmartians.com/chronicles/5-cool-and-surprising-ways-to-configure-lefthook-for-automation-joy",
+    "links": [
+      {
+        "href": "https://evilmartians.com/chronicles/5-cool-and-surprising-ways-to-configure-lefthook-for-automation-joy",
+        "rel": "alternate",
+        "type": "text/html"
+      }
+    ],
+    "updated": "2024-01-18T00:00:00.000Z",
+    "updated_parsed": [
+      2024,
+      1,
+      18,
+      0,
+      0,
+      0,
+      3,
+      18,
+      0
+    ],
+    "summary": "At first, Lefthook was just a wrapper for calling custom scripts on Git hooks, but it has evolved into a tool that provides a clean and flexible way to automate your development routine, both in obvious and quite surprising ways. Read and see real project examples.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://evilmartians.com/chronicles.atom",
+      "value": "At first, Lefthook was just a wrapper for calling custom scripts on Git hooks, but it has evolved into a tool that provides a clean and flexible way to automate your development routine, both in obvious and quite surprising ways. Read and see real project examples."
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "https://evilmartians.com/chronicles.atom",
+        "value": "<article><section><strong>Authors: </strong>Valentin Kiselev, Backend Engineer, and Travis Turner, Tech Editor</section><section><strong>Topics: </strong>Tools, Full Cycle Software Development, Backend Development, Performance Audit and Optimization, Go, Ruby, JavaScript, Git</section><a href=\"https://evilmartians.com/chronicles/5-cool-and-surprising-ways-to-configure-lefthook-for-automation-joy\"><img class=\"webfeedsFeaturedVisual\" src=\"https://evilmartians.com/static/cover-c5eb690be1be59f7386dc1a6eb83ff4f.png\" /></a><section><p><em>At first, Lefthook was just a wrapper for calling custom scripts on Git hooks, but it has evolved into a tool that provides a clean and flexible way to automate your development routine, both in obvious and quite surprising ways. Read and see real project examples.</em></p><p></p><p>Lefthook has been under active development for more than 4 years. While at first it was just a wrapper for calling custom scripts on Git hooks, as time has gone on, Lefthook has evolved into a tool that provides a clean and flexible way to automate your development routine, both in obvious and quite surprising ways. Want to know more? In this post, you'll see examples of Lefthook configurations used in the real projects.</p><p></p></section><a href=\"https://evilmartians.com/chronicles/5-cool-and-surprising-ways-to-configure-lefthook-for-automation-joy\">Read more</a></article>"
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://evilmartians.com/static/cover-c5eb690be1be59f7386dc1a6eb83ff4f.png"
+      }
+    ],
+    "href": "https://twitter.com/_Travis_Turner",
+    "authors": [
+      {
+        "name": "Valentin Kiselev",
+        "email": "mrexox@evilmartians.com",
+        "href": "https://github.com/mrexox"
+      },
+      {
+        "name": "Travis Turner",
+        "email": "richardturner@evilmartians.com",
+        "href": "https://twitter.com/_Travis_Turner"
+      }
+    ],
+    "author_detail": {
+      "name": "Travis Turner",
+      "email": "richardturner@evilmartians.com",
+      "href": "https://twitter.com/_Travis_Turner"
+    },
+    "author": "Travis Turner (richardturner@evilmartians.com)",
+    "tags": [
+      {
+        "term": "Tools",
+        "scheme": null,
+        "label": "Tools"
+      }
+    ],
+    "published": "2024-01-18T00:00:00.000Z",
+    "published_parsed": [
+      2024,
+      1,
+      18,
+      0,
+      0,
+      0,
+      3,
+      18,
+      0
+    ]
+  }
+}

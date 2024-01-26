@@ -1,0 +1,118 @@
+{
+  "company": "HubSpot",
+  "title": "HubSpot",
+  "xmlUrl": "https://product.hubspot.com/blog/rss.xml",
+  "htmlUrl": "http://product.hubspot.com/blog/topic/engineering",
+  "content": "\n\nLooking Back: Our Most Popular Posts of 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEngineeringUXProductProduct ManagementCulture\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCultureUXEngineeringProductProduct ManagementLooking Back: Our Most Popular Posts of 2023\n\n\n\n\n        Ashlee Gerow\n      \n\n      on\n      Jan 9, 2024\n\n\n\n\n\n\n2023 was an incredible year of growth for us at HubSpot directly driven by our Product and Engineering teams who tackled hard problems that helped our customers grow better. Some of our HubSpotters shared impactful case studies, impressive growth stories and insights to highlight their work and just what it means to work at HubSpot on our Product Blog. We've gathered some of our most popular blogs of 2023 below in case you missed them, and stayed tuned this year for more behind-the-scenes content from our Product and Engineering teams!\nLooking for more stories about our culture and what it's like to work at HubSpot? Check out our Careers Blog!\n_________\n \n\u00a0\nWhat Does Continuous Learning Look Like in Product & Engineering?\nAt HubSpot, we believe that learning and sharpening our craft is part of growth. We're serious about it and our culture is shaped by it. Below, hear from\u00a0Anthony Roldan, Sr. Director of Engineering, about a few traditions and rituals which epitomize our culture of continuous learning in Product & Engineering at HubSpot.\n\u00a0\nSaving Millions on Logging: Finding Relevant Savings \nIn tech companies,\u00a0Cost of Goods Sold\u00a0is a key business metric driven in large part by the efficiency of software architectures. Saving money always sounds like a great idea, but it is not always a priority over features and growth, nor is it straightforward. At HubSpot, our relatively new Backend Performance team is tasked with improving the runtime and cost performance of our backend software. In this two-part blog series, Rich Marscher, Staff Software Engineer, walks us through a structured method we use for approaching cost savings work and demonstrating how we apply it at HubSpot to save millions on the storage costs of our application logs.\n\u00a0\nHow HubSpot Upgraded a Thousand MySQL Clusters at Once\nHubSpot runs over a thousand MySQL clusters in each environment, and we were faced with the daunting task of upgrading all of these in a safe, automated manner. We jumped 9 major versions of\u00a0Vitess, the clustering software we use for MySQL, along the way developing reusable testing tooling and automation to make all future upgrades significantly easier. This time around our upgrade journey took a year, but our estimate for the next upgrade is only a quarter, given all that we have learned and developed. Read on to learn more from Data Infra Staff Engineer Olga Shestopalova about our recent upgrade.\n\u00a0\nEmbracing Flexibility and Empowering Customers: Reflections on My First 6 Months as a HubSpot Engineer\nFor an engineer interested in solving customer problems, the transition from a small company to working at HubSpot is not as difficult as you may think. Meet Joey Blake, Senior Software Engineer - Joey shares how he was able to dive in, ship products and solve for the customer in his first 6 months at HubSpot.\n\u00a0\nProduct & Engineering Roundtable: HubSpot's INBOUND Product Announcements\nThis year's INBOUND conference brought an all-star lineup of industry-spanning icons, marketing and sales leaders, wellness experts, and acclaimed authors to INBOUND\u2019s biggest stage. One of the most important - and popular - parts of INBOUND are the Spotlight sessions from HubSpot, highlighting product announcements and the future state of the company, and the industry on the whole. This year, Andy Pitre, HubSpot's EVP of Product, announced some incredible product updates and we asked members of our Product & Engineering community to weigh in.\u00a0\n\u00a0\nHandling Imbalanced Traffic with Kafka Swimlanes\nThe Workflows engine at HubSpot has to handle traffic from millions of workflows every day. Huge traffic spikes and slow response times from our dependencies are a fact of life. In this post, Angus Gibbs, Engineering Lead, gives us a look at how we use Kafka swimlanes to keep Workflows fast and reliable.\nCome grow with us! Check out our Careers Page for your next opportunity! And for a behind-the-scenes look at our culture, visit our Careers Blog or follow us on Instagram @HubSpotLife.\n\nShare on TwitterShare on FacebookShare via emailShare on LinkedIn\n\n\n\nRecommended Articles\n\n\nCultureUXEngineeringProductProduct Management\nProduct & Engineering Roundtable: HubSpot's INBOUND Product Announcements\n          It's time for INBOUND, the premier conference that brings together business, marketing, and sales leaders to network, learn, and grow. This year, ...\n        \n\n\n\n        Ashlee Gerow\n      \n\n      on\n      Sep 7, 2023\n\n\n\n\n\nCultureProductProduct Management\nWhat is an Associate Product Manager at HubSpot? Three Interns Share Their Experience\n          Always wondered how someone becomes a product manager or the path it takes to get there? At HubSpot, our Associate Product Manager (APM) program is ...\n        \n\n\n\n        Erika Cote\n      \n\n      on\n      Aug 24, 2022\n\n\n\n\n\nCultureUXEngineeringProductProduct Management\nWhat Does Continuous Learning Look Like in Product & Engineering?\n          At HubSpot, we believe that learning and sharpening our craft is part of growth. We're serious about it and our culture is shaped by it. Below, hear ...\n        \n\n\n\n        Anthony Roldan (He/Him)\n      \n\n      on\n      Nov 16, 2023\n\n\n\n\n\nUXEngineeringProduct\nWhat does HubSpot\u2019s Flywheel Product Team do? (And why it could be a great fit for you)\n          HubSpot is growing at a hyper-scale pace as we help millions of organizations grow better. Today, nearly 128,000 customers across more than 120 ...\n        \n\n\n\n        Heather Harte\n      \n\n      on\n      Jan 20, 2022\n\n\n\n\nCultureUXEngineeringProductProduct Management\nProduct & Engineering Roundtable: HubSpot's INBOUND Product Announcements\n          It's time for INBOUND, the premier conference that brings together business, marketing, and sales leaders to network, learn, and grow. This year, ...\n        \n\n\n\n        Ashlee Gerow\n      \n\n      on\n      Sep 7, 2023\n\n\n\n\nEngineering\nEmbracing Flexibility and Empowering Customers: Reflections on My First 6 Months as a HubSpot Engineer\n          For an engineer interested in solving customer problems, the transition from a small company to working at HubSpot is not as difficult as you may ...\n        \n\n\n\n        Joey Blake\n      \n\n      on\n      Jul 13, 2023\n\n\n\n\n\n\nJoin our subscribers\nSign up here and we'll keep you updated on the latest in product, UX, and engineering from HubSpot.Subscribe to the newsletter\n\n\n\n\n\nBack\nGet Connected\nThe latest engineering, UX, and product news from the HubSpot Product Blog, straight to your inbox.\n\nNext\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNot using HubSpot yet?\n\n\n\n\n\n\n\n\nCareers\nOur Story\nDeveloper Blog\n\nFollow us on FacebookFollow us on YouTubeFollow us on TwitterFollow us on InstagramFollow us on Medium\n\nLegal Stuff\nPrivacy Policy\n\n\nCopyright \u00a9 2024 HubSpot, Inc.\n\n\n\n\n\nSearch Term: \n\n\n\n\n          Search HubSpot.com\n        \n\n\n\n          Search the blog\n        \n\n\n\n\n\n\n\n\n\n\nLoad more\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "latestPost": {
+    "title": "Looking Back: Our Most Popular Posts of 2023",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://product.hubspot.com/blog/rss.xml",
+      "value": "Looking Back: Our Most Popular Posts of 2023"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://product.hubspot.com/blog/2023-retro"
+      }
+    ],
+    "link": "https://product.hubspot.com/blog/2023-retro",
+    "summary": "<div class=\"hs-featured-image-wrapper\"> \n <a class=\"hs-featured-image-link\" href=\"https://product.hubspot.com/blog/2023-retro\" title=\"\"> <img alt=\"Looking Back: Our Most Popular Posts of 2023\" class=\"hs-featured-image\" src=\"https://product.hubspot.com/hubfs/Preventing%20Serial%20Processing%20%281%29.png\" style=\"width: auto !important; float: left; margin: 0 15px 15px 0;\" /> </a> \n</div> \n<p>2023 was an incredible year of growth for us at HubSpot directly driven by our Product and Engineering teams who tackled hard problems that helped our customers grow better. Some of our HubSpotters shared impactful case studies, impressive growth stories and insights to highlight their work and just what it means to work at HubSpot on our Product Blog. We've gathered some of our most popular blogs of 2023 below in case you missed them, and stayed tuned this year for more behind-the-scenes content from our Product and Engineering teams!</p> \n<p>Looking for more stories about our culture and what it's like to work at HubSpot? Check out our <a href=\"https://www.hubspot.com/careers-blog\">Careers Blog</a>!</p> \n<p>_________</p>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://product.hubspot.com/blog/rss.xml",
+      "value": "<div class=\"hs-featured-image-wrapper\"> \n <a class=\"hs-featured-image-link\" href=\"https://product.hubspot.com/blog/2023-retro\" title=\"\"> <img alt=\"Looking Back: Our Most Popular Posts of 2023\" class=\"hs-featured-image\" src=\"https://product.hubspot.com/hubfs/Preventing%20Serial%20Processing%20%281%29.png\" style=\"width: auto !important; float: left; margin: 0 15px 15px 0;\" /> </a> \n</div> \n<p>2023 was an incredible year of growth for us at HubSpot directly driven by our Product and Engineering teams who tackled hard problems that helped our customers grow better. Some of our HubSpotters shared impactful case studies, impressive growth stories and insights to highlight their work and just what it means to work at HubSpot on our Product Blog. We've gathered some of our most popular blogs of 2023 below in case you missed them, and stayed tuned this year for more behind-the-scenes content from our Product and Engineering teams!</p> \n<p>Looking for more stories about our culture and what it's like to work at HubSpot? Check out our <a href=\"https://www.hubspot.com/careers-blog\">Careers Blog</a>!</p> \n<p>_________</p>"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "https://product.hubspot.com/blog/rss.xml",
+        "value": "<div class=\"hs-featured-image-wrapper\"> \n <a class=\"hs-featured-image-link\" href=\"https://product.hubspot.com/blog/2023-retro\" title=\"\"> <img alt=\"Looking Back: Our Most Popular Posts of 2023\" class=\"hs-featured-image\" src=\"https://product.hubspot.com/hubfs/Preventing%20Serial%20Processing%20%281%29.png\" style=\"width: auto !important; float: left; margin: 0 15px 15px 0;\" /> </a> \n</div> \n<p>2023 was an incredible year of growth for us at HubSpot directly driven by our Product and Engineering teams who tackled hard problems that helped our customers grow better. Some of our HubSpotters shared impactful case studies, impressive growth stories and insights to highlight their work and just what it means to work at HubSpot on our Product Blog. We've gathered some of our most popular blogs of 2023 below in case you missed them, and stayed tuned this year for more behind-the-scenes content from our Product and Engineering teams!</p> \n<p>Looking for more stories about our culture and what it's like to work at HubSpot? Check out our <a href=\"https://www.hubspot.com/careers-blog\">Careers Blog</a>!</p> \n<p>_________</p>  \n<img alt=\"\" height=\"1\" src=\"https://track.hubspot.com/__ptq.gif?a=51294&amp;k=14&amp;r=https%3A%2F%2Fproduct.hubspot.com%2Fblog%2F2023-retro&amp;bu=https%253A%252F%252Fproduct.hubspot.com%252Fblog&amp;bvt=rss\" style=\"width: 1px!important;\" width=\"1\" />"
+      }
+    ],
+    "tags": [
+      {
+        "term": "Engineering--Infrastructure",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Culture",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "UX",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Engineering",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Product",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Engineering--Backend",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Engineering--Frontend",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Product Management",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "published": "Tue, 09 Jan 2024 15:29:37 GMT",
+    "published_parsed": [
+      2024,
+      1,
+      9,
+      15,
+      29,
+      37,
+      1,
+      9,
+      0
+    ],
+    "authors": [
+      {
+        "name": "Ashlee Gerow",
+        "email": "agerow@hubspot.com"
+      }
+    ],
+    "author": "agerow@hubspot.com (Ashlee Gerow)",
+    "author_detail": {
+      "name": "Ashlee Gerow",
+      "email": "agerow@hubspot.com"
+    },
+    "id": "https://product.hubspot.com/blog/2023-retro",
+    "guidislink": false,
+    "updated": "2024-01-09T15:29:37Z",
+    "updated_parsed": [
+      2024,
+      1,
+      9,
+      15,
+      29,
+      37,
+      1,
+      9,
+      0
+    ]
+  }
+}

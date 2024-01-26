@@ -1,0 +1,28 @@
+{
+  "company": "Khan Academy",
+  "title": "Khan Academy",
+  "xmlUrl": "http://engineering.khanacademy.org/rss.xml",
+  "htmlUrl": "http://engineering.khanacademy.org",
+  "content": "\n\n\nRedirecting to https://blog.khanacademy.org/our-transition-to-react-native/\n\n\n",
+  "latestPost": {
+    "title": "Our Transition to React Native",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://engineering.khanacademy.org/rss.xml",
+      "value": "Our Transition to React Native"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "http://engineering.khanacademy.org/posts/react-native-at-khan.htm"
+      }
+    ],
+    "link": "http://engineering.khanacademy.org/posts/react-native-at-khan.htm",
+    "published": "Thu, 09 Jul 2020 11:00:00 GMT-8",
+    "published_parsed": null,
+    "id": "http://engineering.khanacademy.org/posts/react-native-at-khan.htm",
+    "guidislink": false
+  }
+}

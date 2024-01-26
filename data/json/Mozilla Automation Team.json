@@ -1,0 +1,141 @@
+{
+  "company": "Mozilla Automation Team",
+  "title": "Mozilla Automation Team",
+  "xmlUrl": "http://planet.mozilla.org/ateam/atom.xml",
+  "htmlUrl": "https://planet.mozilla.org/ateam/",
+  "content": "\n\n\n\n\n\n\nDigging into regressions | 3.1415926535897932384626433...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n3.1415926535897932384626433\u2026\n\n\n\nSkip to content\n\nHomeAbout\n\n\n\n\n\n\n\n\n\n\n\n\n\u2190 Recent fixes to reduce backlog on Android\u00a0phones\n\n\n\n\n\n\t\tAugust 23, 2019 \u00b7 4:53 pm\t\n\u2193 Jump to Comments\nDigging into regressions\n\nWhenever a patch is landed on autoland, it will run many builds and tests to make sure there are no regressions.\u00a0 Unfortunately many times we find a regression and 99% of the time backout the changes so they can be fixed.\u00a0 This work is done by the Sheriff team at Mozilla- they monitor the trees and when something is wrong, they work to fix it (sometimes by a quick fix, usually by a backout).\u00a0 A quick fact, there were 1228 regressions in H1 (January-June) 2019.\nMy goal in writing is not to recommend change, but instead to start conversations and figure out what data we should be collecting in order to have data driven discussions.\u00a0 Only then would I expect that recommendations for changes would come forth.\nWhat got me started in looking at regressions was trying to answer a question: \u201cHow many regressions did X catch?\u201d\u00a0 This alone is a tough question, instead I think the question should be \u201cIf we were not running X, how many regressions would our end users see?\u201d\u00a0 This is a much different question and has two distinct parts:\n\nUnique Regressions: Only look at regressions found that only X found, not found on both X and Y\nProduct Fixes: did the regression result in changing code that we ship to users? (i.e. not editing the test)\nFinal Fix: many times a patch [set] lands and is backed out multiple times, in this case do we look at each time it was backed out, or only the change from initial landing to final landing?\n\nThese can be more difficult to answer.\u00a0 For example, Product Fixes- maybe by editing the test case we are preventing a regression in the future because the test is more accurate.\nIn addition we need to understand how accurate the data we are using is.\u00a0 As the sheriffs do a great job, they are human and humans make judgement calls.\u00a0 In this case once a job is marked as \u201cfixed_by_commit\u201d, then we cannot go back in and edit it, so a typo or bad data will result in incorrect data.\u00a0 To add to it, often times multiple patches are backed out at the same time, so is it correct to say that changes from bug A and bug B should be considered?\nThis year I have looked at this data many times to answer:\n\nhow many unique regressions did linux32 catch?\nhow many unique regressions did opt tests catch vs pgo?\nhow many regressions did web-platform-tests catch?\n\nIn H1 \u2013 90 regressions, 17 product changes\n\n\n\nThis data is important to harvest because if we were to turn off a set of jobs or run them as tier-2 we would end up missing regressions.\u00a0 But if all we miss is editing manifests to disable failing tests, then we are getting no value from the test jobs- so it is important to look at what the regression outcome was.\nIn fact every time I did this I would run an active-data-recipe (fbc recipe in my repo) and have a large pile of data I needed to sort through and manually check.\u00a0 I spent some time every day for a few weeks looking at regressions and now I have looked at 700 (bugs/changesets).\u00a0 I found that in manually checking regressions, the end results fell into buckets:\n\n\n\n\n\n\n\ntest\n196\n28.00%\n\n\nproduct\n272\n38.86%\n\n\nmanifest\n134\n19.14%\n\n\nunknown\n48\n6.86%\n\n\nbackout\n27\n3.86%\n\n\ninfra\n23\n3.29%\n\n\n\nKeep in mind that many of the changes which end up in mozilla-central are not only product bugs, but infrastructure bugs, test editing, etc.\nAfter looking at many of these bugs, I found that ~80% of the time things are straightforward (single patch [set] landed, backed out once, relanded with clear comments).\u00a0 Data I would like to have easily available via a query:\n\nFiles that are changed between backout and relanding (even if it is a new patch).\nA reason as part of phabricator that when we reland, it is required to have a few pre canned fields\n\nIdeally this set of data would exist for not only backouts, but for anything that is landed to fix a regression (linting, build, manifest, typo).\n\n\n \nShare this:TwitterFacebookLike Loading...\n\nRelated\n \n\nLeave a comment\nFiled under data, testdev\n\n\n\n\n\u2190 Recent fixes to reduce backlog on Android\u00a0phones\n\n\n\n\nLeave a Reply Cancel reply\n\n\n\n\u0394 \n\n\n\n\n\nwhoami My real name is Joel Maher and as you can figure, I am a big fan of PI.  Many people know me by the nick elvis314 or jmaher.  Thanks for reading my blog\naddons\nandroid\nautomation\nbrowser-chrome\nbugs\nbusiness\ncode\nCommunity\ncontribution\ndata\ndatabase\ndebugging\ndevelopment\nfennec\nfennecmark\nfirefox\ngeolocation\ngps\ngraph server\ngsoc\nhacking\nhardware\nhowto\nidea\nIdeas\nintermittent-failures\nlinkedin\nmanifest\nmanifests\nMentoring\nmobile\nmochitest\nmozilla\nnotes\nnumbers\nPeople\nPerf\nPerfHerder\nperformance\nperformance testing\npersonal\npolicy\nprocess\nprojects\npython\nqa\nrandom orange\nrant\nreftest\nReport\nScheduling\nSETA\nsports\nstair climbing\nstartup\nStatistics\ntalos\ntechnology\ntestdev\nTesting\ntests\ntip\ntips\ntools\ntraffic\ntrends\nunittests\nwebserver\nwince\nwindows mobile\nxpcshellArchives\n\nAugust 2019\nJuly 2019\nSeptember 2018\nAugust 2018\nDecember 2017\nNovember 2017\nOctober 2017\nApril 2017\nMarch 2017\nFebruary 2017\nJanuary 2017\nOctober 2016\nFebruary 2016\nNovember 2015\nOctober 2015\nSeptember 2015\nJuly 2015\nJune 2015\nMay 2015\nFebruary 2015\nDecember 2014\nOctober 2014\nJuly 2014\nJune 2014\nMay 2014\nApril 2014\nMarch 2014\nFebruary 2014\nMarch 2013\nJuly 2012\nJune 2012\nMay 2012\nMarch 2012\nDecember 2011\nNovember 2011\nOctober 2011\nSeptember 2011\nAugust 2011\nMay 2011\nApril 2011\nMarch 2011\nNovember 2010\nOctober 2010\nJuly 2010\nJune 2010\nMay 2010\nApril 2010\nMarch 2010\nFebruary 2010\nJanuary 2010\nDecember 2009\nNovember 2009\nSeptember 2009\nAugust 2009\nJuly 2009\nJune 2009\nMay 2009\n\nCategories\n\nCommunity (12)\n\ndata (1)\n\ngeneral (16)\n\nintermittents (3)\n\npersonal (4)\n\nqa (4)\n\nreviews (5)\n\ntestdev (67)\n\nUncategorized (58)\n\n\nBlogroll\n\nCacao Lab\nClint Talbert \u2013 Mozilla testdev\nEvmarbella's Web Log\nHappyhans\n\n\n\n \n\n\n\n\n\n3.1415926535897932384626433\u2026 \u00b7 PI, pie, and py\t\t\t\t\n\nCreate a free website or blog at WordPress.com. \n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\t\tPrivacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use. \nTo find out more, including how to control cookies, see here:\n\t\t\t\t\n\t\t\tCookie Policy\t\t\n\n\n \n\n\n\n Comment\t\t\t\t\t\t\n\n\n\n\nReblog\n\n\n\n\n\nSubscribe\n\n\n\nSubscribed\n\n\n\n\n\n\n\n\t\t\t\t3.1415926535897932384626433...\t\t\t\n\n\n\n\n\n\n\n\n\n\n \n\n\t\t\t\t\t\t\t\t\t\t\t\tSign me up\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tAlready have a WordPress.com account? Log in now. \n\n\n\n\n\n\n \n\n\n\n\n\n\t\t\t\t3.1415926535897932384626433...\t\t\t\n\n\n\n Customize\n\n\n\n\n\nSubscribe\n\n\n\nSubscribed\n\n\nSign up\nLog in\nCopy shortlink\n\n\n\t\t\t\t\t\t\t\t\t\t\tReport this content\t\t\t\t\t\t\t\t\t\t\n\n\n\n\t\t\t\t\t\t\t\t\t\t\tView post in Reader\t\t\t\t\t\t\t\t\t\t\n\n\nManage subscriptions\n\nCollapse this bar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n%d \n\n\n \n\n\n\n\n\n",
+  "latestPost": {
+    "id": "http://elvis314.wordpress.com/?p=1875",
+    "guidislink": true,
+    "link": "https://elvis314.wordpress.com/2019/08/23/digging-into-regressions/",
+    "links": [
+      {
+        "href": "https://elvis314.wordpress.com/2019/08/23/digging-into-regressions/",
+        "rel": "alternate",
+        "type": "text/html"
+      }
+    ],
+    "title": "Digging into regressions",
+    "title_detail": {
+      "type": "text/plain",
+      "language": "en",
+      "base": "https://planet.mozilla.org/ateam/atom.xml",
+      "value": "Digging into regressions"
+    },
+    "summary": "Whenever a patch is landed on autoland, it will run many builds and tests to make sure there are no regressions.\u00a0 Unfortunately many times we find a regression and 99% of the time backout the changes so they can be \u2026 <a href=\"https://elvis314.wordpress.com/2019/08/23/digging-into-regressions/\">Continue reading <span class=\"meta-nav\">\u2192</span></a>",
+    "summary_detail": {
+      "type": "application/xhtml+xml",
+      "language": "en",
+      "base": "https://planet.mozilla.org/ateam/atom.xml",
+      "value": "Whenever a patch is landed on autoland, it will run many builds and tests to make sure there are no regressions.\u00a0 Unfortunately many times we find a regression and 99% of the time backout the changes so they can be \u2026 <a href=\"https://elvis314.wordpress.com/2019/08/23/digging-into-regressions/\">Continue reading <span class=\"meta-nav\">\u2192</span></a>"
+    },
+    "content": [
+      {
+        "type": "application/xhtml+xml",
+        "language": "en",
+        "base": "https://planet.mozilla.org/ateam/atom.xml",
+        "value": "<p>Whenever a patch is landed on <a href=\"https://treeherder.mozilla.org/#/jobs?repo=autoland\">autoland</a>, it will run many builds and tests to make sure there are no regressions.\u00a0 Unfortunately many times we find a regression and 99% of the time backout the changes so they can be fixed.\u00a0 This work is done by the Sheriff team at Mozilla- they monitor the trees and when something is wrong, they work to fix it (sometimes by a quick fix, usually by a backout).\u00a0 A quick fact, there were 1228 regressions in H1 (January-June) 2019.</p>\n<p>My goal in writing is not to recommend change, but instead to start conversations and figure out what data we should be collecting in order to have data driven discussions.\u00a0 Only then would I expect that recommendations for changes would come forth.</p>\n<p>What got me started in looking at regressions was trying to answer a question: <em><strong>\u201cHow many regressions did X catch?\u201d</strong></em>\u00a0 This alone is a tough question, instead I think the question should be <em><strong>\u201cIf we were not running X, how many regressions would our end users see?\u201d\u00a0 </strong></em>This is a much different question and has two distinct parts:</p>\n<ul>\n<li><em>Unique Regressions</em>: Only look at regressions found that only X found, not found on both X and Y</li>\n<li><em>Product Fixes</em>: did the regression result in changing code that we ship to users? (i.e. not editing the test)</li>\n<li><em>Final Fix</em>: many times a patch [set] lands and is backed out multiple times, in this case do we look at each time it was backed out, or only the change from initial landing to final landing?</li>\n</ul>\n<p>These can be more difficult to answer.\u00a0 For example, Product Fixes- maybe by editing the test case we are preventing a regression in the future because the test is more accurate.</p>\n<p>In addition we need to understand how accurate the data we are using is.\u00a0 As the sheriffs do a great job, they are human and humans make judgement calls.\u00a0 In this case once a job is marked as \u201cfixed_by_commit\u201d, then we cannot go back in and edit it, so a typo or bad data will result in incorrect data.\u00a0 To add to it, often times multiple patches are backed out at the same time, so is it correct to say that changes from bug A and bug B should be considered?</p>\n<p>This year I have looked at this data many times to answer:</p>\n<ul>\n<li>how many unique regressions did <a href=\"https://groups.google.com/forum/#!searchin/mozilla.dev.platform/linux32|sort:date/mozilla.dev.platform/82cCNuWcXCk/fA_gxdOTCwAJ\">linux32</a> catch?</li>\n<li>how many unique regressions did <a href=\"https://groups.google.com/forum/#!searchin/mozilla.dev.platform/opt$20pgo%7Csort:date/mozilla.dev.platform/0dYGajwXCBc/zzgeaJeqBQAJ\">opt tests catch vs pgo</a>?</li>\n<li>how many regressions did <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1572820\">web-platform-tests</a> catch?\n<ul>\n<li><em>In H1 \u2013 90 regressions, 17 product changes</em></li>\n</ul>\n</li>\n</ul>\n<p>This data is important to harvest because if we were to turn off a set of jobs or run them as tier-2 we would end up missing regressions.\u00a0 But if all we miss is editing manifests to disable failing tests, then we are getting no value from the test jobs- so it is important to look at what the regression outcome was.</p>\n<p>In fact every time I did this I would run an <a href=\"https://github.com/mozilla/active-data-recipes\">active-data-recipe</a> (<a href=\"https://github.com/jmaher/active-data-recipes/tree/hacking\">fbc recipe in my repo</a>) and have a large pile of data I needed to sort through and manually check.\u00a0 I spent some time every day for a few weeks looking at regressions and now I have looked at 700 (bugs/changesets).\u00a0 I found that in manually checking regressions, the end results fell into buckets:</p>\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" dir=\"ltr\">\n<colgroup>\n<col width=\"136\" />\n<col width=\"100\" />\n<col width=\"100\" /></colgroup>\n<tbody>\n<tr>\n<td>test</td>\n<td>196</td>\n<td>28.00%</td>\n</tr>\n<tr>\n<td>product</td>\n<td>272</td>\n<td>38.86%</td>\n</tr>\n<tr>\n<td>manifest</td>\n<td>134</td>\n<td>19.14%</td>\n</tr>\n<tr>\n<td>unknown</td>\n<td>48</td>\n<td>6.86%</td>\n</tr>\n<tr>\n<td>backout</td>\n<td>27</td>\n<td>3.86%</td>\n</tr>\n<tr>\n<td>infra</td>\n<td>23</td>\n<td>3.29%</td>\n</tr>\n</tbody>\n</table>\n<p>Keep in mind that many of the changes which end up in mozilla-central are not only product bugs, but infrastructure bugs, test editing, etc.</p>\n<p>After looking at many of these bugs, I found that ~80% of the time things are straightforward (single patch [set] landed, backed out once, relanded with clear comments).\u00a0 Data I would like to have easily available via a query:</p>\n<ul>\n<li>Files that are changed between backout and relanding (even if it is a new patch).</li>\n<li>A reason as part of phabricator that when we reland, it is required to have a few pre canned fields</li>\n</ul>\n<p>Ideally this set of data would exist for not only backouts, but for anything that is landed to fix a regression (linting, build, manifest, typo).</p>"
+      }
+    ],
+    "updated": "2019-08-23T20:53:47Z",
+    "updated_parsed": [
+      2019,
+      8,
+      23,
+      20,
+      53,
+      47,
+      4,
+      235,
+      0
+    ],
+    "published": "2019-08-23T20:53:47Z",
+    "published_parsed": [
+      2019,
+      8,
+      23,
+      20,
+      53,
+      47,
+      4,
+      235,
+      0
+    ],
+    "tags": [
+      {
+        "term": "data",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "testdev",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "authors": [
+      {
+        "name": "elvis314"
+      }
+    ],
+    "author_detail": {
+      "name": "elvis314"
+    },
+    "author": "elvis314",
+    "source": {
+      "id": "https://elvis314.wordpress.com",
+      "guidislink": true,
+      "link": "https://elvis314.wordpress.com",
+      "logo": "https://s0.wp.com/i/buttonw-com.png",
+      "links": [
+        {
+          "href": "https://elvis314.wordpress.com/feed/",
+          "rel": "self",
+          "type": "application/rss+xml"
+        },
+        {
+          "href": "https://elvis314.wordpress.com",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "href": "https://elvis314.wordpress.com/osd.xml",
+          "rel": "search",
+          "title": "3.1415926535897932384626433...",
+          "type": "application/opensearchdescription+xml"
+        },
+        {
+          "href": "https://elvis314.wordpress.com/?pushpress=hub",
+          "rel": "hub",
+          "type": "text/html"
+        }
+      ],
+      "subtitle": "PI, pie, and py",
+      "subtitle_detail": {
+        "type": "text/plain",
+        "language": "en",
+        "base": "https://planet.mozilla.org/ateam/atom.xml",
+        "value": "PI, pie, and py"
+      },
+      "title": "3.1415926535897932384626433\u2026",
+      "title_detail": {
+        "type": "text/plain",
+        "language": "en",
+        "base": "https://planet.mozilla.org/ateam/atom.xml",
+        "value": "3.1415926535897932384626433\u2026"
+      },
+      "updated": "2019-08-23T21:28:01Z",
+      "updated_parsed": [
+        2019,
+        8,
+        23,
+        21,
+        28,
+        1,
+        4,
+        235,
+        0
+      ]
+    }
+  }
+}

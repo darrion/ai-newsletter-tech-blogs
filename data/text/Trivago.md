@@ -1,0 +1,6 @@
+
+This is a technical article discussing how the company trivago accelerated their experimentation process through simulations. The authors describe the challenges they faced with traditional A/B testing and how they overcame them by implementing a simulation service using Java. The article highlights the benefits of the new tool, such as faster iterations and more comprehensive testing, and discusses considerations for designing and building the solution.
+
+The authors emphasize the importance of cost-effectiveness, performance, and flexibility in the simulation service, and how they achieved these goals by using a reactive framework and storing data in a data lake. They also mention that the tool was developed with user feedback during the execution of simulations, and that it has improved the team's ability to test and analyze changes before deploying them to production.
+
+Overall, the article provides insights into how trivago accelerated their experimentation process through simulations, and the technical considerations and solutions they employed to achieve this goal.

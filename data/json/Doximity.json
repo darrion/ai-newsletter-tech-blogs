@@ -1,0 +1,46 @@
+{
+  "company": "Doximity",
+  "title": "Doximity",
+  "xmlUrl": "https://engineering.doximity.com/feed",
+  "htmlUrl": "https://engineering.doximity.com",
+  "content": "\n\n\n\nModularizing Rails Monoliths One Bite at a Time\n\nSkip to main contentToggle Menu\n\nAboutTechnology StackArticlesAuthorsPeople BlogWork @ DoximityModularizing Rails Monoliths One Bite at a TimeUsing the packwerk gem and an iterative approach to simplify applicationsDec 05, 2023 | Marc ReynoldsAs Rails monoliths grow, coupling becomes increasingly difficult to manage. Developers often reach for microservices to help simplify things, but instead find higher complexity. The Modular Monolith approach is a proven, lightweight alternative that offers the benefits of enforced boundaries without being cumbersome. I spoke at the 2023 Rocky Mountain Ruby conference on how teams can use a phased approach to refactoring toward this style using the packwerk gem. At Doximity, we've used this gem and a phased approach to break some of our most critical rails applications into modules that are easier for our teams to work with.\n\nIn November, 2023, I also chatted with Elise Shaffer on The Ruby on Rails Podcast about our experience with application modularization at Doximity.\n\n\nBe sure to follow @doximity_tech if you'd like to be notified about new blog posts.\nDoximity is proud to be a founding Core member of The Rails Foundation.Doximity APIOpen SourceFollow UsAboutTechnology StackWork @ DoximityMeetupVideos\u00a9\n2024",
+  "latestPost": {
+    "title": "Modularizing Rails Monoliths One Bite at a Time",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://technology.doximity.com:443/feed",
+      "value": "Modularizing Rails Monoliths One Bite at a Time"
+    },
+    "authors": "mreynolds@doximity.com (Marc Reynolds)",
+    "published": "Tue, 05 Dec 2023 13:00:00 +0000",
+    "published_parsed": [
+      2023,
+      12,
+      5,
+      13,
+      0,
+      0,
+      1,
+      339,
+      0
+    ],
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://technology.doximity.com/articles/modularizing-rails-monoliths-one-bite-at-a-time"
+      }
+    ],
+    "link": "https://technology.doximity.com/articles/modularizing-rails-monoliths-one-bite-at-a-time",
+    "id": "https://technology.doximity.com/articles/modularizing-rails-monoliths-one-bite-at-a-time",
+    "guidislink": false,
+    "summary": "<p><img src=\"https://res.cloudinary.com/dhttas9u5/image/upload/c_fill,dpr_2,fl_progressive,h_800,q_auto,w_1600/mpcipjslp66ugbjrlcds.jpg\" /></p>\n<p>As Rails monoliths grow, coupling becomes increasingly difficult to manage. Developers often reach for microservices to help simplify things, but instead find higher complexity. The Modular Monolith approach is a proven, lightweight alternative that offers the benefits of enforced boundaries without being cumbersome. I spoke at the 2023 Rocky Mountain Ruby conference on how teams can use a phased approach to refactoring toward this style using the <a href=\"https://github.com/Shopify/packwerk\">packwerk</a> gem. At Doximity, we've used this gem and a phased approach to break some of our most critical rails applications into modules that are easier for our teams to work with.</p>\n\n\n\n<p>In November, 2023, I also chatted with Elise Shaffer on <a href=\"https://www.therubyonrailspodcast.com/495\">The Ruby on Rails Podcast</a> about our experience with application modularization at Doximity.</p>\n\n\n\n<hr />\n\n<p>Be sure to follow <a href=\"https://twitter.com/doximity_tech\">@doximity_tech</a> if you'd like to be notified about new blog posts.</p>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://technology.doximity.com:443/feed",
+      "value": "<p><img src=\"https://res.cloudinary.com/dhttas9u5/image/upload/c_fill,dpr_2,fl_progressive,h_800,q_auto,w_1600/mpcipjslp66ugbjrlcds.jpg\" /></p>\n<p>As Rails monoliths grow, coupling becomes increasingly difficult to manage. Developers often reach for microservices to help simplify things, but instead find higher complexity. The Modular Monolith approach is a proven, lightweight alternative that offers the benefits of enforced boundaries without being cumbersome. I spoke at the 2023 Rocky Mountain Ruby conference on how teams can use a phased approach to refactoring toward this style using the <a href=\"https://github.com/Shopify/packwerk\">packwerk</a> gem. At Doximity, we've used this gem and a phased approach to break some of our most critical rails applications into modules that are easier for our teams to work with.</p>\n\n\n\n<p>In November, 2023, I also chatted with Elise Shaffer on <a href=\"https://www.therubyonrailspodcast.com/495\">The Ruby on Rails Podcast</a> about our experience with application modularization at Doximity.</p>\n\n\n\n<hr />\n\n<p>Be sure to follow <a href=\"https://twitter.com/doximity_tech\">@doximity_tech</a> if you'd like to be notified about new blog posts.</p>"
+    }
+  }
+}

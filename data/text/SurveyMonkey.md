@@ -1,0 +1,8 @@
+  The provided text is a report on the trends in survey questions related to gender identity and inclusivity. Here are some key points from the text:
+
+1. Increase in inclusive gender options: There has been a significant increase in the number of surveys that include three or more answer options for gender, with 64% of US surveys and over 80% of UK, Canadian, Australian, and Brazilian surveys offering such options.
+2. Decline of "other" option: The term "other" is declining as a gender option, while the term "nonbinary" is seeing significant growth. In the US, 4 out of 10 surveys use "nonbinary" as an answer option, which is nearly triple that of "other."
+3. Shift towards more inclusive language: The trend towards more inclusive gender options is part of a broader shift towards more inclusive language in surveys. This includes using the term "prefer not to say" instead of "other" for those who do not identify with traditional gender categories.
+4. Growth in international adoption: The trend towards more inclusive gender options is not limited to the US but is also being adopted internationally, with significant growth in the number of surveys offering such options in Australia, the UK, Canada, and Brazil.
+5. Leading-edge business intelligence practices: The report combines data from noteworthy questions and answer options with leading-edge business intelligence practices to deliver insights into survey trends that no other feedback company can offer.
+6. Availability of resources: The report provides links to resources that can guide the creation of more inclusive surveys, including how to ask survey questions on sexual orientation and gender identity and how to create more inclusive surveys.
